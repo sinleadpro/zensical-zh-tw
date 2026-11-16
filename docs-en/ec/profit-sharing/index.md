@@ -67,17 +67,17 @@ hide: []
 Learn how profit sharing works, who it's for, and when to use it, so you can pick the marketing approach that fits your store best.
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | Advanced / Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品){ title="Icon Conventions" } | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案){ title="Icon Conventions" } | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
 
 Profit sharing helps you grow revenue together with internal and external partners. KOLs and bloggers drive traffic, or your staff promote your products, and the system calculates and allocates the profit automatically once an order is placed. CYBERBIZ offers a complete profit-sharing solution that covers both your storefront and your physical stores, so you can attribute sales and distribute rewards across online and offline channels.
 
 !!! tip "Use Cases"
-	- **KOL and influencer marketing**: Sign profit-sharing agreements with external partners and track the sales they drive through dedicated links or Referral Codes.
+	- **KOL and influencer marketing**: Sign profit-sharing agreements with external partners and track the sales they drive through dedicated links or referral codes.
 	- **Staff incentives**: Encourage store staff to get customers to sign up as members or to recommend purchases, and credit online sales to the staff member who promoted them.
-	- **Customer referrals**: Encourage existing members to share their Referral Code with friends, so both sides are rewarded and word of mouth spreads.
+	- **Customer referrals**: Encourage existing members to share their referral code with friends, so both sides are rewarded and word of mouth spreads.
 	- **Store sales attribution**: Accurately record sales for the staff member who handles checkout or service at POS checkout or in-store pickup.
 
 ## Before You Start { #prerequisites-profit-hub }
@@ -96,10 +96,10 @@ Based on **who gets credit for the sale** and **where the sale happens**, the sy
 
 ### Referrer Profit Sharing { #overview-profit-hub-referrer }
 
-The most flexible and widely used model. A Referrer (such as a KOL, staff member, or member) gives customers a dedicated link or Referral Code.
+The most flexible and widely used model. A referrer (such as a KOL, staff member, or member) gives customers a dedicated link or referral code.
 
-- **Online**: When a customer clicks the dedicated link or enters the Referral Code on the checkout page, the system tracks the order automatically.
-- **Offline**: The customer gives the Referral Code at in-store checkout, and POS staff enter it to record the profit share.
+- **Online**: When a customer clicks the dedicated link or enters the referral code on the checkout page, the system tracks the order automatically.
+- **Offline**: The customer gives the referral code at in-store checkout, and POS staff enter it to record the profit share.
 - **Profit-sharing types**: Supports **Referral for Entire Order** or **Referral for Specified Product**.
 
     !!! tip "Which type should I choose?"
@@ -124,7 +124,7 @@ This model creates a **permanent link**. When a customer enters a registrant's c
 - **When to use it**: Rewarding store staff for handling pickups.
 - **Profit-sharing types**: Supports **arrival profit sharing** or **pickup profit sharing**.
 
-## Partners And Models At A Glance { #specs-profit-hub }
+## Partners and Models at a Glance { #specs-profit-hub }
 
 The table below shows which profit-sharing models apply to each type of partner by default:
 
@@ -141,14 +141,14 @@ For each type of partner, you can set how they get their code and how they check
 | :--- | :--- | :--- |
 | **Third party (influencer / group-buy organizer)** | Provided by the merchant | Merchant provides a dedicated Report Link |
 > | **Customer (member)** | Storefront: Member Center Personal Info  | Storefront: Member Center > Personal Info |
-> | **Store manager / staff (employee)** | Admin: Profit Sharing Referral Search | Admin: Profit Sharing > Referral Reports |
-> | **Physical store (POS store)** | Admin: Profit Sharing Referral Search | Admin: Profit Sharing > Referral Reports |
+> | **Store manager / staff (employee)** | Admin: Profit Sharing > Referral Search | Admin: Profit Sharing > Referral Reports |
+> | **Physical store (POS store)** | Admin: Profit Sharing > Referral Search | Admin: Profit Sharing > Referral Reports |
 
 !!! warning "POS compatibility"
     Store profit sharing only works with the CYBERBIZ POS system. If you use another system, contact our consultants to evaluate switching.
 
 
-## Core Rules And Limits { #specs-profit-hub-rules }
+## Core Rules and Limits { #specs-profit-hub-rules }
 
 Before you plan your profit-sharing programs, make sure you understand how the system works:
 

@@ -74,7 +74,7 @@ hide: []
 Create your own online bonus point store, set the points needed for each product, and use points to bring members back and build loyalty.
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
+[:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
 !!! info "Plan Differences"
@@ -116,13 +116,13 @@ The same product can be sold for cash in your regular store and redeemed for poi
     - **Bonus Mall Link**: A custom URL path (such as `vip-rewards`).
     - **Start/End Time**: Check the box and set when it's active.
 4. **Bonus Mall Description**: Use the editor to write store rules or copy. It appears above the product list.
-  > Upload limit: All Images uploaded to one store (style and description) can't exceed **10 MB** in total.
+  > Upload limit: All images uploaded to one store (style and description) can't exceed **10 MB** in total.
 5. **SEO Setting**: Set as needed.
 6. Click **Save**.
 
 ![](../../../assets/images/EC-後台-行銷活動-紅利商城-EC基本設定01.en.png)
 
-### Step 2: Add Products To Redeem { #operate-bonus-mall-product }
+### Step 2: Add Products to Redeem { #operate-bonus-mall-product }
 
 === "Add Manually"
 
@@ -135,7 +135,7 @@ The same product can be sold for cash in your regular store and redeemed for poi
 
     5. On the **Select Products** tab, scroll down to the **Selected Products** section.
     6. In the **Bonus** field, enter the points needed to redeem the product (the original price is filled in by default).
-    7. Press **Enter** or click elsewhere to Save automatically.
+    7. Press **Enter** or click elsewhere to save automatically.
 
         ![](../../../assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png)
 
@@ -153,10 +153,10 @@ The same product can be sold for cash in your regular store and redeemed for poi
 
 
 
-### Step 3: Test And Publish The Store { #operate-bonus-mall-intro-details }
+### Step 3: Test and Publish the Store { #operate-bonus-mall-intro-details }
 
 1. Check that all products and points are correct.
-2. Click **Unpublished** in the top-right corner to switch the Status to **Published**.
+2. Click **Unpublished** in the top-right corner to switch the status to **Published**.
 3. Click **Go To This Mall** in the dropdown menu to preview it in a new tab.
 
 ## How Customers Redeem { #operate-bonus-mall-flow }
@@ -171,16 +171,16 @@ Customers must log in to their member account on the Bonus Mall page.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台01.png){ .screenshot }
 
-### 2. Browse And Choose Products { #operate-bonus-mall-flow-product }
+### 2. Browse and Choose Products { #operate-bonus-mall-flow-product }
 - **Point prices**: Products only show the points needed, not the original price.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台04.png){ .screenshot }
 
-- **Source tracking**: If customers choose products from several Bonus Mall groups, the cart records each product's group name with a Link back to that group's page.
+- **Source tracking**: If customers choose products from several Bonus Mall groups, the cart records each product's group name with a link back to that group's page.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台02.png){ .screenshot }
 
-### 3. Check Out And Use Points { #operate-bonus-mall-flow-checkout }
+### 3. Check Out and Use Points { #operate-bonus-mall-flow-checkout }
 - **Not enough points**: If the cart needs more points than the member has, the checkout button is disabled and shows "You don't have enough Bonus."
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台05.png){ .screenshot }
@@ -196,7 +196,7 @@ Customers must log in to their member account on the Bonus Mall page.
 ### Return Bonus When Orders Are Canceled { #operate-bonus-mall-manage-order-bonus }
 Choose whether points are returned automatically when a bonus point order is canceled:
 
-1.  Go to **Payment and Logistics > Checkout Page & Logistics > 訂單相關設定**.
+1.  Go to **Payment and Logistics > Checkout Page & Logistics > Orders Settings**.
 2.  Find **Order Cancellation and Return Bonus Points Settings** and turn it on or off as needed.
 
 
@@ -249,7 +249,7 @@ Set multi-language names for Bonus Mall so the storefront shows the right text f
 ## FAQ { #faq-bonus-mall }
 
 ??? quote "Why does the store page show a 404 error?"
-    Check that: 1. The store Status is "Published." 2. Today is within the "Period." 3. The store URL Link is correct.
+    Check that: 1. The store status is "Published." 2. Today is within the "Period." 3. The store URL link is correct.
 
 ??? quote "Why doesn't a product I added appear on the storefront?"
     Make sure the product is "Listed" and "Published" in **Product Management**. If it's unlisted, Bonus Mall hides it automatically.

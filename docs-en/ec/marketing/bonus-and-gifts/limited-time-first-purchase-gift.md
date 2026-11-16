@@ -66,11 +66,11 @@ hide: []
 A limited-time first-purchase gift is a promotion for new members' first purchase. When an eligible member pays for their first order, the system gives them a selected gift automatically.
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
+[:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
 !!! info "Plan Differences"
-    On PLUS plans, the limited-time first-purchase gift is part of the Marketing B add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
+    On PLUS plans, "Free Gift for First Purchase" is part of the Marketing B add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 ![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-畫面總覽01.en.png){ .hero-page }
 
@@ -85,7 +85,7 @@ A limited-time first-purchase gift is a promotion for new members' first purchas
 
 Before setting up a first-purchase gift, understand these key rules:
 
-- **first-purchase definition**: The first order under a member's account whose Status changes to `已付款`. Even long-time members qualify if they've never had a successful payment.
+- **First-purchase definition**: The first order under a member's account whose status changes to `Paid`. Even long-time members qualify if they've never had a successful payment.
 - **Login required**: Members must **log in** before checkout so the system can confirm the first purchase and send the gift.
 - **Multiple promotions**: You can schedule several first-purchase gift promotions at once. If a member qualifies for more than one, the system **sends them all**.
 - **When gifts are sent**: Depends on the gift type:
@@ -97,21 +97,21 @@ Before setting up a first-purchase gift, understand these key rules:
 
 System logic and limits:
 
-- **Product changes**: If a product is set as a **first-purchase gift gift**, don't change its **variant settings** on their own. This causes a 404 error on the checkout page. To change variants, remove the gift setting first, then add it back afterward.
+- **Product changes**: If a product is set as a **first-purchase gift**, don't change its **Variant Settings** on their own. This causes a 404 error on the checkout page. To change variants, remove the gift setting first, then add it back afterward.
 - **Not supported**: This feature doesn't support **subscriptions, POS, CYBERBIZ NOW express delivery, e-tickets**, or **LINE group-buy orders**.
-- **temperature zone handling**: first-purchase gift gift products any temperature zone. Decide whether to ship them together or split the order, and watch product freshness Status.
+- **Temperature zones**: First-purchase gift products can be in any temperature zone. Decide whether to ship them together or split the order, and watch product freshness.
 - **Multiple carts**: If a customer has two carts that both qualify, both show the first-purchase gift. After one cart checks out, the other still shows the gift, but the system won't add it at checkout because it's no longer a first purchase.
 - **Disqualification**: If the first order **fails payment, is canceled, or is returned**, the member loses first-purchase eligibility. The system won't resend the gift during the promotion.
 
     !!! info "Returns and Order Completion"
         - **Returned orders**: If an order is marked `Returned`, clicking **Complete** does **not** send the first-purchase gift. The member must wait for the next "Event Rule Frequency" period to qualify again.
-        - **Return in progress Status**: If an order's Status is `Returning` or `Reviewing Return`, clicking **Complete** still triggers the first-purchase gift. To avoid sending gifts by mistake, make sure the order process is fully finished before clicking "Complete."
+        - **Return in progress status**: If an order's status is `Returning` or `Reviewing Return`, clicking **Complete** still triggers the first-purchase gift. To avoid sending gifts by mistake, make sure the order process is fully finished before clicking "Complete."
 
 
 
 ## Steps { #operate-first-purchase-gift }
 
-### Step 1: Create A First-purchase Gift Promotion And Basic Setting { #operate-first-purchase-gift-create }
+### Step 1: Create a First-purchase Gift Promotion and Basic Setting { #operate-first-purchase-gift-create }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Free Gift for First Purchase**.
 2. Click **New Free Gift for First Purchase**.
@@ -119,11 +119,11 @@ System logic and limits:
 4. Choose the **Start and End Time**.
   > Once you Save the promotion, you can't change its period. Check the dates and times before you submit.
 
-### Step 2: Set Target Members And Thresholds { #operate-first-purchase-gift-member-rules }
+### Step 2: Set Target Members and Thresholds { #operate-first-purchase-gift-member-rules }
 
 1. **Target Members** (choose one):
     - **All Customers**: All new members making their first purchase.
-    - **Member Tags**: Only members with specific tags (you can select multiple tags).
+    - **Customer Tags**: Only members with specific tags (you can select multiple tags).
     - **Specific Registration Period**: Only members who signed up within a specific time range.
 2. **Event Rule Frequency**: Limit how many times a member can get the gift.
 3. **Rule Type** (sets the threshold):
@@ -132,7 +132,7 @@ System logic and limits:
 
 ![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-完成基本設定01.en.png){ .screenshot }
 
-### Step 3: Set Up The Gift { #operate-first-purchase-gift-content }
+### Step 3: Set Up the Gift { #operate-first-purchase-gift-content }
 
 Choose one of these four gift types:
 
@@ -145,21 +145,21 @@ Choose one of these four gift types:
     - **Price**: Free gifts are counted as NT$0 in the order.
     - **Out of stock**: If all free gifts on the list run out, the system stops sending the first-purchase gift but **doesn't end** the promotion. Watch your free gift inventory and restock in time.
 
-=== "Cash Discount"
+=== "Discount"
 
     A discount applied directly to the order.
 
     - **Type**: Set a "Fixed Amount" or "Percentage Discount" (such as 90% of list price).
     - **Usage**: Eligible members see the first-purchase gift cash discount on the checkout page.
 
-=== "Send coupon"
+=== "Send Coupon"
 
     Send a coupon with default rules.
 
     - **Settings**: coupon name, discount value, minimum spend, valid days, and eligible products.
-    - **Combining**: Choose whether it can combine with other promotions such as "store-wide discount" and "VIP Discount."
+    - **Combining**: Choose whether it can combine with other promotions such as "Storewide Discount" and "VIP Discount."
 
-=== "Bonus Points"
+=== "Gift Bonus"
 
     Send Bonus.
 
@@ -176,7 +176,7 @@ Choose one of these four gift types:
 ??? "If an order is canceled or returned after the gift is sent, does the system take back the coupon or bonus points?"
     The system **doesn't automatically take back** coupons or bonus points already sent.
 
-    If an order is canceled or returned after bonus points are sent and you want to take back the coupon or bonus points, go to **Customer Management > 會員管理**, open the member's account, and deduct them manually.
+    If an order is canceled or returned after bonus points are sent and you want to take back the coupon or bonus points, go to **Customer Management > All Customers**, open the member's account, and deduct them manually.
 
 
 

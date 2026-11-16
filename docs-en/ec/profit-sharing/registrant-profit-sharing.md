@@ -62,8 +62,8 @@ hide: []
 Registrant profit sharing uses a "permanent link". When a customer enters a registrant code at sign-up, the system automatically calculates profit sharing for the code's owner whenever that customer buys, online or in store.
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Expert / All PLUS / Enterprise
 { .doc-badge }
 
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-畫面總覽01.en.png){ .hero-page }
@@ -83,11 +83,11 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 
 ## Steps { #operate-registrant-ps }
 
-### Step 1: Enable The Feature And Create A Plan { #operate-registrant-ps-enable }
+### Step 1: Enable the Feature and Create a Plan { #operate-registrant-ps-enable }
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > With Registrants**.
 2. Set **Active Registrant Profit Sharing Feature** to `ON`.
-3. Below, enter the profit-sharing Plan name and click **Create plan**.
+3. Below, enter the profit-sharing plan name and click **Create Profit Sharing Plan**.
 4. In the **Registrant Profit Sharing List**, click **Edit** next to the plan you want to edit.
 
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-新增方案01.en.png){ .screenshot }
@@ -97,11 +97,11 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 
 You can set separate tiered rates for your **online store** and **physical stores**.
 
-1. On the plan editing page, click **Add item**.
+1. On the plan editing page, click **Add Item**.
 2. Fill in the following:
-    - **Valid days**: The number of days after sign-up that this rate applies.
-    - **Profit-sharing rate**: The matching commission percentage.
-3. To add more tiers, click **Add item** again.
+    - **Valid Days**: The number of days after sign-up that this rate applies.
+    - **Profit Sharing Rate**: The matching commission percentage.
+3. To add more tiers, click **Add Item** again.
 
     !!! example "Example"
         - Tier 1: Valid days `30`, profit-sharing rate `5`%.
@@ -116,14 +116,14 @@ You can set separate tiered rates for your **online store** and **physical store
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-設定分潤比例01.en.png){ .screenshot }
 
 
-### Step 3: Assign Registrants And Codes { #operate-registrant-ps-assign }
+### Step 3: Assign Registrants and Codes { #operate-registrant-ps-assign }
 
 Assign the profit-sharing plan to specific staff or stores to create their registrant codes.
 
 1. Go to **Profit Sharing > With Registrants** and click the **Assign Registrant Profit Sharing Plan** section at the bottom of the page.
 2. Select the **Plan(s)** to assign.
 3. Filter by **role** (such as store manager or store clerks) or **store** as needed.
-4. Select the people to add, then click **Add to plan**.
+4. Select the people to add, then click **Add plan**.
     > If you don't use POS, a person must be set as a **website admin** before they can be selected.
 
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-指派分潤名單01.en.png){ .screenshot }

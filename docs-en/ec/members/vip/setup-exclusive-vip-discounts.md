@@ -74,7 +74,7 @@ The core appeal of a VIP program lies in its sense of exclusivity and tangible r
 
 When setting up VIP offers, define how each offer can be combined with selected marketing campaigns. The system provides three stacking rules with different levels of restriction:
 
-- **No Limit**
+- **No restriction**
 
     VIP offers can be applied in addition to all campaign offers.
 
@@ -90,14 +90,14 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-與其他行銷活動的併用規則01.en.png){ .screenshot }
 
-!!! info "bonus points Toggle"
-    To perbonus points, first go to **Marketing > 全館折扣-紅利 & 優惠券** and [turn on the bonus points feature](../../marketing/bonus-and-gifts/setup-bonus-points/#operate-bonus).
+!!! info "Bonus Points Toggle"
+    To give bonus points, first go to **Marketing > Shop-wide Discount – Bonus & Coupons** and [turn on the bonus points feature](../../marketing/bonus-and-gifts/setup-bonus-points/#operate-bonus).
 
-## 1. Discount Offer { #operate-vip-discounts-order }
+## 1. Discount Setting { #operate-vip-discounts-order }
 
 1. Enter the **Specified Discount**. When a member in this VIP tier submits an order, the specified discount applies to the entire order.
 
-    > Set the discount value from 1 to 99. For example, 90 means 9% of list price, and 70 means 7% of list price.
+    > Set the discount value from 1 to 99. For example, 90 means 10% off, and 70 means 30% off.
 
 2. **Set Combination Rules with Other Marketing Campaigns**
 
@@ -105,18 +105,18 @@ When setting up each offer, select the appropriate combination rule whenever the
 
     Marketing campaigns available for combination rules:
 
-    - Member-Exclusive Price
-    - Single-Product Discount
-    - Mix-and-Match Discount (Bundle Offer Discount)
-    - Choose-Your-Own Discount
-    - Multi-Level Product Category Discount (Advanced Product Category Discount)
-    - store-wide discount
+    - Member Exclusive Price
+    - Single Product Discount
+    - Mix-and-Match (Bundle Discount)
+    - Buy X get Y discount
+    - Multi-Level Product Category Discount (Category Campaign Discount)
+    - Storewide Discount
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png){ .screenshot }
 
-## 2. Free Shipping On Orders { #operate-vip-discounts-shipping }
+## 2. Free Shipping Setting { #operate-vip-discounts-shipping }
 
-1. Enter the **Free Shipping Threshold**. When a member in this VIP tier reaches the threshold, free shipping applies to the entire order.
+1. Enter the **Free shipping threshold**. When a member in this VIP tier reaches the threshold, free shipping applies to the entire order.
 
 2. **Set Combination Rules with Other Marketing Campaigns**
 
@@ -124,42 +124,42 @@ When setting up each offer, select the appropriate combination rule whenever the
 
     Marketing campaigns available for combination rules:
 
-    - Member-Exclusive Price
-    - Single-Product Discount
-    - Mix-and-Match Discount (Bundle Offer Discount)
-    - Choose-Your-Own Discount
-    - Multi-Level Product Category Discount (Advanced Product Category Discount)
-    - store-wide discount
+    - Member Exclusive Price
+    - Single Product Discount
+    - Mix-and-Match (Bundle Discount)
+    - Buy X get Y discount
+    - Multi-Level Product Category Discount (Category Campaign Discount)
+    - Storewide Discount
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png){ .screenshot }
 
-## 3. Bonus Multiplier Settings { #operate-vip-discounts-bonus }
+## 3. Bonus Point Multiplier Setting { #operate-vip-discounts-bonus }
 
 ### Before You Start { #operate-vip-discounts-bonus-notes }
 
-*   **Stacking per:** If you set both the "Store-Wide Bonus per" and "Additional VIP Bonus," members receive **both** when they submit an order.
+*   **Stacking:** If you set both store-wide bonus points and additional VIP bonus points, members receive **both** when they submit an order.
 
 
 ### Setup { #operate-vip-discounts-bonus-setup }
 
-Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a member in this VIP tier submits an order, the member receives additional bonus points.
+Enter the **Bonus Point Threshold**, **Bonus Point Value**, and **Validity period**. After a member in this VIP tier submits an order, the member receives additional bonus points.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png){ .screenshot }
 
 
-## 4. Birthday Gift Settings { #operate-vip-discounts-birthday }
+## 4. Birthday Gift Setting { #operate-vip-discounts-birthday }
 
 ### Send Schedule { #operate-vip-discounts-birthday-schedule }
 
 - **Send Time**: By default, the system sends the month's birthday gift on the first day of that month.
-- **Send Early**: Set a custom **send the birthday gift N Days in Advance** value.
+- **Send Early**: Set a custom **Send the birthday gift N days in advance** value.
 
-    The system determines eligibility based on the member's tier at the time of sending. If the send time is earlier than the member's Upgrade date, the member cannot receive the post-Upgrade tier's birthday gift. Based on your store's VIP policy, you can manually send the birthday gift to the member.
+    The system determines eligibility based on the member's tier at the time of sending. If the send time is earlier than the member's upgrade date, the member cannot receive the upgraded tier's birthday gift. Based on your store's VIP policy, you can manually send the birthday gift to the member.
 
     !!! example "Example Scenario"
-        Customer A's birthday is in May, and the customer Upgrade to VIP1 on Apr 27.
+        Customer A's birthday is in May, and the customer upgrades to VIP1 on Apr 27.
         If the system is set to send the month's birthday gift five days in advance, the VIP1 May birthday gift is sent on Apr 26.
-        The system sent the May birthday gift on Apr 26. At that time, Customer A had not yet Upgrade and therefore could not receive the VIP1 birthday gift.
+        The system sent the May birthday gift on Apr 26. At that time, Customer A had not yet upgraded and therefore could not receive the VIP1 birthday gift.
 
 - **Processing Time**: At 5:00 a.m. on the scheduled day, the system starts checking eligible members and sends the rewards in sequence.
 
@@ -174,12 +174,12 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 ### Related Actions { #operate-vip-discounts-birthday-related }
 
-- **Stacking per**: If you set a store-wide member birthday gift in **Marketing > 全館折扣-紅利&優惠券**, customers receive **both**. Plan the birthday gift issuance policy carefully.
+- **Stacking**: If you set a store-wide member birthday gift in **Marketing > Shop-wide Discount – Bonus & Coupons**, customers receive **both**. Plan the birthday gift issuance policy carefully.
 - **Delete birthday gift**: Go to **Customer Management > All Customers**, click the member's profile, then [manually revoke](../manage-member-profiles.md#operate-member-profiles-assets) the coupon or bonus points.
 
 ### Setup { #operate-vip-discounts-birthday-setup }
 
-1. Enter the **birthday gift Name and Number of Days to Send per in Advance**. Members in this VIP tier receive the birthday gift on the specified date.
+1. Enter the **Birthday Gift Name** and **Number of Days to Send in Advance**. Members in this VIP tier receive the birthday gift on the specified date.
 
     ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮01.en.png){ .screenshot }
 
@@ -187,26 +187,26 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
     === "Bonus"
 
-        Enter the **perbonus points Amount and Validity Period**.
+        Enter the **Bonus Point Value** and **Validity period**.
 
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮02.en.png){ .screenshot }
 
 
-    === "coupon"
+    === "Coupon"
 
         1. Click **Create Coupon**.
 
-            > You can add multiple coupon.
+            > You can add multiple coupons.
 
         2. Select the coupon type:
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Free gift **(Enterprise Plan Only)**
+            - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
-                    2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
+                    2. **Setting Up Multiple Gifts**: To give multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
@@ -219,15 +219,15 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             Marketing campaigns available for combination rules:
 
-            - Member-Exclusive Price
-            - Single-Product Discount
-            - Mix-and-Match Discount (Bundle Offer Discount)
-            - Choose-Your-Own Discount
-            - Multi-Level Product Category Discount (Advanced Product Category Discount)
-            - store-wide discount
-            - VIP Discount Offer (VIP Discount)
-            - Add-On Purchase
-            - Referral Code Discount
+            - Member Exclusive Price
+            - Single Product Discount
+            - Mix-and-Match (Bundle Discount)
+            - Buy X get Y discount
+            - Multi-Level Product Category Discount (Category Campaign Discount)
+            - Storewide Discount
+            - VIP Discount Setting (VIP discount)
+            - Add-on Price
+            - Referral code discount
 
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮03.en.png){ .screenshot }
 
@@ -261,7 +261,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         1. Enter the **Specified Discount**. When a member in this VIP tier submits an order, the specified discount applies to the entire order.
 
-            > Set the discount value from 1 to 99. For example, 90 means 9% of list price, and 70 means 7% of list price.
+            > Set the discount value from 1 to 99. For example, 90 means 10% off, and 70 means 30% off.
 
         2. **Set Combination Rules with Other Marketing Campaigns**
 
@@ -269,19 +269,19 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             Marketing campaigns available for combination rules:
 
-            - Member-Exclusive Price
-            - Single-Product Discount
-            - Mix-and-Match Discount (Bundle Offer Discount)
-            - Choose-Your-Own Discount
-            - Multi-Level Product Category Discount (Advanced Product Category Discount)
-            - store-wide discount
+            - Member Exclusive Price
+            - Single Product Discount
+            - Mix-and-Match (Bundle Discount)
+            - Buy X get Y discount
+            - Multi-Level Product Category Discount (Category Campaign Discount)
+            - Storewide Discount
 
 
           ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日02.en.png){ .screenshot }
 
-    === "Free Shipping on Orders"
+    === "Free Shipping Setting"
 
-        1. Enter the **Free Shipping Threshold**. When a member in this VIP tier reaches the threshold, free shipping applies to the entire order.
+        1. Enter the **Free shipping threshold**. When a member in this VIP tier reaches the threshold, free shipping applies to the entire order.
 
         2. **Set Combination Rules with Other Marketing Campaigns**
 
@@ -289,22 +289,22 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             Marketing campaigns available for combination rules:
 
-            - Member-Exclusive Price
-            - Single-Product Discount
-            - Mix-and-Match Discount (Bundle Offer Discount)
-            - Choose-Your-Own Discount
-            - Multi-Level Product Category Discount (Advanced Product Category Discount)
-            - store-wide discount
+            - Member Exclusive Price
+            - Single Product Discount
+            - Mix-and-Match (Bundle Discount)
+            - Buy X get Y discount
+            - Multi-Level Product Category Discount (Category Campaign Discount)
+            - Storewide Discount
 
           ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日03.en.png){ .screenshot }
 
     === "Bonus"
 
-        Set the **Spending Threshold, per Bonus, Validity Period, and Cumulative Reward Rule**. Purchases made on Member Day Amountperbonus points based on the order.
+        Set the **Bonus Point Threshold**, **Bonus Point Value**, **Validity period**, and **cumulative gift rule**. Purchases made on Member Day earn bonus points based on the order amount.
 
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日04.en.png){ .screenshot }
 
-    === "coupon"
+    === "Coupon"
 
         1. Click **Create Coupon**.
 
@@ -312,11 +312,11 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Free gift **(Enterprise Plan Only)**
+            - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
-                    2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
+                    2. **Setting Up Multiple Gifts**: To give multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
@@ -328,15 +328,15 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             Marketing campaigns available for combination rules:
 
-            - Member-Exclusive Price
-            - Single-Product Discount
-            - Mix-and-Match Discount (Bundle Offer Discount)
-            - Choose-Your-Own Discount
-            - Multi-Level Product Category Discount (Advanced Product Category Discount)
-            - store-wide discount
-            - VIP Discount Offer (VIP Discount)
-            - Add-On Purchase
-            - Referral Code Discount
+            - Member Exclusive Price
+            - Single Product Discount
+            - Mix-and-Match (Bundle Discount)
+            - Buy X get Y discount
+            - Multi-Level Product Category Discount (Category Campaign Discount)
+            - Storewide Discount
+            - VIP Discount Setting (VIP discount)
+            - Add-on Price
+            - Referral code discount
 
 
           ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日05.en.png){ .screenshot }
@@ -347,33 +347,33 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 ### Before You Start { #operate-vip-discounts-upgrade-notes }
 
-*   **Send Quantity:** The Upgrade gift for each tier can only be per once during the membership validity period.
-*   **Switching Between the Old and New Versions:** Applying the new VIP version to members from the old VIP version does not trigger the Upgrade gift.
+*   **Send Quantity:** The upgrade gift for each tier can only be sent once during the membership validity period.
+*   **Switching Between the Old and New Versions:** Applying the new VIP version to members from the old VIP version does not trigger the upgrade gift.
 
 ### Setup { #operate-vip-discounts-upgrade-setup }
 
-1. Choose whether to send gifts cumulatively when a member Upgrade across multiple tiers and issue the Upgrade gift for each tier.
-2. Select an Upgrade gift.
+1. Use **Accumulate Upgrade Gifts?** to choose whether a member who upgrades across multiple tiers receives the upgrade gift for each tier.
+2. Select an upgrade gift.
 
     === "Bonus"
 
-        Set the **per Bonus and Validity Period**. After the member Upgrade on Member Day, the member receives bonus points.
+        Set the **Bonus Point Value** and **Validity period**. The member receives bonus points after upgrading.
 
-    === "coupon"
+    === "Coupon"
 
         1. Click **Create Coupon**.
 
-            > You can add multiple coupon.
+            > You can add multiple coupons.
 
         2. Select the coupon type:
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Free gift **(Enterprise Plan Only)**
+            - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
-                    2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
+                    2. **Setting Up Multiple Gifts**: To give multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
@@ -386,14 +386,14 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             Marketing campaigns available for combination rules:
 
-            - Member-Exclusive Price
-            - Single-Product Discount
-            - Mix-and-Match Discount (Bundle Offer Discount)
-            - Choose-Your-Own Discount
-            - Multi-Level Product Category Discount (Advanced Product Category Discount)
-            - store-wide discount
-            - VIP Discount Offer (VIP Discount)
-            - Add-On Purchase
-            - Referral Code Discount
+            - Member Exclusive Price
+            - Single Product Discount
+            - Mix-and-Match (Bundle Discount)
+            - Buy X get Y discount
+            - Multi-Level Product Category Discount (Category Campaign Discount)
+            - Storewide Discount
+            - VIP Discount Setting (VIP discount)
+            - Add-on Price
+            - Referral code discount
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-設定升等禮01.en.png){ .screenshot } 

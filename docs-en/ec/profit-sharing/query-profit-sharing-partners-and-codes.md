@@ -1,5 +1,5 @@
 ---
-title: "Look Up Profit-Sharing Partners And Codes"
+title: "Look Up Profit-Sharing Partners and Codes"
 description: "In the admin, you can look up the plans and dedicated codes of every profit-sharing partner at any time, including external influencers, members, and staff, so you can always give partners their promotion details."
 created: 2026-02-06 00:00
 last_modified: 2026-06-22 11:15
@@ -65,19 +65,19 @@ search:
 icon: lucide/user-search
 hide: []
 ---
-# Look Up Profit-Sharing Partners And Codes
+# Look Up Profit-Sharing Partners and Codes
 
 In the admin, you can look up the plans and dedicated codes of every profit-sharing partner at any time, including external KOLs, members, and staff, so you can always give partners their promotion details.
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
 !!! tip "Use Cases"
-	- **Help partners find their codes**: When a KOL forgets their Referral Code, an admin can look it up quickly and send it to them.
-	- **Check plan assignments**: Confirm that a staff member has been added to the right Referral Plan.
-	- **Verify referrals**: When a customer says a referral didn't work, first check that the Referrer's code is correct.
+	- **Help partners find their codes**: When a KOL forgets their referral code, an admin can look it up quickly and send it to them.
+	- **Check plan assignments**: Confirm that a staff member has been added to the right referral plan.
+	- **Verify referrals**: When a customer says a referral didn't work, first check that the referrer's code is correct.
 
 
 ## Before You Start { #prerequisites-ps-query }
@@ -89,19 +89,19 @@ In the admin, you can look up the plans and dedicated codes of every profit-shar
 
 ## Steps { #operate-ps-query }
 
-### Task 1: Look Up A Partner's Profit-sharing Details { #operate-ps-query-partners }
+### Task 1: Look Up a Partner's Profit-sharing Details { #operate-ps-query-partners }
 
-Use this to look up anyone who has joined a Referral Plan.
+Use this to look up anyone who has joined a referral plan.
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > Referral Search**.
-2. If you're the **website owner**, you'll see a Search field:
-    - In the Search box, enter the partner's **name, email**, or **mobile number**.
+2. If you're the **website owner**, you'll see a search field:
+    - In the search box, enter the partner's **name, email**, or **mobile number**.
     - The system shows a list of matches. Click the person you want.
-3. The system lists every Referral Plan that person belongs to, including:
+3. The system lists every referral plan that person belongs to, including:
     - **Profit-sharing type**: referral, registration, and so on.
-    - **Plan name**: The plan they're currently assigned to.
-    - **Profit-sharing code**: Their Referral Code or registrant code for that plan.
-    - **Profit-sharing rate**: The matching online/offline commission percentage.
+    - **Plan Name**: The plan they're currently assigned to.
+    - **Profit-sharing code**: Their referral code or registrant code for that plan.
+    - **Profit Sharing Rate**: The matching online/offline commission percentage.
 
 ![](../../assets/images/EC-後台-分潤-分潤查詢-畫面總覽01.en.png){ .screenshot }
 
@@ -116,14 +116,14 @@ Use this when store staff or website editors want to find their own promotion co
     > Staff can click the link icon to copy the link, or create a QR code for promotion.
 
 
-### Task 3: Give Third-party Referrers An External Lookup Link { #operate-ps-query-copy }
+### Task 3: Give Third-party Referrers an External Lookup Link { #operate-ps-query-copy }
 
 === "Merchants"
 
     For external partners (such as group-buy organizers or influencers), you can provide a dedicated link so they can check their results in real time without logging in to the admin.
 
     1. Go to **Profit Sharing > With Referrers** and click the **Third-party Referrer List** tab.
-    2. Find the partner, then copy the **Report Link** and **password** and send them to the Referrer.
+    2. Find the partner, then copy the **Report Link** and **password** and send them to the referrer.
 
     ![](../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單01.en.png){ .screenshot }
 
@@ -132,22 +132,22 @@ Use this when store staff or website editors want to find their own promotion co
     After you receive the lookup details from the merchant, follow these steps to check your results:
 
     1. Open the **Report Link** from the merchant and enter the **Report Password**.
-    2. On the report page, you can see the orders placed with your Referral Code and their status.
+    2. On the report page, you can see the orders placed with your referral code and their status.
 
     ![](../../assets/images/EC-前台-分潤-推薦人分潤-查看第三方分潤夥伴名單01.png){ .screenshot }
 
 !!! info "Note"
-    This report lists every order placed with the Referral Code (**including unpaid and not-yet-completed orders**), so the Referrer can follow their promotion in real time.
+    This report lists every order placed with the referral code (**including unpaid and not-yet-completed orders**), so the referrer can follow their promotion in real time.
 
     This report is for "sales tracking" only. **The final profit-sharing amount is based on settlement data after the order is "Completed"**.
 
 
-### Task 4: Copy Referral Codes In One Click { #operate-ps-query-external }
+### Task 4: Copy Referral Codes in One Click { #operate-ps-query-external }
 
-In **Third-party Referrer List**, you can view all third-party profit-sharing Referrers at once.
+In **Third-party Referrer List**, you can view all third-party profit-sharing referrers at once.
 
 1. Go to **Report Link** and click the **Third-party Referrer List** tab.
-2. Click the copy icon to copy that Referrer's Referral Code in one click.
+2. Click the copy icon to copy that referrer's referral code in one click.
 
 ![](../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單02.png){ .screenshot }
 

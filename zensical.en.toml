@@ -195,7 +195,7 @@ nav = [
             { "Member Customer Service System" = "ec/members/member-customer-service-system.md"},
             { "VIP Settings" = [
                 {"VIP Feature Guide" = "ec/members/vip/index.md"},
-                {"Set Up A Store-Wide VIP Program" = "ec/members/vip/setup-store-wide-vip-system.md"},
+                {"Set Up a Store-Wide VIP Program" = "ec/members/vip/setup-store-wide-vip-system.md"},
                 {"Create Exclusive VIP Groups" = "ec/members/vip/create-exclusive-vip-groups.md"},
                 {"Set Up Exclusive VIP Offers" = "ec/members/vip/setup-exclusive-vip-discounts.md"},
                 {"Upgrade / Downgrade / Renewal Rules" = "ec/members/vip/vip-upgrade-downgrade-renewal-rules.md"},
@@ -324,7 +324,7 @@ nav = [
             { "Referral Program" = "ec/profit-sharing/referrer-profit-sharing.md"},
             { "Registrant Profit Sharing" = "ec/profit-sharing/registrant-profit-sharing.md"},
             { "Export Referral Reports" = "ec/profit-sharing/export-profit-sharing-reports.md"},
-            { "Look Up Profit-Sharing Partners And Codes" = "ec/profit-sharing/query-profit-sharing-partners-and-codes.md"},
+            { "Look Up Profit-Sharing Partners and Codes" = "ec/profit-sharing/query-profit-sharing-partners-and-codes.md"},
             { "Using Referral Code Links" = "ec/profit-sharing/referral-link-applications.md"},
         ]},
         { "Push Notifications" = [

@@ -76,43 +76,43 @@ hide: []
 By creating referrer profit-sharing plans, you can set dedicated commission rates and customer rewards for different partners, such as KOLs, members, or staff.
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
 ![](../../assets/images/EC-後台-分潤-推薦人分潤-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
 	- **Brand partnerships**: Work with bloggers or KOLs, give them dedicated profit-sharing links, and track the orders they bring in.
-	- **Customer referrals**: Encourage existing members to share their Referral Code with friends and earn bonus rewards for bringing in new customers.
-	- **Internal promotion**: Give store clerks their own Referral Code so online sales they drive are credited to them.
+	- **Customer referrals**: Encourage existing members to share their referral code with friends and earn bonus rewards for bringing in new customers.
+	- **Internal promotion**: Give store clerks their own referral code so online sales they drive are credited to them.
 
 
 
 ## Before You Start { #prerequisites-referrer-ps }
 
-- **Can't edit after saving**: Once a Referral Plan is created and saved, **its "profit-sharing rate" and "Online/Offline/Product Commission" can't be changed**. To change the rate, create a new plan.
-- **Referral Binding Period**: Referrer profit sharing supports a "Referral Binding Period" setting. Within the set number of days, if the customer buys again on the same device and browser, the system automatically applies the same Referral Code.
+- **Can't edit after saving**: Once a referral plan is created and saved, **its "profit-sharing rate" and "Online/Offline/Product Commission" can't be changed**. To change the rate, create a new plan.
+- **Referral Binding Period**: Referrer profit sharing supports a "Referral Binding Period" setting. Within the set number of days, if the customer buys again on the same device and browser, the system automatically applies the same referral code.
 
 
 
 ## Steps { #operate-referrer-ps }
 
-### Step 1: Create A Referral Plan And Set Up The Basics { #operate-referrer-ps-plan }
+### Step 1: Create a Referral Plan and Set Up the Basics { #operate-referrer-ps-plan }
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > With Referrers**.
 2. Make sure **Enable profit sharing** is set to `ON`.
 3. Turn on **Show referral code in checkout page**.
 4. Click **Create Plan** in the upper-right corner.
 5. In the **Basic Settings** section, fill in the following:
-    - **Referral Plan name**: A name for internal use (for example, 2026 KOL Spring Campaign).
+    - **Referral Plan Name**: A name for internal use (for example, 2026 KOL Spring Campaign).
     - **Effective Date**: The plan's start and end dates. Leave blank to start immediately with no end date.
     - **Enable Referral Binding Period**: The number of days the referral is kept in the customer's browser.
-      > ON – Links the customer, so the owner of this Referral Code also earns profit sharing on the customer's later orders.<br>
-        OFF – This Referral Code is a one-time link that's cleared after the order is placed. Profit sharing only applies again if the customer re-enters the Referral Code or clicks the Referral Code link again.
+      > ON – Links the customer, so the owner of this referral code also earns profit sharing on the customer's later orders.<br>
+        OFF – This referral code is a one-time link that's cleared after the order is placed. Profit sharing only applies again if the customer re-enters the referral code or clicks the referral code link again.
     - **Customer Referrers can use their own Referral Code**: Turn on or off as needed.
 
-        - If you **turn it off**: The system checks whether the member in the cart is the same person as the Referrer, to stop people from claiming their own discount. If the customer checks out without logging in, the system can't identify them and won't apply the referral offer.
+        - If you **turn it off**: The system checks whether the member in the cart is the same person as the referrer, to stop people from claiming their own discount. If the customer checks out without logging in, the system can't identify them and won't apply the referral offer.
         - If you **turn it on**: The system doesn't verify identity and applies the referral offer whether or not the customer is logged in.
 
 
@@ -120,7 +120,7 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
             This setting controls whether customers must **log in** to get the referral offer:
 
             - **On**: Customers can see and use the referral offer on the storefront **without logging in**. Use this for campaigns where you want to make ordering easier and get the offer seen more.
-            - **Off**: The system checks login status. Customers **must log in** to see the referral offer. If they aren't logged in, profit sharing is still credited to the Referrer at checkout, but the customer doesn't get the referral discount.
+            - **Off**: The system checks login status. Customers **must log in** to see the referral offer. If they aren't logged in, profit sharing is still credited to the referrer at checkout, but the customer doesn't get the referral discount.
 
             If you want every customer to get the referral offer at checkout, turn this **on**, or set your store to **require registration** before checkout in [customer registration settings](../website-management/customer-registration-flow-and-fields/#operate-customer-reg-mode).
 
@@ -128,13 +128,13 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 !!! tip "Naming and managing plans"
     Enter a **plan name** here, not a specific **referrer's name**. You can group rules with the same profit-sharing rate into one plan, then assign the plan to the matching staff, third-party partners, or customers.
 
-### Step 2: Choose The Commission Type { #operate-referrer-ps-method }
+### Step 2: Choose the Commission Type { #operate-referrer-ps-method }
 
 === "Referral for Entire Order"
 
     Calculated as a percentage of the order total (excluding shipping).
 
-    1. **Online/offline profit-sharing rate**: Enter the commission percentage the Referrer earns.
+    1. **Online/offline profit-sharing rate**: Enter the commission percentage the referrer earns.
 
         !!! info "POS compatibility"
             **Offline profit sharing** requires the CYBERBIZ POS system.
@@ -145,11 +145,11 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 
     Set separate profit-sharing rates for specific products only.
 
-    1. **Product profit-sharing settings**:
-          - **Apply to all**: Use the same profit-sharing percentage for every product.
-          - **Enter individually**: Set a separate percentage for each product.
-    2. **Select Product**: Click **Add product**.
-          - If you chose **Enter individually**, enter the profit-sharing percentage for each product.
+    1. **Product Profit Setting**:
+          - **Apply to All**: Use the same profit-sharing percentage for every product.
+          - **Enter Individually**: Set a separate percentage for each product.
+    2. **Select Product**: Click **Add Product**.
+          - If you chose **Enter Individually**, enter the profit-sharing percentage for each product.
 
     !!! info "Availability"
         **Product-specific profit sharing only applies to EC orders and is only available on PLUS and Enterprise editions.**
@@ -157,13 +157,13 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
     ![](../../assets/images/EC-後台-分潤-推薦人分潤-指定商品分潤01.en.png){ .screenshot }
 
 
-### Step 3: Set Rewards For Customers And Referrers { #operate-referrer-ps-rewards }
+### Step 3: Set Rewards for Customers and Referrers { #operate-referrer-ps-rewards }
 
 After you save the basic settings, go to the **Reward Setting** tab, where you can set rewards for both sides:
 
-1. **Checkout discount (member)**: The discount a customer gets on this order when using the Referral Code.
-    - **Discount type**: Choose an "amount" or "percentage" discount.
-    - **Minimum spend**: Set a minimum amount or no minimum.
+1. **Checkout discount (member)**: The discount a customer gets on this order when using the referral code.
+    - **Discount Type**: Choose "Amount" or "Percentage".
+    - **Spending Threshold**: Set a minimum amount or no minimum.
     - **Combine with storewide and mix-and-match discounts**: Choose whether it can be used together with [storewide discounts](../marketing/discounts/storewide-discounts.md) and [mix-and-match discounts](../marketing/discounts/mix-and-match-discounts.md).
 
         !!! warning "Scope limits"
@@ -172,8 +172,8 @@ After you save the basic settings, go to the **Reward Setting** tab, where you c
     ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表04.png){ .screenshot }
 
 2. **Issue coupons(for members)**: When the customer reaches the minimum spend, the system automatically sends a coupon for their next purchase.
-    - **Discount type**: Choose an "amount" or "percentage" discount.
-    - **Minimum spend**: Set a minimum amount or no minimum.
+    - **Discount Type**: Choose "Amount" or "Percentage".
+    - **Spending Threshold**: Set a minimum amount or no minimum.
     - **Validity period**: How long the coupon can be used.
     - **Coupon Restrictions**: No limits / partial limits / can't be combined with promotions.
 
@@ -182,13 +182,13 @@ After you save the basic settings, go to the **Reward Setting** tab, where you c
 
 
 3. **Reward with points(for members)**: When the customer reaches the minimum spend, they receive the set bonus points.
-    - **Minimum spend**: How much the customer must spend to receive bonus points.
+    - **Spending Threshold**: How much the customer must spend to receive bonus points.
     - **Reward Points**: How many bonus points to give when the conditions are met.
     - **Validity period**: How long the bonus points can be used.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表06.png){ .screenshot }
 
-4. **Give bonus points (customer Referrer)**: When the customer reaches the minimum spend, the Referrer receives bonus points based on a percentage of the order amount.
+4. **Give bonus points (customer Referrer)**: When the customer reaches the minimum spend, the referrer receives bonus points based on a percentage of the order amount.
     - **Validity period**: How long the bonus points can be used.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表07.png){ .screenshot }
@@ -200,7 +200,7 @@ After you save the basic settings, go to the **Reward Setting** tab, where you c
         - **Returns**: Bonus points are only issued the first time an order is completed. If the order is returned (including partial returns), the system takes back all the bonus points for that order. If the order is completed or returned again later, no points are added or taken back.
 
 
-### Step 4: Assign Referrers And Get Codes { #operate-referrer-ps-bind }
+### Step 4: Assign Referrers and Get Codes { #operate-referrer-ps-bind }
 
 Switch to the tab for the type of partner you're working with. One plan can include several types of partners.
 
@@ -211,11 +211,11 @@ Switch to the tab for the type of partner you're working with. One plan can incl
     === "Add one at a time"
 
         1. Switch to the **Third-party Referrer List** tab and click **Create Referrer**.
-        2. Enter the **Referrer name**. You can also set a custom **Referral Code** (leave blank to have the system generate one).
+        2. Enter the **Referrer Name**. You can also set a custom **Referral Code** (leave blank to have the system generate one).
         3. Click **Save**.
-        4. Click the **copy share link** icon next to the list to get a short URL or QR code with the Referral Code.
+        4. Click the **copy share link** icon next to the list to get a short URL or QR code with the referral code.
 
-    === "Bulk import"
+    === "Batch Import"
 
         1. Go to **Profit Sharing > With Referrers** and click the **Third-party Referrer List** tab.
         2. Click **Download Sample / Upload Referral Codes** to get the Excel template.
@@ -225,10 +225,10 @@ Switch to the tab for the type of partner you're working with. One plan can incl
 
     Use this to encourage existing members to spread the word.
 
-    1. Switch to the **Customer list** tab and set **Enable customer Referral Codes** to `ON`.
-    2. Click **Assign customer Referral Codes**, Search for and select the members to add.
-    3. Click **Add to plan**.
-    4. Members can see their own Referral Code on the storefront **會員中心 > 我的帳戶** page.
+    1. Switch to the **Customer List** tab and set **Activate Customers Referral Code** to `ON`.
+    2. Click **Assign Customer Referral Code**, then search for and select the members to add.
+    3. Click **Add plan**.
+    4. Members can see their own referral code on the storefront **Member Center > My Account** page.
     5. You can also apply a plan to all new members.
 
 === "Staff list (store staff)"
@@ -236,13 +236,13 @@ Switch to the tab for the type of partner you're working with. One plan can incl
 
     1. Switch to the **Employee List** tab.
     2. Click **Add plan users** and filter people by name, role, or store.
-    3. Select them, then click **Add to plan**.
+    3. Select them, then click **Add plan**.
 
 !!! info "Referral Code and name rules"
     - **Referral Code format**: Up to 20 letters and numbers (including `-` and `_`). Letters must be **uppercase**. If left blank, the system generates one at random.
-    - **Plan assignment**: One third-party Referrer can join several plans with a different Referral Code in each, but within one plan that Referrer can only have one Referral Code.
+    - **Plan assignment**: One third-party referrer can join several plans with a different referral code in each, but within one plan that referrer can only have one referral code.
     - **Managing names**:
-        - The system allows duplicate Referrer names (for example, several "Influencer A" entries). Label them clearly (for example, "Influencer A-FB" and "Influencer A-IG") so they're easy to tell apart.
+        - The system allows duplicate referrer names (for example, several "Influencer A" entries). Label them clearly (for example, "Influencer A-FB" and "Influencer A-IG") so they're easy to tell apart.
         - Referrer names **can't be deleted** once saved, so double-check them when you set them up.
 
 

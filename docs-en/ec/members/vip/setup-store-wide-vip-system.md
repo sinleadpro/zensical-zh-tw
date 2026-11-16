@@ -1,5 +1,5 @@
 ---
-title: "Set Up A Store-Wide VIP Program"
+title: "Set Up a Store-Wide VIP Program"
 description: "Set up VIP membership tiers, Upgrade thresholds, and Renewal requirements step by step to build a membership program that reflects your store's brand identity."
 created: 2026-01-23 00:00
 last_modified: 2026-10-13 14:30
@@ -50,9 +50,9 @@ search:
 icon: lucide/settings
 hide: []
 ---
-# Set Up A Store-Wide VIP Program
+# Set Up a Store-Wide VIP Program
 
-Set up VIP membership tiers, Upgrade thresholds, and Renewal requirements step by step to build a membership program that reflects your store's brand identity.
+Set up VIP membership tiers, upgrade thresholds, and renewal requirements step by step to build a membership program that reflects your store's brand identity.
 { .subtitle }
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-畫面總覽01.en.png){ .hero-page }
@@ -80,11 +80,11 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-VIP設定-新增會員層級01.png)
 
-## Step 2: Set The Upgrade Threshold { #operate-store-vip-upgrade }
+## Step 2: Set the Upgrade Threshold { #operate-store-vip-upgrade }
 
 === "Other Versions"
 
-    The Upgrade threshold determines how members qualify for this tier.
+    The upgrade threshold determines how members qualify for this tier.
 
     *   **Total Spending**: The amount a customer spends in a single checkout. This option is suitable for advancing high-spending customers directly to the tier.
     *   **Total Spend During the Membership Period**: The total of all valid orders within the period you set, such as the past 365 days.
@@ -96,8 +96,8 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
     1. Set the **Upgrade Condition Calculation Period**
 
-        - **Limited Period (Default)**: Select the number of days from the dropdown menu.
-        - **Unlimited**: Use the member's complete history as the calculation period for the Upgrade requirements.
+        - **Limited (Default)**: Select the number of days from the dropdown menu.
+        - **Unlimited**: Use the member's complete history as the calculation period for the upgrade requirements.
 
     2. Set the **Upgrade Requirement Threshold**
 
@@ -106,21 +106,21 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
 
     !!! tip "Create a Cumulative Upgrade Mechanism"
-        - **Setup**: Set the Upgrade period to **No Expiration**
-        - **How It Works**: The system automatically checks all transactions since the member's **first order on the website**. It then determines Upgrade eligibility based on the threshold you set:
+        - **Setup**: Set the upgrade period to **Unlimited**
+        - **How It Works**: The system automatically checks all transactions since the member's **first order on the website**. It then determines upgrade eligibility based on the threshold you set:
             - Single-purchase total: Checks whether any single order placed since the member's first order on the website meets the threshold.
             - Total spend during the membership period: Checks whether the member's total spend since their first order on the website meets the threshold.
 
     ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級04.en.png)
 
 !!! note "Evaluation Priority"
-    If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the Upgrade evaluation.
+    If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the upgrade evaluation.
 
-## Step 3: Set The Renewal Threshold { #operate-store-vip-renewal }
+## Step 3: Set the Renewal Threshold { #operate-store-vip-renewal }
 
 === "Other Versions"
 
-    The Renewal requirements determine whether a member retains their current tier after the membership period ends.
+    The renewal requirements determine whether a member retains their current tier after the membership period ends.
 
     *   **Total Spending**: The amount a customer spends in a single checkout. This option is suitable for advancing high-spending customers directly to the tier.
     *   **Total Spend During the Membership Period**: The total of all valid orders within the period you set, such as the past 365 days.
@@ -129,19 +129,19 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
 === "Enterprise Plan"
 
-    1. Set the **Membership Tier Validity Period**
+    1. Set the **Membership Level Validity Period**
 
-        The **Membership Tier Validity Period** is the tier's **Membership Period**. The system also uses purchase records from this period to determine whether the member meets the **Renewal Eligibility** requirements.
+        The **Membership Level Validity Period** is the tier's **Membership Period**. The system also uses purchase records from this period to determine whether the member meets the **Renewal Eligibility** requirements.
 
-        - **Limited Period (Default)**: Select the number of membership days from the dropdown menu.
-        - **Unlimited**: The membership period does not expire, and the system does not check Renewal eligibility. `
+        - **Limited (Default)**: Select the number of membership days from the dropdown menu.
+        - **Unlimited**: The membership period does not expire, and the system does not check renewal eligibility. `
 
     2.  Set the **Renewal Requirement Threshold**
 
-        Based on the Membership Tier Validity Period set in the previous step, complete the Renewal threshold as follows:
+        Based on the **Membership Level Validity Period** set in the previous step, complete the renewal threshold as follows:
 
-        - **Limited Period (Default)**: **You must enter the Renewal threshold**. If no Renewal threshold is set, the system does not evaluate the Renewal requirements when the membership period expires, and the member loses VIP status.
-        - **Unlimited**: You do not need to enter the Renewal threshold. The system does not perform the Renewal check, so the Renewal requirement threshold does not take effect.
+        - **Limited (Default)**: **You must enter the renewal threshold**. If no renewal threshold is set, the system does not evaluate the renewal requirements when the membership period expires, and the member loses VIP status.
+        - **Unlimited**: You do not need to enter the renewal threshold. The system does not perform the renewal check, so the renewal requirement threshold does not take effect.
 
         Set the thresholds:
 
@@ -149,20 +149,20 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
         - **Total Spend During the Membership Period**: The total of all valid orders within the period you set.
 
     !!! tip "Create a Permanent Renewal Mechanism"
-        - **Setup**: Set the Renewal period to **No Expiration**
-        - **How It Works**: The system does not perform an **expiration Renewal check** for this tier. Once a member Upgrade to this tier, the system does not downgrade the member because of an Renewal check.
+        - **Setup**: Set the renewal period to **Unlimited**
+        - **How It Works**: The system does not perform an **expiration renewal check** for this tier. Once a member upgrades to this tier, the system does not downgrade the member because of a renewal check.
 
-        :lucide-triangle-alert: If a member has an invalid order, such as a canceled or returned order, the Downgrade mechanism still runs, and the member may still undergo Downgrade processing.
+        :lucide-triangle-alert: If a member has an invalid order, such as a canceled or returned order, the downgrade mechanism still runs, and the member may still be downgraded.
 
     ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級05.en.png)
 
 
 !!! note "Evaluation Priority"
-    If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the Upgrade evaluation. 
+    If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the upgrade evaluation. 
 
-## Step 4: Apply And Publish The Rules { #operate-store-vip-publish }
+## Step 4: Apply and Publish the Rules { #operate-store-vip-publish }
 
 1. Click **Set Application Date** to set the date the VIP rules are published.
-2. After confirming the settings, click **Agree and Confirm Application** to publish the VIP rules.
+2. After confirming the settings, click **Agree and Confirm Apply** to publish the VIP rules.
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級06.png)

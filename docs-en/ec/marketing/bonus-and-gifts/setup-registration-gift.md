@@ -78,33 +78,33 @@ Set up the member registration gift, including sending rules for bonus points an
 ## Before You Start { #prerequisites-registration-gift }
 
 - **Frequency**: Each account gets the registration gift only once.
-- **import members limitation**: For customers added by Excel batch import, the system **does not automatically send the registration gift** (per imported account). Send it manually.
-- **automatically sent**: As soon as a customer signs up, the system automatically adds the reward to their account.
+- **Imported members**: For customers added by Excel batch import, the system **does not automatically send the registration gift**. Send it manually.
+- **Automatic sending**: As soon as a customer signs up, the system automatically adds the reward to their account.
 
 
 ## Steps { #operate-registration-gift }
 
-### 1. Set Up The Registration Gift Coupon { #operate-registration-gift-settings-coupon }
+### 1. Set Up the Registration Gift Coupon { #operate-registration-gift-settings-coupon }
 
 !!! info "Plan Availability"
-    **registration gift coupon** is available only on the Expert, PLUS, and Enterprise plans.
+    The **registration gift coupon** is available only on the Expert, PLUS, and Enterprise plans.
 
-1. Log in to the CYBERBIZ admin and go to **Marketing > 全館折扣-紅利 & 優惠券 > 會員註冊贈送優惠券**.
+1. Log in to the CYBERBIZ admin and go to **Marketing > Shop-wide Discount – Bonus & Coupons > Member Registration Coupon**.
 2. Switch the feature to `開啟`.
 3. Set up the coupon:
     - **Coupon type**: Select `Amount` or `Percentage`.
-    - **Discount value**: Enter the discount Amount or rate (for 88% of list price, enter 88).
-    - **Usage limits**: Set the number of uses, the threshold (Applicable only on orders that are), Link to product tag, and stacking limits.
+    - **Discount value**: Enter the discount amount or rate (for 88% of list price, enter 88).
+    - **Usage limits**: Set the number of uses, the minimum order amount, "Link to product tag," and stacking limits.
     - **Validity**: Set how many days the coupon stays valid after it's claimed (enter 0 for no expiry).
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-會員註冊贈送優惠券-紅利積點01.png){ .screenshot }
 
 
-### 2. Set Up The Registration Gift Bonus Points { #operate-registration-gift-settings-bonus }
+### 2. Set Up the Registration Gift Bonus Points { #operate-registration-gift-settings-bonus }
 
 
-1. Go to **Marketing > 全館折扣-紅利 & 優惠券 > 會員紅利點數**.
-2. In the **Gift** field, enter the number of points to give (per new member).
+1. Go to **Marketing > Shop-wide Discount – Bonus & Coupons > Member Bonus Points (Vouchers)**.
+2. In the **Gift** field, enter the number of points to give.
 
     > To enable bonus points without a registration gift, set this field to 0.
 
@@ -114,14 +114,14 @@ Set up the member registration gift, including sending rules for bonus points an
 
 
 !!! info "Plan Availability"
-    **bonus redemption Minimum Spend** and **Single Order Discount Limit** are available only on the PLUS and Enterprise plans.
+    **Bonus redemption minimum spend** and **Single Order Discount Limit** are available only on the PLUS and Enterprise plans.
 
 
 
 ## FAQ { #faq-registration-gift }
 
 ??? quote "Can I take back a registration gift after it's sent?"
-    Once a coupon is in a customer's account (import members), you can only delete it one by one from each customer's page in **Customer Management > All Customers**. The same applies to bonus points.
+    Once a coupon is in a customer's account, you can only delete it one by one from each customer's page in **Customer Management > All Customers**. The same applies to bonus points.
 
 ??? quote "If I turn on both coupons and bonus points, do members get both?"
     Yes. If both features are on, the system sends the coupon and the bonus points together when a customer signs up.

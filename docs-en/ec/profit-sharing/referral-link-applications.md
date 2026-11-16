@@ -66,11 +66,11 @@ hide: []
 ---
 # Using Referral Code Links
 
-Once you have a Referral Code, you can create short URLs or QR codes, or add UTM parameters, to use your referral link across marketing channels (such as Facebook, Instagram, LINE, or printed materials) and accurately track sales from each source.
+Once you have a referral code, you can create short URLs or QR codes, or add UTM parameters, to use your referral link across marketing channels (such as Facebook, Instagram, LINE, or printed materials) and accurately track sales from each source.
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
 !!! tip "Use cases"
@@ -79,19 +79,19 @@ Once you have a Referral Code, you can create short URLs or QR codes, or add UTM
 	- **Ad tracking**: Use UTM parameters to compare conversions from different influencers (KOLs) or ad placements.
 
 
-## What Is A Referral Code Link?
+## What Is a Referral Code Link?
 
-A Referral Code link is your store URL with a dedicated "Referral Code (rcode)" parameter added at the end.
+A referral code link is your store URL with a dedicated "Referral Code (rcode)" parameter added at the end.
 
 - **Tracks the referrer**: When a customer clicks the link, the browser automatically records who referred them.
-- **Fills in the code**: When the customer checks out after using the link, the system fills in the Referral Code automatically, so the customer doesn't have to type it.
+- **Fills in the code**: When the customer checks out after using the link, the system fills in the referral code automatically, so the customer doesn't have to type it.
 
 
 ## Steps
 
-### Step 1: Get And Customize The Referral Code Link
+### Step 1: Get and Customize the Referral Code Link
 
-Before you start promoting, copy the original link with the Referral Code from the admin.
+Before you start promoting, copy the original link with the referral code from the admin.
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > Referral Search**.
 2. Search for and click the partner, then find their **profit-sharing code/link**.
@@ -103,7 +103,7 @@ Before you start promoting, copy the original link with the Referral Code from t
         If the link is too long to share on social media, use an external URL shortener.
 
         - **How**: Paste the copied **full referral link** into the tool.
-        - **Note**: Never shorten the URL first and then add the Referral Code by hand.
+        - **Note**: Never shorten the URL first and then add the referral code by hand.
 
     === "Create a QR code"
 
@@ -114,14 +114,14 @@ Before you start promoting, copy the original link with the Referral Code from t
 
     === "Add UTM parameters"
 
-        Use these to compare how one Referrer performs across different channels.
+        Use these to compare how one referrer performs across different channels.
 
         - **Manual setup**: After the referral link (such as `.../?rcode=xxx`), add the `&` symbol, then the UTM parameters.
         - **Correct**: `https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
         - **Incorrect**: `https://.../?rcode=xxx?utm_medium=fb` (don't use two question marks)
 
 
-### Step 2: Test The Referral Link
+### Step 2: Test the Referral Link
 
 Before you publish the link, follow these steps to make sure tracking works.
 
@@ -141,7 +141,7 @@ Before you publish the link, follow these steps to make sure tracking works.
     This usually happens when you shortened **your store's homepage URL without the Referral Code**. Make sure the URL you shorten is the full string that includes `?rcode=...`.
 
 ??? quote "Do I have to add UTM parameters?"
-    No. The Referral Code (rcode) decides **who gets credit for the sale**, while UTM parameters show **where the traffic comes from**. If you don't need to analyze traffic sources, just use the original referral link.
+    No. The referral code (rcode) decides **who gets credit for the sale**, while UTM parameters show **where the traffic comes from**. If you don't need to analyze traffic sources, just use the original referral link.
 
 
 

@@ -68,7 +68,7 @@ hide: []
 Set up the member birthday gift, including sending rules for bonus points and coupons, automatic scheduling, and early sending.
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
+[:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
 !!! info "Plan Differences"
@@ -104,9 +104,9 @@ Set up the member birthday gift, including sending rules for bonus points and co
 
 ### Related Actions { #specs-birthday-gift-operate }
 
-- **Stacking (one gift per tier)**: If you've also set up a [VIP birthday gift](../../members/vip/setup-exclusive-vip-discounts.md#operate-vip-discounts-birthday) in **Customer Management > VIP Settings**, the system sends both the regular birthday gift and the VIP birthday gift.
+- **Stacking**: If you've also set up a [VIP birthday gift](../../members/vip/setup-exclusive-vip-discounts.md#operate-vip-discounts-birthday) in **Customer Management > VIP Settings**, the system sends both the regular birthday gift and the VIP birthday gift.
 - **Delete a birthday gift**: Go to **Customer Management > All Customers**, open the customer's page, and [manually take back](../../members/manage-member-profiles.md#operate-member-profiles-assets) the coupon or bonus points.
-- **Bulk import members**: When importing, use the **birthday gift (per member)** field to decide whether to send the current month's birthday gift to the new members.
+- **Bulk import members**: When importing, use the **Birthday Gift (Yes/No)** field to decide whether to send the current month's birthday gift to the new members.
 
     | Field Value | System Behavior |
     | ------ | ------- |
@@ -115,19 +115,19 @@ Set up the member birthday gift, including sending rules for bonus points and co
 
 ## Steps { #operate-birthday-gift }
 
-### 1. Set Up The Birthday Gift { #operate-birthday-gift-settings-content }
+### 1. Set Up the Birthday Gift { #operate-birthday-gift-settings-content }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Shop-wide Discount – Bonus & Coupons > 會員生日贈送優惠券/紅利點數**.
 2. Switch the feature to `開啟`.
 3. Set the sending rules:
-    - **birthday gift Title**: The default is `年月+生日禮` (keep the `{{date}}` variable so the date is filled in automatically).
-    - **Monthly Early Sending (days per month)**: Choose whether to send before the 1st of the birthday month (for example, 5 days early).
-4. Set what to send (per member):
-    - **bonus points**: Enter the number of points (per member). Enter 0 to send none (per).
+    - **Birthday gift title**: The default is `年月+生日禮` (keep the `{{date}}` variable so the date is filled in automatically).
+    - **Monthly Early Sending**: Choose whether to send before the 1st of the birthday month (for example, 5 days early).
+4. Set what to send:
+    - **Bonus points**: Enter the number of points to send (0 means none).
 
-        - **Effective from**: bonus points take effect as soon as they're sent and expire at the end of the birthday month.
+        - **Effective from**: Bonus points take effect as soon as they're sent and expire at the end of the birthday month.
 
-    - **coupon**: Set the type (Amount/Percentage), discount value, number of uses, minimum spend, and stacking limits.
+    - **Coupon**: Set the type (Amount/Percentage), discount value, number of uses, minimum spend, and stacking limits.
 
         - **Effective from**: The coupon can be used only in the birthday month.
 
@@ -135,7 +135,7 @@ Set up the member birthday gift, including sending rules for bonus points and co
 ## FAQ { #faq-birthday-gift }
 
 ??? quote "Can I edit the birthday gift notification?"
-    Yes. Go to **Push Notifications > Email Notification Template** or **SMS Notification Templates**, find "Customer Birthday Personal coupon Notification" under Customer, and edit it.
+    Yes. Go to **Push Notifications > Email Notification Template** or **SMS Notification Templates**, find "Customer Birthday Personal Coupon Notification" under "Customers Related," and edit it.
 
 ??? quote "I set it to send the birthday gift 15 days early on 7/20. Why didn't August birthday members get it?"
     Because 7/20 is only 12 days before 8/1, which is past your 15-day setting. The system had already checked August birthday members on 7/17 (15 days before 8/1). Lower the number of days (for example, to 10) and the system will send the next day.

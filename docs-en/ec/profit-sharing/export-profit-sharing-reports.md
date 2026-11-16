@@ -72,8 +72,8 @@ hide: []
 With Referral Reports, you can accurately track the sales performance of each type of promoter and the referral amounts owed to them. The system provides official reports for orders "after completion" and a real-time order overview for orders "before completion".
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
+[:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
+[:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
 
@@ -100,7 +100,7 @@ Use this to settle every profit-sharing program: referral, registration, checkou
 2. In the **Report type** dropdown menu, select the type you want to view.
 3. Select the report name:
     - **Referral profit sharing**: Choose **推薦分潤總表** (referral summary) or **個人別推薦分潤** (referral by person).
-    - **Registration profit sharing**: Choose **註冊分潤總表** (registration summary) or **員工別註冊分潤** (registration by staff member).
+    - **Registration profit sharing**: Choose **Registration Referral Report** or **Registration Referral Report by Staff**.
 
     !!! note "What the reports show"
         - **Summary report**: Shows the referral profit-sharing totals for **all partners** within a given month. Use it for monthly financial settlement and bulk reconciliation.
@@ -128,7 +128,7 @@ To preview **Referral Program** before orders are completed, use the Order Repor
     - **Referral bonus**
     - **Referrer's name**
     - **Referral ratio**
-    - **Profit Sharing Value**
+    - **Referral amount**
     - **Referral code**
 3. Filter by the Order status you want to view.
 4. Set the Time range and email, then click **Export**.

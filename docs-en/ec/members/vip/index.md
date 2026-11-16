@@ -72,7 +72,7 @@ Based on your operating strategy, choose a general system for the entire store a
 
 - :lucide-tag:{ .lg }
   [__Exclusive VIP Groups__](create-exclusive-vip-groups.md)
-  Set independent tier rules and thresholds for specific Tags members, such as KOLs, employees, and high-value customers.
+  Set independent tier rules and thresholds for members with specific tags, such as KOLs, employees, and high-value customers.
 
 </div>
 
@@ -84,26 +84,26 @@ Not all orders count toward the cumulative VIP purchase amount. The system only 
 
 *   **Paid orders**: The payment status is **Paid**.
 *   **Received cash-on-delivery orders**: The payment status is **Cash on Delivery**, and the delivery status is **Received**. For custom cash-on-delivery orders, the delivery status is **Shipped**.
-*   **Completed orders that have been shipped**: The order status is **Completed**, and the delivery status is neither **Not Shipped** nor **Preparing to Ship**.
+*   **Completed orders that have been shipped**: The order status is **Completed**, and the delivery status is neither **Unshipped** nor **Preparing**.
 
-> For the three order types above, the order status must not be **Canceled**, and the return status must be **No Return Required**. Otherwise, the order is considered invalid.
+> For the three order types above, the order status must not be **Cancelled**, and the return status must be **No Return Required**. Otherwise, the order is considered invalid.
 
 *   **Orders with rejected returns**: The order had a return dispute but was ultimately marked as **Return Rejected**.
 
 ### Invalid Orders That Do Not Count Toward VIP Status { #specs-vip-guide-invalid-orders }
 
-*   **Canceled orders**: The order status is **Canceled**.
+*   **Canceled orders**: The order status is **Cancelled**.
 *   **Returned orders**: Orders with a return status other than **Return Rejected** or **No Return Required**.
 *   **Partially returned orders**: If an order is **Partially Returned**, the system excludes the entire order amount by default.
 
-## When The System Updates Membership Tiers { #specs-vip-guide-timing }
+## When the System Updates Membership Tiers { #specs-vip-guide-timing }
 
 ### 1. Evaluation Triggers { #specs-vip-guide-trigger }
 
 Whenever a member performs any of the following actions, the system immediately recalculates that member's tier:
 
 *   **Order status changes**: A valid or invalid order is created.
-*   **Data changes**: A new member registers, a merchant manually changes a member's Tags, or a merchant manually increases or decreases the member's **Valid Orders from Other Channels**.
+*   **Data changes**: A new member registers, a merchant manually changes a member's tags, or a merchant manually increases or decreases the member's **Valid Orders from Other Channels**.
 *   **Version activation**: A merchant publishes a new version of the VIP system, and it reaches its effective date.
 
 ### 2. Rolling Lookback Calculation { #specs-vip-guide-rolling }
@@ -120,18 +120,18 @@ The system does not use the calendar year. Instead, it looks back over a specifi
 
 - :lucide-ticket:{ .lg }
   [__Upgrade / Downgrade / Renewal Rules__](vip-upgrade-downgrade-renewal-rules.md)
-  Learn how the validity period for VIP Upgrade is calculated, how Downgrade are recalculated retroactively, and when Renewal are evaluated.
+  Learn how the validity period for VIP upgrades is calculated, how downgrades are recalculated retroactively, and when renewals are evaluated.
 
 </div>
 
 
-## Rule Activation And Version Management { #specs-vip-guide-versions }
+## Rule Activation and Version Management { #specs-vip-guide-versions }
 
 To protect customer rights and give merchants time to announce changes, the system applies effective-date restrictions to changes in core rules.
 
-*   **Basic settings (D+2 rule)**: Changes to core logic, such as tier names and Upgrade/Renewal thresholds, take effect **2 days later**, except for the initial publication.
+*   **Basic settings (D+2 rule)**: Changes to core logic, such as tier names and upgrade/renewal thresholds, take effect **2 days later**, except for the initial publication.
 *   **Benefit settings (effective immediately)**: Changes to benefits, such as discount rates and bonus points issued, take effect immediately after saving.
-*   **Version management**: Use **Copy Version** to plan the next phase of your membership strategy without affecting the currently active version.
+*   **Version management**: Use **Clone version** to plan the next phase of your membership strategy without affecting the currently active version.
 
 ## Applying Exclusive VIP Benefits { #next-steps-vip-guide }
 Turn your VIP system into a marketing driver. Use exclusive offers and differentiated pricing to increase AOV and repeat purchase rates among members.
@@ -140,7 +140,7 @@ Turn your VIP system into a marketing driver. Use exclusive offers and different
 
 - :lucide-ticket:{ .lg }
   [__Exclusive VIP Offers__](setup-exclusive-vip-discounts.md)
-  Set order-level discounts, exclusive free-shipping thresholds, bonus point multipliers, and issue VIP birthday gift and Upgrade gifts.
+  Set order-level discounts, exclusive free-shipping thresholds, bonus point multipliers, and issue VIP birthday and upgrade gifts.
 
 - :lucide-banknote:{ .lg }
   [__Member-Exclusive Pricing__](../../products/pricing/setup-vip-member-pricing.md)
