@@ -12,6 +12,7 @@ permalink: "https://help.cyberbiz.io/ec/marketing/"
 hide:
   - feedback
 ---
+# 行銷活動
 
 ## 優惠券與折扣活動 { #intro-marketing }
 
