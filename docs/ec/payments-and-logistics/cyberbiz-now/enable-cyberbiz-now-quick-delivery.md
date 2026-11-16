@@ -82,9 +82,6 @@ hide: []
     「快速到貨」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 
-![](../../../assets/images/EC-後台-金物流-所有門市-快速到貨畫面總覽01.png){ .hero-page }
-
-
 ## 使用須知 { #prerequisites-cyberbiz-now }
 
 開始設定門市參數前，請務必完成以下基礎配置，並留意相關資料連動規則：
@@ -125,7 +122,7 @@ hide: []
       
         加計或減計只調整消費者結帳時看到的運費。CYBERBIZ 向商家收取的實際運費金額不變。
 
-![](../../../assets/images/EC-後台-金物流-所有門市-設定快速到貨資訊01.png){ .screenshot }
+![](../../../assets/images/EC-後台-金物流-所有門市-快速到貨畫面總覽01.png){ .screenshot }
 
 
 ### 步驟 3：設定接單時間 { #operate-cyberbiz-now-hours }
