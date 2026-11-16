@@ -70,7 +70,7 @@ hide: []
 | Total product single-item discount | Difference between the sale price set directly for a product and its original price | |
 | Total product bundle discount | Discount from "bundle (A+B)" promotions | |
 | Total product category discount | Spend or quantity threshold discounts set for specific categories (including multi-tier) | |
-| Total product third-party discount | Exclusive discounts from integrated external platforms (such as LINE Shopping) | |
+| Total product third-party discount | Exclusive discounts from connected external platforms (such as LINE Shopping) | |
 | Total product game discount | Discounts won through interactive marketing games (such as spin wheels and scratch cards) | |
 | Total product member-exclusive price discount | Difference between a "fixed exclusive price" set for specific member groups and the original price | |
 
@@ -87,7 +87,7 @@ hide: []
 | **AviviD.ai** | AI marketing / push notifications | AI-predicted push notifications and automated traffic return solutions |
 | **ShopBack** | Cashback platform | Traffic channel that attracts members with cashback rewards |
 | **Ruten** | E-commerce platform sync | Integrates with Ruten for product sync and order management |
-| **LINE Shopping** | Referral platform | Integrates with the LINE ecosystem, using points rewards to drive conversions |
+| **LINE Shopping** | Referral platform | Connects with the LINE ecosystem, using points rewards to drive conversions |
 | **Shop.com** | Partner store | Referral partnership with the Shop.com cashback program |
 
 

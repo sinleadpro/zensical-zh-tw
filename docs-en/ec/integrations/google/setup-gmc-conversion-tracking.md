@@ -121,7 +121,7 @@ After you link GA4 to Merchant Center, you can track conversions from Google Sea
 
 - :simple-youtube:{ .lg }   
   [__YouTube Shopping__](youtube-shopping-setup-guide.md){ title="YouTube Shopping Setup Guide" }       
-  Track product purchase conversions by embedding your storefront product information in YouTube videos, live streams, and short-form videos.
+  Track product purchase conversions by embedding your online store product information in YouTube videos, live streams, and short-form videos.
 
 - :lucide-trending-up:{ .lg }   
   [__Google Ads Conversion Tracking__](setup-google-ads-conversion-tracking.md){ title="Set up Google Ads conversion tracking" }    

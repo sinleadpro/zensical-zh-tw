@@ -171,7 +171,7 @@ comments: false
 
 ![Set up return policy GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.en.gif){ title="Set up Return Policy GIF" .screenshot }
 
-## Integrate Google Ads Account { #operate-merchant-center-connect-google-ads }
+## Connect Google Ads Account { #operate-merchant-center-connect-google-ads }
 
 1.  **Go to settings**: In the GMC admin, click "Settings" > "Access and services"
 2.  **Add service**: Click the "Apps and services" tab, then click "Add service"

@@ -1,5 +1,5 @@
 ---
-title: "Redirect Shoppers to a Country-Specific Storefront"
+title: "Redirect Shoppers to a Country-Specific Online Store"
 description: "When you run separate online stores by country, show a storefront banner based on the customer IP country and guide them to the matching site."
 created: 2026-10-23 10:30
 last_modified: 2026-10-27 18:10
@@ -76,7 +76,7 @@ icon: lucide/globe-2
 hide: []
 ---
 
-# Redirect Shoppers to a Country-Specific Storefront
+# Redirect Shoppers to a Country-Specific Online Store
 
 [:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品){ title="Icon guide" } | Brand online store
 [:lucide-tag:{ title="Applicable plans" }](../../resources/conventions#適用方案){ title="Icon guide" } | All PLUS / Enterprise

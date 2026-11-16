@@ -143,7 +143,7 @@ Below are the detailed steps and instructions:
 ??? quote "Why can't I see the synced audience in the LINE backend?"
 	Check the following:
 
-	- **Integration status**: Check `Third-Party Integration` > `LINE OA` **Messaging API** related fields: confirm they are set correctly.
+	- **Connection status**: Check `Third-Party Integration` > `LINE OA` **Messaging API** related fields: confirm they are set correctly.
 	- **Permission check**: Make sure your LINE OA admin permissions are sufficient, and that you clicked the "Add to LINE Backend" button in the CYBERBIZ backend.
 	- **Processing time**: After LINE receives the data, processing usually takes **15 - 60 minutes**. If the status shows "Preparing", check again later.
 

@@ -41,7 +41,7 @@ tags:
   - GMC
   - "FB DPA"
   - "LINE Shopping"
-  - "Market America"
+  - "Shop.com"
   - "Dynamic Ads"
   - "Ad Exclusion"
 acoiv: configure
@@ -67,7 +67,7 @@ Set up exclusion tags so that products are not uploaded to third-party platforms
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All Plans
 { .doc-badge }
 
-CYBERBIZ automatically syncs product data to third-party sales and advertising platforms (such as Google Merchant Center, Facebook DPA, LINE Shopping, and Market America) to increase product exposure. If some products are not suitable for these platforms[^exclude-examples], you can exclude them with product tags, and the system will not upload their data to the specified platforms.
+CYBERBIZ automatically syncs product data to third-party sales and advertising platforms (such as Google Merchant Center, Facebook DPA, LINE Shopping, and Shop.com) to increase product exposure. If some products are not suitable for these platforms[^exclude-examples], you can exclude them with product tags, and the system will not upload their data to the specified platforms.
 
 !!! example "Use Cases"
     - Free gifts or internal test products that you do not want to show in dynamic ads.
@@ -81,7 +81,7 @@ After a product is given an exclusion tag, the system does not upload its data t
 - [x] Google Merchant Center
 - [x] Facebook Dynamic Product Ads (DPA) catalog
 - [x] LINE Shopping
-- [x] Market America (`贈品` tag only)
+- [x] Shop.com (`贈品` tag only)
 
 ## Steps { #operate-exclude-platforms }
 	
@@ -91,11 +91,11 @@ You can exclude a product from third-party platform uploads by adding a specific
 2. In the product list, click the **Product Name** of the product you want to exclude to open its edit page.
 3. In the product tags field, enter either of the following exclusion tags:
 	 - `排除product feed`: This tag applies to platforms such as Google Merchant Center, the Facebook DPA catalog, and LINE Shopping.
-	 - `贈品`: This tag applies to all third-party platforms, including Market America.
+	 - `贈品`: This tag applies to all third-party platforms, including Shop.com.
 
 	!!! warning "Notes on Entering Tags"
 	    -   In the `排除product feed` tag, do not add a space between "排除" and "product".
-	    -   Market America currently only supports excluding products with the `贈品` tag. The `排除product feed` tag is not supported.
+	    -   Shop.com currently only supports excluding products with the `贈品` tag. The `排除product feed` tag is not supported.
 
 4. Click **Save** to apply the settings.
 

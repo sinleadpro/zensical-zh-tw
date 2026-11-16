@@ -65,7 +65,7 @@ hide:
 
 **"Right-click protection"** stops customers from downloading images or copying text from your web pages, protecting the originality of your images and copy.
 
-How you set it up depends on your theme (default theme or drag-and-drop theme) and the page type (regular storefront or one-page store):
+How you set it up depends on your theme (default theme or drag-and-drop theme) and the page type (regular online store or one-page store):
 
 ## Set Up a Default Theme <small>Standard Theme</small> { #operate-right-click-default }
 

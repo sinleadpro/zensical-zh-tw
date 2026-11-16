@@ -79,10 +79,10 @@ Handle return requests in the e-commerce warehouse system, including pickup disp
 ## Which Return Process to Use { #overview-return-orders }
 
 - **Warehouse-only merchants**:
-    - **Who**: Merchants who use only the CYBERBIZ warehouse system and do not connect it to a CYBERBIZ storefront.
+    - **Who**: Merchants who use only the CYBERBIZ warehouse system and do not connect it to a CYBERBIZ online store.
     - **Where**: Handle all return requests and restocking in the WMS warehouse system. Follow the steps below.
 - **Merchants with an integrated online store**:
-    - **Who**: Merchants who use a CYBERBIZ storefront with warehouse integration turned on, on the **Expert** plan.
+    - **Who**: Merchants who use a CYBERBIZ online store with warehouse integration turned on, on the **Expert** plan.
     - **Where**: You can process returns in the warehouse system, and the system syncs the status to the online store admin panel automatically. Follow the steps below.
 
 !!! info "Returns for Merchants with an Integrated Online Store"

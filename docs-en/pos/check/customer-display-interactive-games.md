@@ -76,7 +76,7 @@ Set up fun interactive games on the customer display screen to capture customer 
 { .doc-badge }
 
 !!! info "Version Differences"
-    - **[EC Storefront (EC)](../../ec/marketing/other-tools/interactive-games.md)** and **Physical Store (POS)** both support interactive game features. This document only covers how to set up **EC Storefront (POS)** interactive games.
+    - **[EC Online Store (EC)](../../ec/marketing/other-tools/interactive-games.md)** and **Physical Store (POS)** both support interactive game features. This document only covers how to set up **EC Online Store (POS)** interactive games.
     - In the PLUS plan, "Interactive Games" is an optional module under "Marketing B" (select 2 of 11). Merchants must confirm this module is selected before they can use it. The Enterprise plan includes this feature by default.
 
 ![](../../assets/images/POS-後台-互動遊戲-畫面總覽01.en.png){ .hero-page }

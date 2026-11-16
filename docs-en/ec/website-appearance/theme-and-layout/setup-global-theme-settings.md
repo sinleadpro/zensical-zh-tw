@@ -136,7 +136,7 @@ Pop-up ads open automatically when customers visit your store. In global setting
     1. Upload desktop, tablet, and mobile images. (The desktop image is required. If you don't upload tablet or mobile images, the desktop image is used.)
     2. Set the **thumbnail size** (small / medium / large) to control the size of the small icon after the pop-up is minimized. If you don't upload one, the desktop image is used by default.
     3. Set the **image link** to go to a specific page or URL when the pop-up is clicked.
-    4. To let customers open the link without leaving your storefront, select "Open link in new tab."
+    4. To let customers open the link without leaving your online store, select "Open link in new tab."
 
     ![Pop-up ad - image](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-圖片顯示.en.png)
 
@@ -158,7 +158,7 @@ Pop-up ads open automatically when customers visit your store. In global setting
     2. Go to the [interactive games setup guide](../../marketing/other-tools/interactive-games.md){ title="Interactive Games (EC)" } to create a Spin the Wheel or Red Envelope Draw campaign.
 
     !!! info "Participation Restrictions"
-        This feature is for storefront members only. Customers must sign in to take part.
+        This feature is for online store members only. Customers must sign in to take part.
 
     ![Pop-up ad - interactive game](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-互動遊戲.en.png)
 
@@ -200,7 +200,7 @@ Define the basic visual elements for your whole website:
 
 ## Site-Wide Settings { #operate-global-settings-shop }
 
-Manage your storefront's core settings in one place, including its visual identity, search engine optimization (SEO), global product display behavior, and site protection.
+Manage your online store's core settings in one place, including its visual identity, search engine optimization (SEO), global product display behavior, and site protection.
 
 ### Visual Identity and Brand Assets { #brand }
 
@@ -264,7 +264,7 @@ Manage your storefront's core settings in one place, including its visual identi
 
     ??? quote "I turned on animation, but I don't see it on my computer or phone. Why?"
 
-        If your device has the accessibility setting **Reduce Motion** turned on, your storefront turns off animation automatically and shows content directly. This is expected behavior, not a bug.
+        If your device has the accessibility setting **Reduce Motion** turned on, your online store turns off animation automatically and shows content directly. This is expected behavior, not a bug.
 
         To see the animation, turn off that setting:
 

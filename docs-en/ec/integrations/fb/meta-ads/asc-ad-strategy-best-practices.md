@@ -66,7 +66,7 @@ hide:
 
 ## Meta ASC Overview { #overview-meta-asc }
 
-**Meta ASC (Advantage+ Shopping Campaign)** is an automated ad product that Meta developed for e-commerce. Through deep integration with Meta, CYBERBIZ lets merchants create one-stop ad campaigns and track results directly in the storefront admin.
+**Meta ASC (Advantage+ Shopping Campaign)** is an automated ad product that Meta developed for e-commerce. Through deep integration with Meta, CYBERBIZ lets merchants create one-stop ad campaigns and track results directly in the online store admin.
 
 ## Three Core Features of ASC Ads { #intro-meta-asc }
 
@@ -86,8 +86,8 @@ hide:
 Merchants do not need to switch frequently to Meta Ads Manager. They can complete every task in the CYBERBIZ admin:
 
 - [x] **Simplified setup**: Built-in defaults optimized for e-commerce let merchants without advertising expertise get started easily.
-- [x] **Deep data integration**: Fully integrates storefront orders, product inventory, and customer behavior data to help AI make more precise ad delivery decisions.
-- [x] **All-in-one management**: From adding budget funds and selecting catalog product sets to performance analysis, the entire workflow can be completed in the storefront admin.
+- [x] **Deep data integration**: Fully integrates online store orders, product inventory, and customer behavior data to help AI make more precise ad delivery decisions.
+- [x] **All-in-one management**: From adding budget funds and selecting catalog product sets to performance analysis, the entire workflow can be completed in the online store admin.
 
 ## Required Prerequisites Before Launching Ads { #prerequisites-meta-asc }
 
@@ -106,7 +106,7 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
 -   :material-numeric-3-circle:{ .lg }
     **[Link Facebook Pixel](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta ad account and complete the top-up" }**
 
-    Ensure the storefront is correctly linked so that ASC catalog ads can properly pull in the collected product information.
+    Ensure the online store is correctly linked so that ASC catalog ads can properly pull in the collected product information.
 
 </div>
 
@@ -120,7 +120,7 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
       </iframe>
     </div>
 
-??? quote-clean "Complete Ad Setup Guide: Easy Start in the Storefront Admin"
+??? quote-clean "Complete Ad Setup Guide: Easy Start in the Online Store Admin"
     <div style="position: relative; padding-bottom: 56.25%; height: 0;">
       <iframe src="https://www.loom.com/embed/e14760a47226416b910a6279c8f712b8" 
               frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 

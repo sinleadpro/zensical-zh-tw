@@ -101,7 +101,7 @@ After signing the contract, complete these settings in the online store admin pa
 ### 1. Sync Product SKUs { #operate-wms-activation-sku }
 
 - [Create items](single-items/#operate-single-items-add) in the e-commerce warehouse admin panel for the products going into the warehouse.
-- Make sure product SKUs in the storefront (EC) and the e-commerce warehouse (WMS) admin panels are **all filled in and exactly the same**.
+- Make sure product SKUs in the online store (EC) and the e-commerce warehouse (WMS) admin panels are **all filled in and exactly the same**.
 - Every variant (such as color or size) must have its **own unique** SKU. Do not leave it blank.
 
 === "View EC Product SKUs"

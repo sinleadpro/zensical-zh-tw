@@ -111,7 +111,7 @@ Use the official Google [**Campaign URL Builder** :lucide-external-link:](https:
 
 ### View Data in GA4 Reports { #operate-utm-tracking-ga4-report-view }
 
-!!! warning "First, complete the [GA4 integration with your website](ga/setup-google-analytics.md){ title="Set up and connect Google Analytics" } so you can view website traffic data in GA4."
+!!! warning "First, complete the [GA4 connection with your website](ga/setup-google-analytics.md){ title="Set up and connect Google Analytics" } so you can view website traffic data in GA4."
 
 After you publish your links, check their performance in the GA4 dashboard:
 

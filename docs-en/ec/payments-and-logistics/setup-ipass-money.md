@@ -65,7 +65,7 @@ Guide merchants through applying for and integrating iPASS MONEY payment service
 
 
 !!! warning "Important Notice: Changes to LINE Pay Features"
-    Effective **January 1, 2026**, the iPASS MONEY feature has been fully removed from the LINE Pay wallet. If your storefront needs to offer iPASS MONEY, merchants must **apply separately and reconnect**. Legacy LINE Pay keys cannot be reused.
+    Effective **January 1, 2026**, the iPASS MONEY feature has been fully removed from the LINE Pay wallet. If your online store needs to offer iPASS MONEY, merchants must **apply separately and reconnect**. Legacy LINE Pay keys cannot be reused.
 
 
 ## Step 1: Prepare Application Documents { #operate-ipass-docs }
@@ -79,7 +79,7 @@ Prepare electronic copies (PDF or image format) of the following four documents:
     - Commercial registration certificate issued by the Department of Commerce, Ministry of Economic Affairs
 2.  **Owner's national ID card**: Front and back copies.
 3.  **Bank passbook copy**: The account name for the payout account must exactly match the registered company name.
-4.  **Homepage screenshot**: A screenshot of the storefront homepage after it goes officially live.
+4.  **Homepage screenshot**: A screenshot of the online store homepage after it goes officially live.
 
 !!! tip "Data Security Recommendations"
     If the documents need to be marked for this application only, add the watermark `僅供申請 iPASS MONEY 一卡通使用` to the document.

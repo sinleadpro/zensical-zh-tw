@@ -37,7 +37,7 @@ hide:
 
     ---
 
-    Create a Google Tag Manager account and container, and correctly install the GTM code on your CYBERBIZ storefront.
+    Create a Google Tag Manager account and container, and correctly install the GTM code on your CYBERBIZ online store.
 
     [:octicons-arrow-right-24: Go to](setup-google-tag-manager.md)
 
@@ -61,7 +61,7 @@ hide:
 
     ---
 
-    Integrate Google Merchant Center and sync product data to Google Search and Shopping Ads.
+    Connect Google Merchant Center and sync product data to Google Search and Shopping Ads.
 
     [:octicons-arrow-right-24: Go to](setup-google-merchant-center.md)
 
@@ -125,7 +125,7 @@ hide:
 
     ---
 
-    Integrate Google Analytics 4 (GA4), including creating the Google account, getting the measurement ID, and entering the tracking ID in the CYBERBIZ admin, step by step.
+    Connect Google Analytics 4 (GA4), including creating the Google account, getting the measurement ID, and entering the tracking ID in the CYBERBIZ admin, step by step.
 
     [:octicons-arrow-right-24: Go to](ga/setup-google-analytics.md)
 
@@ -189,7 +189,7 @@ hide:
 
     ---
 
-    Learn how to use the Google Safe Browsing site status tool to proactively check your storefront for security risks, and request a review in GSC to lift the warning.
+    Learn how to use the Google Safe Browsing site status tool to proactively check your online store for security risks, and request a review in GSC to lift the warning.
 
     [:octicons-arrow-right-24: Go to](google-safe-browsing-security-check.md)
 

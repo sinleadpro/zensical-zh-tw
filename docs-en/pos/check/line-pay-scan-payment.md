@@ -130,7 +130,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 1. Log in to the CYBERBIZ admin and go to **POS > POS Store List**.
 2. Select the store you want to configure, then go to **POS Checkout Settings**.
 3. Fill in the **LINE Pay Channel ID** and **LINE Pay Channel Secret**.
-    > **Note**: If you have both a storefront (EC) and POS, their keys cannot be shared. Be sure to fill in the information you applied for specifically for POS.
+    > **Note**: If you have both an online store (EC) and POS, their keys cannot be shared. Be sure to fill in the information you applied for specifically for POS.
 4. Save the settings.
 
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-串接LinePAY金鑰01.en.png){ .screenshot }

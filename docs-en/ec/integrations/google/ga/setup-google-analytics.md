@@ -67,7 +67,7 @@ hide: []
 
 ## Google Analytics Overview { #overview-google-analytics }
 
-Google Analytics (GA4) is essential for running a brand website. It helps marketing teams track traffic and user behavior. The integration has two main steps: **creating the Google Analytics account** and **entering the ID in the storefront admin**.
+Google Analytics (GA4) is essential for running a brand website. It helps marketing teams track traffic and user behavior. The connection has two main steps: **creating the Google Analytics account** and **entering the ID in the online store admin**.
 
 ## Steps { #operate-google-analytics }
 
@@ -121,7 +121,7 @@ Google Analytics (GA4) is essential for running a brand website. It helps market
 
     ![Add to cart on storefront](../../../../assets/images/ec-商品-加入購物車-前台.en.png){ .screenshot title="Add to cart on storefront" }
 
-2.  **Check the real-time report**: Go back to the GA4 admin, click "Reports" > "Realtime" or "Realtime overview" in the sidebar, and check the event count. If the data changes, the integration is successful.
+2.  **Check the real-time report**: Go back to the GA4 admin, click "Reports" > "Realtime" or "Realtime overview" in the sidebar, and check the event count. If the data changes, the connection is successful.
 
     ![GA4 real-time report](../../../../assets/images/ec-第三方整合-google-ga-即時報表.en.png){ .screenshot title="GA4 real-time report" }
 
@@ -151,7 +151,7 @@ To ensure data accuracy, we recommend making the following adjustments after the
 
 ## FAQ { #faq-google-analytics }
 
-??? quote "How do I confirm that GA4 is integrated successfully?"
+??? quote "How do I confirm that GA4 is connected successfully?"
 
     After the integration is complete, verify it in the following ways:
 

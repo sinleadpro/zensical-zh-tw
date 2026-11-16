@@ -148,7 +148,7 @@ The process has two stages: first generate the banner code with a third-party to
 
 - :lucide-palette:{ .lg }  
   [__Apply and Switch Website Themes__](../theme-and-layout/apply-and-switch-theme.md)  
-  Download, switch, and publish themes to manage your storefront's overall look.
+  Download, switch, and publish themes to manage your online store's overall look.
 
 - :lucide-file-text:{ .lg }  
   [__Business Disclosure Settings__](../site-settings/business-disclosure.md)  

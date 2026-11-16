@@ -67,7 +67,7 @@ hide: []
 ---
 
 # Store and Warehouse Sync Rules
-Learn how inventory syncs between your storefront (EC) and the e-commerce warehouse (WMS), how orders are passed to the warehouse, and the basic shipping rules that keep orders flowing.
+Learn how inventory syncs between your online store (EC) and the e-commerce warehouse (WMS), how orders are passed to the warehouse, and the basic shipping rules that keep orders flowing.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Online Store / Smart Warehousing
@@ -75,11 +75,11 @@ Learn how inventory syncs between your storefront (EC) and the e-commerce wareho
 
 ## Inventory Sync Rules { #specs-sync-rules }
 
-The system compares inventory at several key moments, so the sellable quantity on your storefront matches the physical inventory in the warehouse.
+The system compares inventory at several key moments, so the sellable quantity on your online store matches the physical inventory in the warehouse.
 
 ### When Sync Runs { #specs-sync-rules-trigger }
 
-1. **Customer checkout**: When a customer checks out on the storefront, the system checks inventory in real time.
+1. **Customer checkout**: When a customer checks out on the online store, the system checks inventory in real time.
 2. **SKU update**: When you change a product SKU in the online store admin panel.
 3. **Warehouse inbound and outbound**: After WMS completes a **Stock Receipt** or a **transfer order**.
 4. **Scheduled sync**: The system reconciles all inventory automatically at **3:30 AM** every day.
@@ -91,7 +91,7 @@ The system compares inventory at several key moments, so the sellable quantity o
 
 ## Order Transfer Rules { #specs-order-forwarding }
 
-When your storefront gets an order and its items have valid SKUs, the system sends (transfers) the order to WMS by these rules.
+When your online store gets an order and its items have valid SKUs, the system sends (transfers) the order to WMS by these rules.
 
 ### Timing and Mechanism { #specs-order-forwarding-timing }
 

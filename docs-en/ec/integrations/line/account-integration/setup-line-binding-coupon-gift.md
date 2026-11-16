@@ -176,7 +176,7 @@ If many registered members have not yet linked their LINE OA, merchants can use 
 
 	1. **Link Accuracy**: Check whether the customer linked through the exclusive link `?line_action=line_login`. If they only logged in normally without this parameter, the system cannot identify the event as a "binding campaign."
 	2. **Feature Toggle**: Confirm that the "LINE @ Binding Gift coupon Feature" is switched to **ON**.
-	3. **Messaging API Status**: Check whether the API integration in `Third-Party Integration > LINE Settings` shows as normal.
+	3. **Messaging API Status**: Check whether the API connection in `Third-Party Integration > LINE Settings` shows as normal.
 	4. **Claim History**: Check whether the customer previously unbound and then linked again. Each member account can usually claim only once.
 
 ??? quote "If a customer is already a LINE friend and links now, can they still claim the coupon?"

@@ -124,7 +124,7 @@ Store staff can help members redeem their personal assets (bonus points and coup
 		![](../../../assets/images/門市助理-後台-門市管理-角色與權限-優惠券01.en.png){ .screenshot }
 
 
-=== "Storefront (EC) Sync"
+=== "Online Store (EC) Sync"
 
 	- **Immediate Deduction**: After redemption in the frontend, the coupon quantity in the EC admin decreases by 1 and **cannot be restored**.
 	- **Record Sync**: Redemption records are updated in the member data and order records in the EC admin.
@@ -132,7 +132,7 @@ Store staff can help members redeem their personal assets (bonus points and coup
 
 ### Recommended Products { #operate-sales-conversion-product-recommendation }
 
-Store staff can use this feature to quickly generate personal referral links to storefront products and share them with members to guide online purchases, with sales attributed automatically.
+Store staff can use this feature to quickly generate personal referral links to online store products and share them with members to guide online purchases, with sales attributed automatically.
 
 === "Store Assistant Frontend"
 
@@ -154,7 +154,7 @@ Store staff can use this feature to quickly generate personal referral links to 
 
 		![](../../../assets/images/門市助理-後台-設定-通知設定-推薦商品通知01.en.png){ .screenshot }
 
-=== "Storefront (EC) Sync"
+=== "Online Store (EC) Sync"
 
 	- **Automatic Attribution**: For online store orders placed through this link, the system attributes the sale to the staff member automatically and records it in **Orders > All Orders**.
 	- **Order Source**: The order details in the admin show that the order came from a Store Assistant recommendation.
@@ -187,14 +187,14 @@ Without a POS integration, store staff can use this feature to record members' i
 		![](../../../assets/images/Excel 報表-門市助理-業績報表01.en.png){ .screenshot }
 
 
-=== "Storefront (EC) Sync"
+=== "Online Store (EC) Sync"
 
 	- **Order Records**: Manually entered purchases sync to **Customer Management > All Customers > 個別會員頁 > 其他通路訂單** in the EC admin.
 	- **Fields**: The admin shows the creation time, amount, data source, channel name, and operator.
 	- **Membership Benefits**: This amount counts toward the member's total spending and can trigger [VIP Upgrade](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-upgrade) or [Renewal](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-renewal) rules.
 
 	!!! tip "Protecting Customer Benefits"
-		Customers can log in to the storefront and view their in-store purchases in **會員中心 > 訂單查詢 > 其他通路有效訂單** to make sure their benefits were added.
+		Customers can log in to the online store and view their in-store purchases in **會員中心 > 訂單查詢 > 其他通路有效訂單** to make sure their benefits were added.
 
 
 ## FAQ { #faq-sales-conversion }

@@ -29,7 +29,7 @@ hide:
 
 ---
 
-## Ads and Store Integration { #operate-facebook }
+## Ads and Store Connection { #operate-facebook }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
     ---
 
-    Complete FBE account authorization, domain verification, and Facebook/Instagram store integration setup.
+    Complete FBE account authorization, domain verification, and Facebook/Instagram store connection setup.
 
     [:octicons-arrow-right-24: Go](mbe/index.md)
 

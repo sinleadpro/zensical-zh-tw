@@ -76,12 +76,12 @@ hide: []
 
 ![LINE OA integration](../../../../assets/images/ec-第三方整合-line oa.en.png){ title="LINE OA integration" .hero-page }
 
-## Integrate LINE OA Messaging API Guide { #operate-line-messaging }
+## Connect LINE OA Messaging API Guide { #operate-line-messaging }
 
 Integrate the LINE Official Account (OA) with the CYBERBIZ system to enable automated customer communication, including order status notifications, precise audience messaging, and product keyword search within LINE.
 
 !!! info "What is the Messaging API?"
-	 The Messaging API is a technical interface that LINE provides to developers. Through this integration, the CYBERBIZ system **automatically** sends personalized messages based on specific events (such as a customer submitting an order or a payment reminder), without manual action.
+	 The Messaging API is a technical interface that LINE provides to developers. Through this connection, the CYBERBIZ system **automatically** sends personalized messages based on specific events (such as a customer submitting an order or a payment reminder), without manual action.
 
 ## Prerequisites and Limitations { #prerequisites-line-messaging }
 
@@ -156,7 +156,7 @@ After you complete the basic integration, you can further configure the followin
 
 ### LINE Keyword Product Search { #intro-line-messaging-line-search-product }
 
-- **Feature description:** When enabled, customers can enter keywords in the LINE chat window (for example, necklace or coffee beans), and the system automatically replies with a list of related products from your storefront.
+- **Feature description:** When enabled, customers can enter keywords in the LINE chat window (for example, necklace or coffee beans), and the system automatically replies with a list of related products from your online store.
 
 - **Value:** Shorten the shopping path and turn your LINE Official Account into a mobile product discovery entry point.
 
@@ -210,7 +210,7 @@ For instructions, see [**LINE OA Message Template Setup**](../../../notification
 	Check whether the **Webhook URL** contains `https` and whether there is a space at the beginning. LINE requires the Webhook to use the encrypted `https` protocol. Also, make sure the **Use webhook** toggle is set to **On**, and that the Webhook URL path is complete (for example: `/line_chat_bots/send_event`).
 
 ??? quote "After setup, why are order notifications still not sent?"
-	The main cause is usually that **the member has not completed LINE binding.** The Messaging API relies on the customer's `UID` to identify the recipient. If a customer only follows the OA but has not linked their website member account, the system cannot retrieve the UID. We recommend placing a **LINE Quick Login** option in a prominent spot on your storefront to improve linking rates.
+	The main cause is usually that **the member has not completed LINE binding.** The Messaging API relies on the customer's `UID` to identify the recipient. If a customer only follows the OA but has not linked their website member account, the system cannot retrieve the UID. We recommend placing a **LINE Quick Login** option in a prominent spot on your online store to improve linking rates.
 
 ??? quote "Can Chat mode and Webhook coexist in LINE's response settings?"
 	To have CYBERBIZ send automatic notifications, you must set the mode to **Chatbot (Webhook)**. Once this mode is enabled, LINE's standard chat features are limited. If you need both manual customer support chat and automatic notifications, we recommend using the **Webhook Relay** feature to route messages to a customer support platform (for example, Omnichat).

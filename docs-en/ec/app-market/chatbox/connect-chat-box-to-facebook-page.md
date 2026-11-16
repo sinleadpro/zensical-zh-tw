@@ -40,7 +40,7 @@ prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
 related: []
 tags:
-  - "Facebook Integration"
+  - "Facebook Connection"
   - Meta 授權
   - CHAT BOX
   - Messenger

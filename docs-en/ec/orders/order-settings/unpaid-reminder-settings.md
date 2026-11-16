@@ -138,7 +138,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 **Prerequisites**: Before sending, make sure the following are set up:
 
-- [x] Merchant: Complete the [**LINE OA Messaging API integration**](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="Integrate the LINE Messaging API" }.
+- [x] Merchant: Complete the [**LINE Messaging API connection**](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }.
 
 - [x] Customer: Members must complete **[LINE account linking](../../integrations/line/account-integration/bind-line-oa-store-members.md){ title="Link Your LINE Official Account with Website Members" }** and add your official account as a friend.
 
@@ -157,8 +157,8 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 <div class="grid cards" markdown>
 
 - :simple-line:{ .lg }  
-  [__Integrate the LINE OA Messaging API__](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="Integrate the LINE Messaging API" }  
- Create a LINE OA and integrate the Messaging API.
+  [__Integrate the LINE OA Messaging API__](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  
+ Create a LINE OA and connect the Messaging API.
 
 - :lucide-link-2:{ .lg }  
   [__LINE Member Linking__](../../integrations/line/account-integration/bind-line-oa-store-members.md){ title="Link Your LINE Official Account with Website Members" }  
@@ -234,7 +234,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 	Check these prerequisites:
 
-	1. Whether you completed the LINE OA Messaging API integration.
+	1. Whether you completed the LINE OA Messaging API connection.
 
 	2. Whether the customer completed LINE account linking.
 

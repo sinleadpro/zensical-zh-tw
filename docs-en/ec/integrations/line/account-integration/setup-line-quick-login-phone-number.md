@@ -79,7 +79,7 @@ hide: []
 
 ## What Is Member Phone Number Retrieval in LINE Quick Login? { #intro-line-phone-login }
 
-**Member Phone Number Retrieval in LINE Quick Login** is an advanced feature that helps merchants obtain phone number authorization when customers sign in with LINE, so they can create or update storefront member profiles.
+**Member Phone Number Retrieval in LINE Quick Login** is an advanced feature that helps merchants obtain phone number authorization when customers sign in with LINE, so they can create or update online store member profiles.
 
 The following sections explain the feature in detail and provide setup steps:
 
@@ -87,7 +87,7 @@ The following sections explain the feature in detail and provide setup steps:
 
 Merchants must meet all three of the following conditions to use this feature:
 
-- [x] [**Complete LINE Quick Login Integration**](setup-line-quick-login.md){ title="Set Up LINE Quick Login" }: Basic LINE login setup is already complete in the storefront admin.
+- [x] [**Complete LINE Quick Login Integration**](setup-line-quick-login.md){ title="Set Up LINE Quick Login" }: Basic LINE login setup is already complete in the online store admin.
 
 - [x] **LINE Provider Certification**: Your LINE Provider must be certified as a **LINE Certified Provider**.
 
@@ -108,7 +108,7 @@ Log in to [LINE Developers :lucide-external-link:](https://developers.line.biz/)
 
 2. **Check Permission Settings**:
 
-	- Click the **LINE Login Channel** integrated to your storefront.
+	- Click the **LINE Login Channel** connected to your online store.
 
 	- Go to the **Basic Settings** tab and scroll down to **Permissions**.
 
@@ -122,7 +122,7 @@ Standard LINE quick login matches accounts only by the member's email address. W
 
 - **Matching order**: The system **first matches by phone number**. If there is no match, it matches by email.
 
-- **Applies to**: This feature applies to members whose phone numbers are or are not already registered on the storefront.
+- **Applies to**: This feature applies to members whose phone numbers are or are not already registered on the online store.
 
 
 ??? note-clean "Logic Flow Diagram"
@@ -187,7 +187,7 @@ If you have LINE Certified Provider status, you can also use the **LIFF** featur
 
 	- **Customer side:** When a member clicks the LIFF link, the authorization screen shows an additional "Request phone number" item.
 
-	- **Merchant side:** The system automatically retrieves the phone number linked to the member's LINE account, enabling a fast flow with **automatic login and synced storefront member binding**.
+	- **Merchant side:** The system automatically retrieves the phone number linked to the member's LINE account, enabling a fast flow with **automatic login and synced online store member binding**.
 
 !!! info "For complete LIFF setup instructions, see [How to Set Up LIFF Auto-Login](setup-liff-auto-login-member-binding.md){ title="Set Up LIFF Auto-Login and Member Binding" }."
 
@@ -202,7 +202,7 @@ If you have LINE Certified Provider status, you can also use the **LIFF** featur
 
 ## FAQ { #faq-line-phone-login }
 
-??? quote "How does the system handle a phone number on LINE that does not match the storefront record?"
+??? quote "How does the system handle a phone number on LINE that does not match the online store record?"
 	The system follows a **"phone number first"** policy. If the phone number provided by LINE already exists in the system (Member A), it is always linked to Member A, regardless of the email. If the number has no record and the email is also unregistered, the user is treated as a new customer and a new record is created.
 
 ??? quote "After the feature is turned on, will existing LINE login members automatically have their phone numbers filled in?"

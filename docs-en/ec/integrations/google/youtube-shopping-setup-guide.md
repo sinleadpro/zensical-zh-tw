@@ -76,7 +76,7 @@ hide: []
 
 ## What Is YouTube Shopping { #intro-youtube-shopping }
 
-**YouTube Shopping** lets you embed product information and links from your storefront in YouTube videos, live streams, and Shorts. If you make videos, run a YouTube channel, or go live on YouTube, you can set up YouTube Shopping to increase product exposure and turn traffic into revenue. [Learn more :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
+**YouTube Shopping** lets you embed product information and links from your online store in YouTube videos, live streams, and Shorts. If you make videos, run a YouTube channel, or go live on YouTube, you can set up YouTube Shopping to increase product exposure and turn traffic into revenue. [Learn more :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
 
 !!! warning "Eligibility"
     YouTube Shopping is a feature of the **YouTube Partner Program (YPP)** for creators who have a YouTube channel that meets the monetization threshold (1,000 subscribers + 4,000 watch hours).
@@ -116,7 +116,7 @@ graph LR
 
 ### 1. Account Setup and Back-End Linking { #operate-youtube-shopping-account-create-backend }
 
-Before applying for YouTube Shopping, you must first integrate the two Google tools.
+Before applying for YouTube Shopping, you must first connect the two Google tools.
 
 <div class="grid cards" markdown>
 
@@ -132,7 +132,7 @@ Before applying for YouTube Shopping, you must first integrate the two Google to
 
     ---
 
-    In Google Analytics admin, get the "Measurement ID," then go to the CYBERBIZ admin and enter the Measurement ID to complete the integration.
+    In Google Analytics admin, get the "Measurement ID," then go to the CYBERBIZ admin and enter the Measurement ID to complete the connection.
 
     [:lucide-arrow-right: Setup Guide](ga/setup-google-analytics.md){ title="Create and Connect Google Analytics" }
 

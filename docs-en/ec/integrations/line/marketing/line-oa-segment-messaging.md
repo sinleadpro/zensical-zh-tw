@@ -83,7 +83,7 @@ Below are detailed instructions and a walkthrough:
 
 Before using segment messaging, make sure you complete the following setup:
 
-- [x] [**Connect Messaging API**](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }: Merchants must first complete the LINE Messaging API integration setup before they can send messages from the CYBERBIZ admin.
+- [x] [**Connect Messaging API**](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }: Merchants must first complete the LINE Messaging API connection setup before they can send messages from the CYBERBIZ admin.
 - [x] **Collect member UIDs**: Messages can only be sent to website members who have previously completed **"[LINE Quick Login](../account-integration/setup-line-quick-login.md){ title="Set up LINE Quick Login" }"** or **"[Linked LINE OA](../account-integration/bind-line-oa-store-members.md){ title="Bind LINE Official Account to Website Member" }"**, because only these actions leave the UID needed for sending messages in the website system.
 - [x] **Confirm friend status**: Only **LINE OA friends** (who have not blocked the Official Account) can successfully receive messages.
 - [x] **Messaging fees**: The LINE push service bills according to the message plan you set for your LINE Official Account. Manual pushes and automated notifications are both paid items, and only successfully sent messages are billed.

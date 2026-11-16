@@ -99,7 +99,7 @@ The process depends on whether you turned on [returns on the storefront](../ec/o
 
 === "Storefront Returns On"
 
-    - **Process**: The customer requests a return in **我的帳戶 > 訂單查詢** on your storefront.
+    - **Process**: The customer requests a return in **我的帳戶 > 訂單查詢** on your online store.
     - **Status change**: The EC order's **return status** changes to **Return Requested** automatically.
     - **Benefit**: Less work for customer support, because the system collects the request details.
 
@@ -155,7 +155,7 @@ Choose how to handle the return based on whether the items need to be collected:
             - Create [7-11 C2B reverse logistics](../ec/orders/returns-refunds/cvs-c2b-return.md)
 
         2. **Status change**: The order's **return status** changes to **Returning** automatically.
-        3. **System sync**: The storefront syncs the information to WMS, which creates a **Return Order** and gets a **Tracking Number**.
+        3. **System sync**: The online store syncs the information to WMS, which creates a **Return Order** and gets a **Tracking Number**.
         4. **Pickup**: The reverse logistics driver collects the parcel at the address (or convenience store) the customer chose.
         5. **Warehouse inspection**: After the warehouse receives the parcel, staff inspect the goods and restock them in WMS.
 

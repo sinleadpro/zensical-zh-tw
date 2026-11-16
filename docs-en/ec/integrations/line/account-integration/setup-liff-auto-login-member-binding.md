@@ -206,7 +206,7 @@ Merchants can embed LIFF links in the following locations:
 
 	1. **URL format:** Confirm that the LIFF ID is correct (the format should be `https://liff.line.me/APP_ID/path`).
 
-	2. **Endpoint URL:** Check whether the LIFF Endpoint URL in the LINE Developers console points to the correct storefront domain and includes `https://`.
+	2. **Endpoint URL:** Check whether the LIFF Endpoint URL in the LINE Developers console points to the correct online store domain and includes `https://`.
 
 	3. **Save again:** Try turning the "Auto-generate LIFF URL" toggle off and back on in the CYBERBIZ admin to trigger the system to resync settings.
 

@@ -74,7 +74,7 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
 
 - **Name change**: Meili Technology was renamed **Wixtar** in May 2024. The system interface and this document both use the new name.
 - **Payment restriction**: Only **credit card payment** is supported.
-- **Invoice range pre-fetching**: To prevent invoicing failures caused by unstable networks, the system pre-fetches invoice number ranges to each POS terminal based on average usage. Pre-fetched ranges cannot be transferred to other POS terminals or the EC storefront. For special requirements, contact customer support. Fees may apply depending on the adjustment.
+- **Invoice range pre-fetching**: To prevent invoicing failures caused by unstable networks, the system pre-fetches invoice number ranges to each POS terminal based on average usage. Pre-fetched ranges cannot be transferred to other POS terminals or the EC online store. For special requirements, contact customer support. Fees may apply depending on the adjustment.
 - **Check before importing invoice ranges**: Before you import invoice number ranges, **be sure to confirm that the range is not already in use on another value-added center platform**. If an incorrect range causes **duplicate invoices**, the system cannot help with reissuing or voiding them. **Merchants must contact the National Taxation Bureau and handle the matter according to applicable regulations.**
 
 ## Plan Pricing { #specs-wixtar-einvoice-fees-fees }
@@ -200,5 +200,5 @@ The system pre-fills the "Store Code," "POS Machine Code," "POS Serial Number (P
 ??? quote "If the network is unstable, can POS still issue invoices?"
     Yes. The system pre-fetches invoice number ranges to each POS terminal so invoicing still works normally when offline or the network is unstable.
 
-??? quote "Can POS invoice number ranges be transferred to the EC storefront?"
-    No. Pre-fetched invoice number ranges on a POS terminal can only be used on that terminal. They cannot be transferred to other POS terminals or the EC storefront.
+??? quote "Can POS invoice number ranges be transferred to the EC online store?"
+    No. Pre-fetched invoice number ranges on a POS terminal can only be used on that terminal. They cannot be transferred to other POS terminals or the EC online store.

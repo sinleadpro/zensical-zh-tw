@@ -1,6 +1,6 @@
 ---
 title: "Set up Google Pay™"
-description: "Guides merchants on enabling and managing Google Pay™ payment options on their storefront, including fee details, admin setup steps, and payment threshold restrictions."
+description: "Guides merchants on enabling and managing Google Pay™ payment options on their online store, including fee details, admin setup steps, and payment threshold restrictions."
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 08:52
 lang: en-US
@@ -65,7 +65,7 @@ icon: lucide/credit-card
 hide: []
 ---
 # Set up Google Pay™
-Guides merchants on enabling and managing Google Pay™ payment options on their storefront, including fee details, admin setup steps, and payment threshold restrictions.
+Guides merchants on enabling and managing Google Pay™ payment options on their online store, including fee details, admin setup steps, and payment threshold restrictions.
 { .subtitle }
 
 

@@ -85,7 +85,7 @@ hide:
 
 - **Applicable Merchants**: This feature is available only to merchants who use the **CYBERBIZ POS System**.
 - **Prerequisite Setup**:
-    - [x] Merchants must first complete the [LINE Messaging API Integration](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="LINE Messaging API Integration" }, and set up the [LINE Rich Menu](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="Set Up the LINE Rich Menu" }.
+    - [x] Merchants must first complete the [Connect LINE Messaging API](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }, and set up the [LINE Rich Menu](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="Set Up the LINE Rich Menu" }.
     - [x] We recommend guiding customers to first complete [Link LINE Official Account to Website Member](../../../ec/integrations/line/account-integration/bind-line-oa-store-members.md){ title="Link LINE Official Account and Website Member" } so that member data is loaded directly after scanning.
 
 ## Operation Steps { #operate-line-member }

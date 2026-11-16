@@ -78,8 +78,8 @@ Learn how to install Store Assistant and complete the prerequisites, including L
 { .doc-badge }
 
 !!! tip "Use Cases"
-	- **OMO Member Integration**: With a Store Assistant QR code, customers can add your LINE account as a friend, register on your storefront, and link a referrer in one step in store.
-	- **Store Sales Tracking**: Assign storefront members to specific stores or staff to measure each store's contribution accurately.
+	- **OMO Member Integration**: With a Store Assistant QR code, customers can add your LINE account as a friend, register on your online store, and link a referrer in one step in store.
+	- **Store Sales Tracking**: Assign online store members to specific stores or staff to measure each store's contribution accurately.
 	- **Real-Time Digital Service**: Store staff can view member assets on mobile devices and offer personalized service.
 
 
@@ -115,11 +115,11 @@ To make QR code linking work smoothly, complete LINE certification and connectio
 4. **Apply for LINE Certified Provider Status**: Contact your [LINE partner](https://tw.linebiz.com/partner/sales-partner/), or follow the process in the document below to apply ([download the application file](https://drive.google.com/file/d/1S2OoIPlmlwzyqE3h1vQldLXrcgf1sCO5/view?usp=sharing)).
   - **Under LINE rules, each company can apply for only one Certified Provider. Duplicate applications are not approved.**
 5. If you already have LINE Certified Provider status, turn on **Auto-Generate LIFF URL**.
-  - **Use Case**: Later, when members register and link through Store Assistant (Renewal), they can scan a QR code to add your LINE Official Account as a friend, register on your storefront, and link a Store Assistant referrer.
+  - **Use Case**: Later, when members register and link through Store Assistant (Renewal), they can scan a QR code to add your LINE Official Account as a friend, register on your online store, and link a Store Assistant referrer.
   - **Path**: Third-Party Integration > LINE Login.
       ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置05.png)
   - **Note**: **If you do not have LINE Certified Provider status yet, do not turn on "Auto-Generate LIFF Link".**
-      Without "Auto-Generate LIFF Link", members who register and link through Store Assistant first scan a QR code to add your LINE Official Account as a friend. Then guide them to the mobile verification page to provide their mobile number, register on your storefront, and link a Store Assistant referrer.
+      Without "Auto-Generate LIFF Link", members who register and link through Store Assistant first scan a QR code to add your LINE Official Account as a friend. Then guide them to the mobile verification page to provide their mobile number, register on your online store, and link a Store Assistant referrer.
 
 
 

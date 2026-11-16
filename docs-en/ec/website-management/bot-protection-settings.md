@@ -1,6 +1,6 @@
 ---
 title: "Set up Bot Protection and SMS Verification"
-description: "If your storefront uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs."
+description: "If your online store uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs."
 created: 2026-08-12 10:59
 last_modified: 2026-09-21 10:20
 lang: en-US
@@ -65,7 +65,7 @@ hide: []
 
 # Set up Bot Protection and SMS Verification
 
-If your storefront uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs.
+If your online store uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All plans

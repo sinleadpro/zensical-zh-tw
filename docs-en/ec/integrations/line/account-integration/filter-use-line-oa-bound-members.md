@@ -144,5 +144,5 @@ Detailed instructions are below:
 ??? quote "Why don't I see the "Sync to LINE OA" option in my admin panel?"
 	This feature is exclusive to **Advanced PLUS / Expert PLUS / Enterprise**. If your plan qualifies but you still do not see the option, check the following:
 
-	1. Whether you have correctly integrated the **Messaging API** for LINE OA under "Third-party Integration."
+	1. Whether you have correctly connected the **Messaging API** for LINE OA under "Third-party Integration."
 	2. Whether your admin account has the "Member Export" or "Marketing Audience Bundling" permission.

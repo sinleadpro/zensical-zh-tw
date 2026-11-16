@@ -1,6 +1,6 @@
 ---
 title: "Set up GA4 Site Search Tracking"
-description: "Use GA4 Enhanced Measurement to track site searches on your storefront and analyze consumers' information needs and search intent."
+description: "Use GA4 Enhanced Measurement to track site searches on your online store and analyze consumers' information needs and search intent."
 created: 2026-03-24 20:05
 last_modified: 2026-07-03 11:45
 lang: en-US
@@ -112,7 +112,7 @@ After setup (and once a user runs a search), you can view the results in GA4 rep
 
     Possible causes include:
 
-    - The storefront is not correctly integrated to the GA4 code (Measurement ID)
+    - The online store is not correctly connected to the GA4 code (Measurement ID)
     - The feature was just set up, and data collection has not started yet (data is not backfilled)
     - No users ran a search during that period
 

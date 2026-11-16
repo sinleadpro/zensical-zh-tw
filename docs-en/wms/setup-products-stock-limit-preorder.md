@@ -85,7 +85,7 @@ When you integrate with the e-commerce warehouse (WMS), set how inventory is syn
 
 The normal sales flow. Use it when the product has physical inventory in the warehouse.
 
-1. **Basic setup**: The product has a **product SKU**, and the initial inventory sync between the storefront (EC) and the warehouse (WMS) is done.
+1. **Basic setup**: The product has a **product SKU**, and the initial inventory sync between the online store (EC) and the warehouse (WMS) is done.
 2. **How it works**:
     - Turn on **Sync inventory with warehouse**.
     - When a customer places an order and the system confirms WMS has available inventory, the order is passed to WMS right away for shipping.
@@ -93,7 +93,7 @@ The normal sales flow. Use it when the product has physical inventory in the war
 
 ## Limited Sales Mode { #specs-stock-limited }
 
-Use this for flash sales or a set allocation, when you want to release only part of the warehouse inventory to the storefront.
+Use this for flash sales or a set allocation, when you want to release only part of the warehouse inventory to the online store.
 
 1. **Adjust stock**: Manually change **Quantity** to the **quantity available for this sale**.
 
@@ -101,7 +101,7 @@ Use this for flash sales or a set allocation, when you want to release only part
 
 2. **Set the sales rule**: Set the **Insufficient Stock** field to **Stop selling**.
 3. **Turn off sync**: **Turn off** warehouse inventory sync so that WMS physical inventory does not overwrite the limited quantity.
-4. **Result**: The product is taken off the storefront automatically once the limited quantity sells out, which prevents overselling.
+4. **Result**: The product is taken off the online store automatically once the limited quantity sells out, which prevents overselling.
 
 ![](../assets/images/EC-後台-商品-所有商品-款式管理-串倉商品設定限量預購01.en.png){ .screenshot }
 

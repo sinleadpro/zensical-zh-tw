@@ -157,7 +157,7 @@ Starting state: both sides are at 10
 
 - **Step 1｜** Cancel sync -> each side counts independently again (both stay at 10)
 
-- **Step 2｜** Online store sells 1 unit -> storefront inventory drops to 9; POS store inventory stays at 10 (no longer syncs down)
+- **Step 2｜** Online store sells 1 unit -> online store inventory drops to 9; POS store inventory stays at 10 (no longer syncs down)
 
 
 ## FAQ { #faq-inventory-sync }

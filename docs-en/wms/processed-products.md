@@ -78,9 +78,9 @@ A bundle product is what online stores usually call a combo product. You bind se
 
 ## Before You Start { #prerequisites-processed-products }
 
-- **CYBERBIZ online store inventory link**: If your warehouse system is connected to your CYBERBIZ storefront (EC), follow these rules:
+- **CYBERBIZ online store inventory link**: If your warehouse system is connected to your CYBERBIZ online store (EC), follow these rules:
     - **Order of setup**: After you create the **bundle product** in WMS, [create a matching product](../ec/products/create-and-manage/create-update-products.md) in the online store admin panel.
-    - **Key match**: The storefront product's **SKU** must exactly match the **Product Uid** in WMS.
+    - **Key match**: The online store product's **SKU** must exactly match the **Product Uid** in WMS.
     - **Automatic sync**: Once the details match, the system keeps inventory in sync between both sides in real time.
 - **Bundle stock logic**
     - **Formula**: Available inventory of a bundle product = **the lowest sellable quantity among all its component products**.
@@ -108,7 +108,7 @@ After preparation, bind single products into a bundle product in the WMS admin p
 3. Fill in the basic information:
     - **Name**: Enter the bundle product's name.
     - **International barcode**: Fill in the new outer-carton barcode if the bundle has one (optional).
-    - **Product Uid (Required)**: If the warehouse system is connected to your CYBERBIZ storefront, enter the **product SKU** used in the online store (EC) admin panel.
+    - **Product Uid (Required)**: If the warehouse system is connected to your CYBERBIZ online store, enter the **product SKU** used in the online store (EC) admin panel.
 4. **Add items**:
     - Click **Add Item**.
     - Search by keyword or SKU and select the component products.

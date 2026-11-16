@@ -123,7 +123,7 @@ Headquarters admins can use this feature to configure member and store referrer 
 ## FAQ { #faq-referrer-import }
 
 ??? quote "After importing, are older orders attributed to the newly linked referrer automatically?"
-    No. Sales attribution applies only to valid storefront orders placed **after the link is created**. Closed or existing past orders are not attributed retroactively.
+    No. Sales attribution applies only to valid online store orders placed **after the link is created**. Closed or existing past orders are not attributed retroactively.
 
 ??? quote "Can I also use import to remove a member's link?"
     Yes. In the import template, use the specific command field (see the template instructions) to delete or remove the link, then upload again to update in bulk.

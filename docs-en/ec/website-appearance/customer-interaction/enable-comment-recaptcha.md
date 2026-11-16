@@ -107,10 +107,10 @@ For more information, see the [official reCAPTCHA documentation :material-open-i
 2. Fill in the registration information:
 	- **Label**: Name this reCAPTCHA as you like (for example, `YourStoreName_reCAPTCHA`).  
 	- **reCAPTCHA type**: Select "Challenge (v2)," and then select "Invisible reCAPTCHA badge"[^invisible-recaptcha].  
-	- **Domains**: Enter your storefront address.
+	- **Domains**: Enter your online store address.
   
         !!! warning "Note"
-            Do not include the prefix `https://` or the suffix `/...`. For example, if your storefront address is `https://_demo1234.cyberbiz.co_ /zh-TW`, enter only `_demo1234.cyberbiz.co_`.
+            Do not include the prefix `https://` or the suffix `/...`. For example, if your online store address is `https://_demo1234.cyberbiz.co_ /zh-TW`, enter only `_demo1234.cyberbiz.co_`.
 
 	- **Google Cloud Platform**: Select a project as needed.  
 

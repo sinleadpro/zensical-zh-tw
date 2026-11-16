@@ -448,7 +448,7 @@ If you have multiple languages turned on, you edit the item names of both the **
     We recommend putting high-value pages (main categories, campaign pages) in the first menu level.
 
 ??? quote "Do one-page stores update automatically after I change the menu?"
-    No. A one-page store uses the menu as it was when the store was created. If your storefront menu changes later, go back to that one-page store and update it manually.
+    No. A one-page store uses the menu as it was when the store was created. If your online store menu changes later, go back to that one-page store and update it manually.
 
 ??? quote "I don't want my products to expand under the default "All Products" menu. I want to set up my own categories with levels, without the products expanding"
     The system default "All Products" `collections/all` shows every product collection in the admin, displays products in the menu by default, and can't be customized. If you don't want this display, we recommend deleting this item. Then create your own [custom product categories](../../products/categories-and-tags/custom-collections.md){ title="Set Up Custom Product Category Collections" }/[conditional product categories](../../products/categories-and-tags/smart-collections.md){ title="Set Up Conditional Product Category Collections" }, and add them to the navigation bar with levels.

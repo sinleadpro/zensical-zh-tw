@@ -144,7 +144,7 @@ Inventory sync works only when **the feature switch is on** and **the product is
 1. Go to **APP MARKET > My Apps > CYBERBIZ CHANNEL BRIDGE**.
 2. Open the **Shopee Products** page and click the **Advanced Settings** tab.
 3. Toggle **Product Inventory** to `ON`.
-4. The system starts syncing your storefront inventory to all linked Shopee products.
+4. The system starts syncing your online store inventory to all linked Shopee products.
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-開啟庫存同步01.en.png)
 

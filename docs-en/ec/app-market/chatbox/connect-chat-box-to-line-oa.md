@@ -126,7 +126,7 @@ You have not linked a LINE Official Account in the admin yet.
 
 1. Click **設定 > 新增官方帳號**.
 2. The system takes you to **Third-Party Integration > LINE OA Settings**.
-3. Follow [LINE Official Account Integration Settings](../../integrations/line/account-integration/connect-line-messaging-api.md) to complete the Messaging API integration.
+3. Follow [LINE Official Account Connection Settings](../../integrations/line/account-integration/connect-line-messaging-api.md) to complete the Messaging API connection.
 
 
 ## FAQ { #faq-chat-line }

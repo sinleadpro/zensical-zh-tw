@@ -91,7 +91,7 @@ hide: []
 Before you start, make sure you complete the following:
 
 - [x] **Confirm your plan**: Check that your current LINE OA plan **supports API integration**.
-- [x] **API integration**: First, complete  [**LINE Messaging API** integration](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  setup.
+- [x] **API connection**: First, complete  [**LINE Messaging API** connection](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  setup.
 - [x] **Link rules**: Rich menu links **must not use short URLs**, which can cause the code to stop working.
 
 ## Steps to Create a Rich Menu { #operate-line-rich-menu }

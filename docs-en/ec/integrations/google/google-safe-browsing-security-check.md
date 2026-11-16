@@ -1,6 +1,6 @@
 ---
 title: "Check and Resolve Website Security Risks with Google Safe Browsing"
-description: "Learn how to use the Google Safe Browsing site status checker to proactively detect security risks on your storefront and request a review through GSC to remove the warning."
+description: "Learn how to use the Google Safe Browsing site status checker to proactively detect security risks on your online store and request a review through GSC to remove the warning."
 created: 2026-03-25 21:29
 last_modified: 2026-07-02 17:05
 lang: en-US
@@ -68,7 +68,7 @@ hide:
 
 ## Safe Browsing Website Status Guide { #specs-safe-browsing }
 
-Google provides the Safe Browsing Site Status Checker, which helps merchants proactively check whether their storefront has security risks. This helps avoid being classified as an unsafe website, which can hurt brand trust and search rankings.
+Google provides the Safe Browsing Site Status Checker, which helps merchants proactively check whether their online store has security risks. This helps avoid being classified as an unsafe website, which can hurt brand trust and search rankings.
 
 ??? info"Learn More About Google Safe Browsing and the Transparency Report"
 
@@ -78,7 +78,7 @@ Google provides the Safe Browsing Site Status Checker, which helps merchants pro
 ## Check Whether Your Site Has Security Risks { #operate-safe-browsing }
 
 1.  **Go to the tool page**: Open the [Google Check Site Status :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search?hl=zh_TW) tool page.
-2.  **Enter the URL**: Enter the storefront URL you want to check in the search box and run the search.
+2.  **Enter the URL**: Enter the online store URL you want to check in the search box and run the search.
 3.  **Review the results**:
     *   ✅ **"No unsafe content found"**: Google has not detected any security concerns for this URL.
     *   ⚠️ **"This is an unsafe website"**: Google displays a short explanation that the site may contain deceptive content, distribute malware, or have other policy violations. If the site is blocked, users see a clear [warning page :lucide-external-link:](https://web.dev/articles/hacked?hl=zh-tw) when they open it.
@@ -102,7 +102,7 @@ If Google marks your site as unsafe, follow these steps to request a review and 
 
 ## Next Steps { #next-steps-safe-browsing }
 
-To strengthen your storefront's security, we recommend that you always enable the related security settings in the CYBERBIZ admin. This lowers the risk that a compromised account is used to inject malicious content into your site.
+To strengthen your online store's security, we recommend that you always enable the related security settings in the CYBERBIZ admin. This lowers the risk that a compromised account is used to inject malicious content into your site.
 
 <div class="grid cards" markdown>
 

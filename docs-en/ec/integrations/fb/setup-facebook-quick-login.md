@@ -67,11 +67,11 @@ hide: []
 
 ## Facebook Quick Login Overview { #overview-facebook-quick }
 
-**Facebook Quick Login** lets customers register or sign in to their member account on the "Member Registration" or "Checkout" page with their Facebook account. The system automatically retrieves the email address linked to their Facebook account and uses it as their account, then links the data to the storefront customer list, making it easier for merchants to filter audiences later.
+**Facebook Quick Login** lets customers register or sign in to their member account on the "Member Registration" or "Checkout" page with their Facebook account. The system automatically retrieves the email address linked to their Facebook account and uses it as their account, then links the data to the online store customer list, making it easier for merchants to filter audiences later.
 
 ## Before You Begin { #operate-facebook-quick }
 
-- [x] **URL security:** Your storefront URL must have an **SSL certificate** (it must start with https://).
+- [x] **URL security:** Your online store URL must have an **SSL certificate** (it must start with https://).
 - [x] **Business verification:** The Meta Business Suite you use must first complete [verification :lucide-external-link:](https://www.facebook.com/business/help/159334372093366).
 - [x] **Domain redirect:** In the admin's "Domain Management" page, make sure the domain selected for "[Always redirect customers here](../../website-management/domain-management.md#operate-domain-mgmt-add){ title="Domain Management" }" is the domain set in Facebook.
 - [x] **Email restriction:** If customers use a Hinet email address, Hinet may block messages, so they might not receive system notifications such as password reset emails. We recommend asking them to use a different email address.
@@ -155,14 +155,14 @@ This method requires creating an app through **Meta for Developers**. It suits m
 
 1. In the left menu, click "App Settings" > "Basic".
 2. Enter the following fields:
-    - **App Domains**: Enter your storefront's **custom domain**.
+    - **App Domains**: Enter your online store's **custom domain**.
         - **Format requirement**: When you enter the URL, do not add the `https://` prefix.
           -  If your URL is `https://example.com`, enter `example.com`
         - **Subdomain compatibility**: If your URL includes the `www` subdomain, enter the root domain and the `www` subdomain separately.
           -  Root domain: `example.com`
           -  Subdomain: `www.example.com`
-    - **Privacy Policy URL:** Enter the URL of your storefront's privacy policy page (it must be linked from the homepage). For example: `https://test.cyberbiz.co/pages/privacy`
-    - **Terms of Service URL:** Enter the URL of your storefront's terms of service page (it must be linked from the homepage). For example: `https://test.cyberbiz.co/pages/terms`
+    - **Privacy Policy URL:** Enter the URL of your online store's privacy policy page (it must be linked from the homepage). For example: `https://test.cyberbiz.co/pages/privacy`
+    - **Terms of Service URL:** Enter the URL of your online store's terms of service page (it must be linked from the homepage). For example: `https://test.cyberbiz.co/pages/terms`
     - **Data Deletion Instructions URL:** Select "Data Deletion Instructions URL" and usually enter the privacy policy page URL.
     - **App Icon:** Upload your store logo (1024x1024 pixels recommended).
     - **Category:** Select an app category, such as Business and Pages.
@@ -221,7 +221,7 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 ---
 
-#### Integrate Data to CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
+#### Connect Data to CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
 
 1. On the "Basic" page, get the **App ID** and **App Secret** (click "Show" to view the App Secret).
 

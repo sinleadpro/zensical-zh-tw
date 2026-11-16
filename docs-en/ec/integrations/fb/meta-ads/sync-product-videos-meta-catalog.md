@@ -78,7 +78,7 @@ This feature lets merchants automatically sync product data on the CYBERBIZ plat
 Before syncing, make sure you meet the following requirements and specifications:
 
 - [x] **Product video upload:** Merchants must complete [Product Video Upload](../../../products/create-and-manage/setup-product-videos.md){ title="Set Up Product Videos" } in the CYBERBIZ admin.
-- [x] **Extension integration:** Merchants must have integrated the "[Facebook New Business Extension](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }" feature.
+- [x] **Extension connection:** Merchants must have connected the "[Facebook New Business Extension](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }" feature.
 - [x] **Layout restriction:** The product video feature currently supports only the **drag-and-drop layout**. Stores using other layouts cannot upload or sync videos.
 
 ## Sync Setup Steps { #operate-meta-videos }

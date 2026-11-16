@@ -74,12 +74,12 @@ hide: []
 ## Prerequisites and Limitations { #prerequisites-search-console }
 
 - [x] **Consistent account**: Make sure the account you use to sign in to Google Search Console is the same as your Google Analytics (GA) account, and that you have admin permissions for it.
-- [x] **Domain settings**: Set your primary domain in the storefront admin to "Own domain" and turn on "Always redirect" to keep search engine indexing consistent.
+- [x] **Domain settings**: Set your primary domain in the online store admin to "Own domain" and turn on "Always redirect" to keep search engine indexing consistent.
 
 ## Registration and Verification Steps { #operate-search-console }
 
 1. **Go to GSC**: Go to the [Google Search Console :lucide-external-link:](https://search.google.com/search-console/) page and click **Get Started**.
-2. **Enter URL**: On the property type selection screen, click **URL prefix** on the right and enter your storefront URL (must include https://).
+2. **Enter URL**: On the property type selection screen, click **URL prefix** on the right and enter your online store URL (must include https://).
 3. **Select a verification method**: Select **HTML tag** as the verification method. The system generates a code snippet. Click the button next to it to copy the code.
 
     ![Copy HTML tag code](../../../assets/images/ec-第三方整合-google-gschtml標記複製.en.gif){ title="Copy HTML tag code" }

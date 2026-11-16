@@ -137,7 +137,7 @@ For detailed setup instructions, see [Omnichat's official tutorial :lucide-exter
 ??? quote "Why doesn't the customer service icon appear on my storefront after I paste the GetButton code?"
 	This usually has one of these causes:
 	
-	- **Cache delay:** Open your storefront in a private (incognito) window, or clear your browser cache and refresh.
+	- **Cache delay:** Open your online store in a private (incognito) window, or clear your browser cache and refresh.
 	- **Wrong position:** Check that the code is pasted in the `theme.liquid` file **before** the `</body>` tag.
 	- **Code conflict:** If you also turned on FBE 2.0 or another third-party customer support plugin, they may conflict. Pause the other plugins first and test again.
 
@@ -146,7 +146,7 @@ For detailed setup instructions, see [Omnichat's official tutorial :lucide-exter
 	- **Omnichat:** Supports advanced display rules (for example, show only on product pages, or pop up only after a customer stays 30 seconds). If you need this, consider Omnichat first.
 
 ??? quote "What if the customer service button covers my website's existing "Back to Top" button?"
-	Adjust the **Position** on the GetButton setup page: **Try changing the position from `Right` to `Left`.** Or adjust the vertical/horizontal offsets in the `Pro` option (paid) to avoid your storefront's existing layout elements.
+	Adjust the **Position** on the GetButton setup page: **Try changing the position from `Right` to `Left`.** Or adjust the vertical/horizontal offsets in the `Pro` option (paid) to avoid your online store's existing layout elements.
 
 ??? quote "Will GetButton slow down my website?"
 	GetButton is a lightweight, externally loaded script, so its effect on loading speed is minimal. For the best performance, though, **do not install several customer service plugins of the same kind at once**.

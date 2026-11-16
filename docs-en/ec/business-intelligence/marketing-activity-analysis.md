@@ -446,9 +446,9 @@ Switch to the "**Bonus Analysis**" tab to view how bonus points are used across 
     [](){ #faq-marketing-activity-valid-order }
     All data on this page counts only "valid orders," defined as orders whose status isn't canceled and whose return status is No Return Needed or Return Rejected. Canceled or returned orders aren't counted, so the figures differ from the total in the order list.
 
-[^coupon-distribution-count]: The number of coupons "available for use" on the storefront that day. Each day, the system automatically counts the following sources: coupons issued today, and coupons issued before today that are still valid today.
+[^coupon-distribution-count]: The number of coupons "available for use" on the online store that day. Each day, the system automatically counts the following sources: coupons issued today, and coupons issued before today that are still valid today.
 
-[^coupon-used-count]: The number of coupons on the storefront that day that are "within their validity period and recognized as used." When a customer successfully uses a coupon within the coupon validity period, it counts toward the used quantity (quantity 1) for each day from the day of use until the coupon expires. Once the coupon expires, it no longer counts toward the used quantity on later dates.
+[^coupon-used-count]: The number of coupons on the online store that day that are "within their validity period and recognized as used." When a customer successfully uses a coupon within the coupon validity period, it counts toward the used quantity (quantity 1) for each day from the day of use until the coupon expires. Once the coupon expires, it no longer counts toward the used quantity on later dates.
 
 ## See Also { #reference-marketing-activity }
 

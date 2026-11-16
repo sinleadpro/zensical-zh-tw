@@ -5,7 +5,7 @@ products: [EC]
 plan_options: []
 notes: []
 title: "FB Business Extension Overview"
-description: "Complete FBE account authorization, domain verification, and Facebook and Instagram store integration setup."
+description: "Complete FBE account authorization, domain verification, and Facebook and Instagram store connection setup."
 lang: en-US
 icon: lucide/blocks
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/"
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## Store Integration and Management { #operate-facebook-shop }
+## Store Connection and Management { #operate-facebook-shop }
 
 <div class="grid cards" markdown>
 

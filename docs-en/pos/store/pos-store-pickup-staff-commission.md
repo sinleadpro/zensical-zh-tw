@@ -80,7 +80,7 @@ Use a commission mechanism to motivate store staff to process "Store Pickup" ord
 ![](../../assets/images/EC-後台-分潤-門市取貨店員分潤-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
-    - **Improve store staff engagement**: Provide store staff with additional processing incentives for orders placed on the storefront and picked up in store, balancing the workload between physical and online channels.
+    - **Improve store staff engagement**: Provide store staff with additional processing incentives for orders placed on the online store and picked up in store, balancing the workload between physical and online channels.
     - **Fair compensation for labor**: Set commissions separately for the "In-Store Arrival" and "Customer Handover" steps, so every staff member involved in the process receives the corresponding bonus.
     - **Simplify accounting and settlement**: The system automatically calculates commissions based on order status and the staff who handled each order. Administrators only need to download the report to pay out bonuses, which reduces manual calculation errors.
 

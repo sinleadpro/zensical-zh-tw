@@ -418,7 +418,7 @@ hide:
         <div class="release-divider" aria-hidden="true"></div>
         <ul class="release-features">
           <li class="release-feature-row">
-            <span class="release-feature-name">CHAT BOX｜Unified chat entry on the storefront</span>
+            <span class="release-feature-name">CHAT BOX｜Unified chat entry on the online store</span>
             <span class="release-feature-tags">
               <span class="release-version-tag">#Enterprise</span>
               <span class="release-version-tag">#PLUS</span>

@@ -119,7 +119,7 @@ Log in to the [Fiuu admin console](https://portal.fiuu.com/index.php?mod=authent
 
 ### 3. Configure the Notification URLs { #operate-sea-payments-fiuu-notify }
 
-To ensure Fiuu can return transaction results to your storefront, enter the following three URLs under **Settings** in the Fiuu admin console:
+To ensure Fiuu can return transaction results to your online store, enter the following three URLs under **Settings** in the Fiuu admin console:
 
 - **Return URL**: `https://cyberbizpay.com/razer/frontend`
 - **Notification URL**: `https://cyberbizpay.com/razer/backend`

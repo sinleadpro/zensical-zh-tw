@@ -172,9 +172,9 @@ Use the **Account Settings** section to control permissions based on member beha
 
 To help merchants accurately assess member value, the system consolidates **real-time online store and retail store orders** with **manually added orders from external channels**. This provides a comprehensive overview of spending data and ensures that VIP tiers and benefits continue seamlessly wherever the member shops.
 
-### 1. Storefront And Retail Store Purchases { #operate-member-profiles-store-orders }
+### 1. Online Store And Retail Store Purchases { #operate-member-profiles-store-orders }
 
-Scroll to the **Orders** section. This section automatically consolidates valid spending totals from the storefront (EC) and POS retail stores as the primary basis for assessing member contribution.
+Scroll to the **Orders** section. This section automatically consolidates valid spending totals from the online store (EC) and POS retail stores as the primary basis for assessing member contribution.
 
 -   **Use Case**: Click the **Order Number** to view the transaction's item details and shipping status.
 -   **Data Update**: The amount is added to the **Online Store and Retail Store Spending Total** as soon as the order is placed.
@@ -351,7 +351,7 @@ Use this feature to help members complete an order or place a new order when a s
 
 For security reasons, administrators cannot directly view or change member passwords.
 
-- **Instructions**: Tell the member to go to the storefront login page, click **Forgot Password**, and enter their email address to receive a password reset email automatically sent by the system.
+- **Instructions**: Tell the member to go to the online store login page, click **Forgot Password**, and enter their email address to receive a password reset email automatically sent by the system.
 - **Bulk-Imported Accounts**: If a new Excel import account does not have a password, the member must also use **Forgot Password** to initialize it when logging in for the first time.
 
 !!! warning "HiNet Email Delivery Issue"

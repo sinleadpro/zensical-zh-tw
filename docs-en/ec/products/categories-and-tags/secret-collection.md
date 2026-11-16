@@ -109,16 +109,16 @@ To set up a secret collection, first create a customized collection, and then hi
 
 ### Hide Products and Keep Them Out of Search { #operate-secret-collection-hide }
 
-To make sure regular customers cannot find the products in the secret collection on your storefront, complete the following settings:
+To make sure regular customers cannot find the products in the secret collection on your online store, complete the following settings:
 
 - [x] **Turn off site search for the product:**
     - Go to **Products > All Products** and open the product's **Product Information** tab, or click a product name in the secret collection to open the page.
     - Set "**Product search**" to **Off**.
-    - **Effect:** The product cannot be found in the storefront search box, does not appear on the storefront "All Products (Collection/All)" page, and is not indexed by Google.
+    - **Effect:** The product cannot be found in the online store search box, does not appear on the storefront "All Products (Collection/All)" page, and is not indexed by Google.
 
 	![Turn off product search](../../../assets/images/ec-商品-秘密群組-關閉商品搜尋功能.en.gif){ title="Turn Off Product Search" }
 
-- [x] **Navigation bar rule:** After you create a secret store, **do not** add a link to this collection in your storefront navigation bar or menus, so regular users do not open it by mistake.
+- [x] **Navigation bar rule:** After you create a secret store, **do not** add a link to this collection in your online store navigation bar or menus, so regular users do not open it by mistake.
 - [x] **Exclude specific keywords (advanced):** By editing the `search.liquid` code, you can keep [products containing specific words out of search results](../discoverability/exclude-keyword-products-search.md){ title="Exclude Products with Specific Keywords from Search Results" }  .
 
 ## Notes and Recommendations { #prerequisites-secret-collection }

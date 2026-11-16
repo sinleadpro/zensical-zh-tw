@@ -93,7 +93,7 @@ Before you begin, confirm that you have completed the following prerequisites:
 
 1. **Open Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook Settings > Campaign Settings**.
 
-    - Not integrated yet: Click "Connect Now" (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
+    - Not connected yet: Click "Connect Now" (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
     - Already integrated: Click "Go Now".
 
 2. **Start editing**: In the left navigation, click Ad Campaigns > Campaign Settings > Create Ad Campaign.

@@ -69,7 +69,7 @@ Google Ads (formerly Google AdWords) is Google's online advertising platform. Me
 ## Why Set up Conversion Tracking { #operate-google-ads-conversions }
 
 A "conversion" is a key action that a user completes on your website after clicking an ad, such as checking out, signing up as a member, or filling in a form.
-Setting up conversion tracking in Google Ads helps merchants measure ad performance, understand customer behavior, and further refine ad targeting. CYBERBIZ integrates with Google conversion codes. Follow the detailed steps below to set it up:
+Setting up conversion tracking in Google Ads helps merchants measure ad performance, understand customer behavior, and further refine ad targeting. CYBERBIZ connects with Google conversion codes. Follow the detailed steps below to set it up:
 
 ## Prerequisites and Limitations { #prerequisites-google-ads-conversions }
 

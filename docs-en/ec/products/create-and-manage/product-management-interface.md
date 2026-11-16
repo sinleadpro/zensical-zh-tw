@@ -137,7 +137,7 @@ Select the checkboxes on the left of the list to perform **bulk actions**, inclu
 
 *   **Status and permissions**: Publish, hide, or delete in batches, and turn search on or [exclude products from search](#operate-product-ui-visibility).
 *   **Export data**: [Export the product list](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export) or the [member exclusive price list](../pricing/setup-vip-member-pricing.md#operate-vip-pricing-export).
-*   **Channel management**: [Copy storefront products in bulk to POS stores](../bulk-operations/copy-products-to-pos-stores.md).
+*   **Channel management**: [Copy online store products in bulk to POS stores](../bulk-operations/copy-products-to-pos-stores.md).
 
 ![Bulk actions](../../../assets/images/ec-products-batch-operations.en.png){ title="Bulk Actions" }
 
@@ -232,7 +232,7 @@ In the management interface, you can set each product's "product search" setting
 
 If you integrate other e-commerce platforms, the management interface shows the related link status:
 
-*   **Shopee sync**: Check whether the Shopee icon in the "Connected Channel" column is lit to confirm that inventory is linked between your storefront and your Shopee shop.
+*   **Shopee sync**: Check whether the Shopee icon in the "Connected Channel" column is lit to confirm that inventory is linked between your online store and your Shopee shop.
 *   **Tag exclusion**: To keep items from being uploaded to Google Merchant Center or the Facebook shop, enter "贈品" (gift) or "排除product feed" (exclude product feed) in the tags field on the product management page.
 
 

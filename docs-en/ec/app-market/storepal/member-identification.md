@@ -107,7 +107,7 @@ This module is at the top of the interface. Use it to confirm member identity an
 
 	![](../../../assets/images/門市助理-後台-門市管理-角色與權限-會員基本資料01.en.png){ .screenshot }
 
-=== "Storefront (EC) Sync"
+=== "Online Store (EC) Sync"
 
 	**Data Sync**: Data edited in the frontend is updated in **Customer Management > All Customers** in real time.
 
@@ -127,7 +127,7 @@ This module is at the top of the interface. Use it to confirm member identity an
 
 	![](../../../assets/images/門市助理-後台-設定-功能設定-會員標籤01.en.png){ .screenshot }
 
-=== "Storefront (EC) Sync"
+=== "Online Store (EC) Sync"
 
 	**Tag Source**: Tags shown in the frontend come from the member tag system in the EC admin, which headquarters uses for retargeting.
 

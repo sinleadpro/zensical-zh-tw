@@ -99,7 +99,7 @@ You make this setting by editing the code file `js/main.js`:
 
 ## Check the Result { #operate-priority-recipient-check }
 
-When you finish, refresh the checkout page on your storefront and confirm that it now asks for the recipient information first.
+When you finish, refresh the checkout page on your online store and confirm that it now asks for the recipient information first.
 
 ![Recipient-first checkout on the storefront](../../../assets/images/ec-網站外觀-結帳頁優先填寫收件人-前台.en.png){ title="Recipient-First Checkout on the Storefront" }
 

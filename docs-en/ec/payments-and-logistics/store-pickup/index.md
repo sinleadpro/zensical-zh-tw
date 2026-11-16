@@ -78,7 +78,7 @@ hide:
 
 # Store Pickup: Omnichannel Operations Navigation
 
-**Store Pickup** is the core feature that enables OMO (Online Merge Offline). With this service, customers can place orders on the storefront and choose to pick up at a physical store. This saves customers shipping fees and gives them flexible pickup options, while also effectively directing online traffic to physical stores and creating opportunities for repeat sales.
+**Store Pickup** is the core feature that enables OMO (Online Merge Offline). With this service, customers can place orders on the online store and choose to pick up at a physical store. This saves customers shipping fees and gives them flexible pickup options, while also effectively directing online traffic to physical stores and creating opportunities for repeat sales.
 
 !!! tip "Use Cases"
     - **Boost store visits**: Attract customers to pick up orders in store and give store staff more chances to recommend add-on products.
@@ -106,7 +106,7 @@ The store pickup feature spans **Payment and logistics settings**, **Order fulfi
 
     ---
 
-    Manage store pickup orders received on the storefront and deliver parcels to the designated store.
+    Manage store pickup orders received on the online store and deliver parcels to the designated store.
 
     [__Store Pickup Order Fulfillment Workflow__](../../orders/store-pickup-orders.md)
 

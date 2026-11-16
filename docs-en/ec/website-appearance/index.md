@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Use the drag-and-drop theme editor to create and adjust your storefront's look, including global settings, page content editing, and product page layout.
+    Use the drag-and-drop theme editor to create and adjust your online store's look, including global settings, page content editing, and product page layout.
 
     [:octicons-arrow-right-24: Go](theme-and-layout/theme-editor.md)
 
@@ -125,7 +125,7 @@ hide:
 
     ---
 
-    Create brand articles with blog management, and use categories, post tags, and SEO settings to build a content marketing foundation and increase your storefront's search visibility.
+    Create brand articles with blog management, and use categories, post tags, and SEO settings to build a content marketing foundation and increase your online store's search visibility.
 
     [:octicons-arrow-right-24: Go](pages-and-content/blog-management-publishing-guide.md)
 
@@ -173,7 +173,7 @@ hide:
 
     ---
 
-    Fill in your company information in the CYBERBIZ admin and show your business name and tax ID number in your storefront footer, as required by Ministry of Finance regulations.
+    Fill in your company information in the CYBERBIZ admin and show your business name and tax ID number in your online store footer, as required by Ministry of Finance regulations.
 
     [:octicons-arrow-right-24: Go](site-settings/business-disclosure.md)
 
@@ -197,7 +197,7 @@ hide:
 
     ---
 
-    Add a customer service widget to your storefront with GetButton, Facebook live chat, or Omnichat to communicate with customers more efficiently.
+    Add a customer service widget to your online store with GetButton, Facebook live chat, or Omnichat to communicate with customers more efficiently.
 
     [:octicons-arrow-right-24: Go](customer-interaction/setup-customer-service-widget.md)
 

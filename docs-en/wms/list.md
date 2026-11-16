@@ -84,7 +84,7 @@ Use these filters to find exactly the orders you need to handle:
     - **Order Status**: Filter by stage (such as Pending, Processing, or Completed).
     - **Goods / shipping status**: Separate goods preparation from delivery progress.
 - **Source and routing**:
-    - **Channel**: Filter orders from your brand storefront or other integrated (imported) channels.
+    - **Channel**: Filter orders from your brand online store or other integrated (imported) channels.
     - **Shipping Status**: Track where a parcel currently is with the carrier (such as Shipped or In Delivery).
 - **Priority**:
     - **Urgent Status**: Quickly filter orders marked as priority or urgent so they ship on time.
@@ -117,7 +117,7 @@ When a return is requested, the order moves to one of these statuses:
 
 ### 1. Import Orders { #operate-order-list-import }
 
-Use the import feature when orders from channels not connected to your storefront need to ship from the warehouse.
+Use the import feature when orders from channels not connected to your online store need to ship from the warehouse.
 
 - **Where**: Click the **Import** button on the right of the list.
 - **Required steps**:

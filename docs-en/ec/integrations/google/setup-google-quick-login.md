@@ -94,7 +94,7 @@ Merchants must first create a project on the Google Developer Platform and obtai
 
 ### CYBERBIZ Backend Integration Setup { #operate-google-login-cyberbiz-backend-connect }
 
-After you get your keys, return to the storefront admin panel to complete the final activation step.
+After you get your keys, return to the online store admin panel to complete the final activation step.
 
 1.  **Access path**: Go to the admin panel and select **Third-party Integration** > **Google Settings**.
 2.  **Enter information**: Find the **Google Sign-up/Login** section.

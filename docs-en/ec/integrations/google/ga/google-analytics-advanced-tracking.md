@@ -70,7 +70,7 @@ comments: false
 
 ## Google Analytics Advanced Data Analysis Guide { #overview-ga-advanced }
 
-After you complete the basic integration between Google Analytics 4 (GA4) and your website, GA4 starts recording basic traffic data. To analyze your website traffic in more depth and build more accurate user profiles, follow the instructions below to configure advanced settings.
+After you complete the basic connection between Google Analytics 4 (GA4) and your website, GA4 starts recording basic traffic data. To analyze your website traffic in more depth and build more accurate user profiles, follow the instructions below to configure advanced settings.
 
 ## <small>Enhanced Measurement</small> { #intro-ga-advanced }
 

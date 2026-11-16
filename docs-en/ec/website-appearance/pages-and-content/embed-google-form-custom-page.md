@@ -85,7 +85,7 @@ Embed a Google Form in a CYBERBIZ page to easily handle **reservations, inquirie
 2. **Add a block:** Click **Add Block**, select **Custom HTML**, and click it to open the editing page.
 3. **Paste the code:** Click **Edit** to open the editor, and paste the Google Form code you copied into the blank area.
 4. **Make it responsive (important):** In the pasted code, find the `width` attribute and change its value (such as 640) to **`100%`**. This makes the form fit the screen width and display in full on both mobile and desktop.
-5. **Save and preview:** Click Save when you finish. The Google Form now appears on your storefront page, ready to fill in.
+5. **Save and preview:** Click Save when you finish. The Google Form now appears on your online store page, ready to fill in.
 
 ![Embedding a Google Form](../../../assets/images/ec-網站外觀-自訂頁面-嵌入google表單.en.gif){ title="Embedding a Google Form" }
 
@@ -116,4 +116,4 @@ Embed a Google Form in a CYBERBIZ page to easily handle **reservations, inquirie
 	A natively embedded Google Form does not support "automatic redirects" to an external URL after submission.
 	
 	
-	**Alternative:** In the Google Form, go to "Settings" > "Presentation" > "Confirmation message" and paste a link to your storefront so respondents can click to go back.
+	**Alternative:** In the Google Form, go to "Settings" > "Presentation" > "Confirmation message" and paste a link to your online store so respondents can click to go back.

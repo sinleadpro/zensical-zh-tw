@@ -71,7 +71,7 @@ hide: []
 
 ## Automated Ads Overview { #intro-automated-ads }
 
-**Automated Advertising System** integrates mainly with **Google Shopping Ads**, so merchants do not need to create their own ad creatives. The system automatically syncs storefront product information to Google, so products appear as image cards in search results for related keywords. This helps attract targeted traffic and drive purchases.
+**Automated Advertising System** integrates mainly with **Google Shopping Ads**, so merchants do not need to create their own ad creatives. The system automatically syncs online store product information to Google, so products appear as image cards in search results for related keywords. This helps attract targeted traffic and drive purchases.
 
 ??? example "Google Shopping Ad Results"
     1. When a customer searches for a keyword on Google and Google determines that the keyword is relevant to your products, the products appear as image cards on the search results page.
@@ -91,8 +91,8 @@ After activation, the automated ads system provides three tabs:
 
 ## Prerequisites and Limitations { #prerequisites-automated-ads }
 
-- [x] **Company Contact Information**: Before activation, complete your [company contact information](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="Set Up Basic Site Information" } in **General Settings**; otherwise, you cannot complete the GMC integration.
-- [x] **GMC Account**: Select **CYBERBIZ Managed** or provide **Merchant-owned account**. Choose one of the two options to complete the integration.
+- [x] **Company Contact Information**: Before activation, complete your [company contact information](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="Set Up Basic Site Information" } in **General Settings**; otherwise, you cannot complete the GMC connection.
+- [x] **GMC Account**: Select **CYBERBIZ Managed** or provide **Merchant-owned account**. Choose one of the two options to complete the connection.
 
 ## Billing Rules { #specs-automated-ads-pricing }
 
@@ -117,9 +117,9 @@ After activation, the automated ads system provides three tabs:
 
 ---
 
-### Select GMC Integration Method { #operate-automated-ads-gmc }
+### Select GMC Connection Method { #operate-automated-ads-gmc }
 
-After the first top-up succeeds, the system asks you to choose how to integrate your Google Merchant Center (GMC) account. Each website can declare only one GMC ownership, so choose carefully and do not change it arbitrarily.
+After the first top-up succeeds, the system asks you to choose how to connect your Google Merchant Center (GMC) account. Each website can declare only one GMC ownership, so choose carefully and do not change it arbitrarily.
 
 ![Select GMC integration method](../../../assets/images/ec-第三方整合-自動化廣告系統-選擇串接gmc方式.en.png)
 
@@ -128,7 +128,7 @@ After the first top-up succeeds, the system asks you to choose how to integrate 
 
     Best for merchants who do not yet have a GMC account. CYBERBIZ automatically creates the account and manages it on their behalf.
 
-    1. In the GMC integration method, select **CYBERBIZ Managed**.
+    1. In the GMC connection method, select **CYBERBIZ Managed**.
     2. If the screen shows that website ownership has already been declared, click **Confirm** to continue (click **Back** to choose your own account instead).
     3. CYBERBIZ will transfer the GMC declaration rights. Wait for activation to complete.
 
@@ -139,7 +139,7 @@ After the first top-up succeeds, the system asks you to choose how to integrate 
 === "Merchant's Own Account"
     Best for merchants who already have a GMC account.
 
-    1. In the GMC integration method, select **Merchant-owned account**.
+    1. In the GMC connection method, select **Merchant-owned account**.
     2. Enter your GMC account (the nine-digit number in the upper-right corner of the GMC admin). (See the [GMC Integration Setup Guide](setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" })
     3. Follow the on-screen prompts to share access with CYBERBIZ's Google Ads account from the GMC admin and complete the Google Ads ID linking.
 
@@ -155,7 +155,7 @@ After activation, go to the **Google Ads Settings** tab to set up your Shopping 
 
 1. **Enter the Campaign Name**: In the **Ad Campaign Name** field, enter the campaign name.
 2. **Set the Daily Budget**: In the **Set Budget** field, enter your average daily budget (we recommend at least NT$300[^budget]).
-3. **Confirm and Save**: Click **Confirm and Save**. The system automatically creates an ad account and integrates GMC product data. Ad delivery starts after Google approves the campaign (about 2 to 3 days).
+3. **Confirm and Save**: Click **Confirm and Save**. The system automatically creates an ad account and connects GMC product data. Ad delivery starts after Google approves the campaign (about 2 to 3 days).
 4. **Adjust Delivery Status**: In the **Shopping Ad Status** section, you can click **Pause Ad** or **Resume Ad** at any time to control the [ad delivery status](../references/automated-ads-statuses.md#reference-automated-ads-delivery-status){ data-preview }.
 
 ![Google Ads settings](../../../assets/images/ec-第三方整合-自動化廣告-google廣告設定.en.png)
@@ -188,7 +188,7 @@ In the **Campaign Management** tab, monitor ad spend and budget:
 
 ## Important Rules and Limitations { #specs-automated-ads }
 
-!!! warning "Each website can declare only one GMC ownership. Do not apply repeatedly or change it arbitrarily, to avoid ad delivery errors. To change the integrated GMC source, contact customer support."
+!!! warning "Each website can declare only one GMC ownership. Do not apply repeatedly or change it arbitrarily, to avoid ad delivery errors. To change the connected GMC source, contact customer support."
 
 Product information is the ad content. Follow these guidelines to help pass Google review:
 
@@ -254,7 +254,7 @@ Product information is the ad content. Follow these guidelines to help pass Goog
 <!---->
 <!-- ## Automated Ads System Overview -->
 <!---->
-<!-- **Automated Advertising System** integrates mainly with **Google Shopping Ads**. Its core advantage is that merchants do not need to create extra ad creatives. The system automatically syncs storefront product information to Google, so products appear as image cards in related keyword search results, which helps attract targeted traffic and drive purchases. -->
+<!-- **Automated Advertising System** integrates mainly with **Google Shopping Ads**. Its core advantage is that merchants do not need to create extra ad creatives. The system automatically syncs online store product information to Google, so products appear as image cards in related keyword search results, which helps attract targeted traffic and drive purchases. -->
 <!---->
 <!-- ### Google Shopping Ad Results -->
 <!---->
@@ -272,7 +272,7 @@ Product information is the ad content. Follow these guidelines to help pass Goog
 <!---->
 <!--     !!! info "The first top-up has no service fee. A 5% service fee applies starting from the second top-up." -->
 <!---->
-<!-- 3.  **Choose a Google Merchant Center (GMC) integration method**: -->
+<!-- 3.  **Choose a Google Merchant Center (GMC) connection method**: -->
 <!--     *   [**Create a CYBERBIZ Managed GMC Account**](#cyberbiz-代管): Best for beginners. If ad delivery has issues, the system can troubleshoot quickly, but merchants cannot log in to that GMC account to view its data. -->
 <!--     *   [**Connect Your Existing GMC Account**](#商家自有帳號): Manually enter your own GMC number, then follow the guide to complete the Google Ads ID binding. -->
 <!---->

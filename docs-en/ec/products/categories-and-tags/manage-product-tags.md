@@ -57,7 +57,7 @@ tags:
   - GMC
   - "Facebook DPA"
   - "LINE Shopping"
-  - "Market America"
+  - "Shop.com"
   - Gifts
   - "Exclude from Product Feed"
   - "Product Categories"
@@ -91,7 +91,7 @@ Product tags help you manage products and marketing campaigns more effectively:
 - Product categorization: Quickly tag different types of products for easier filtering and bulk management.
 - Marketing campaigns: Add products to tag groups in batches for promotions, combos, or bundle sales.
 - Faster search and operations: Find products quickly by tag to speed up admin tasks and management.
-- Exclude from third-party platform sync: Set specific tags to exclude products from the system's third-party platform data sync (such as GMC, Facebook DPA, LINE, and Market America).
+- Exclude from third-party platform sync: Set specific tags to exclude products from the system's third-party platform data sync (such as GMC, Facebook DPA, LINE, and Shop.com).
 
 ## Steps { #operate-product-tags }
 
@@ -181,14 +181,14 @@ Set specific tags to exclude products from the system's third-party platform dat
 - :lucide-tags: [__Google Merchant Center__](../../integrations/google/setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" }  
 - :simple-facebook: [__FB Dynamic Product Catalog__](../../integrations/fb/meta-ads/sync-product-videos-meta-catalog.md){ title="Sync Product Videos to the Meta Catalog" }
 - :simple-line: [__LINE Shopping__](../../integrations/line/apply-setup-line-shopping-guide.md){ title="Apply for and Set Up LINE Shopping Referrals" }
-- :simple-stryker: [__Market America SHOP.COM__](../../integrations/setup-shop-com.md){ title="Integrate the Market America Channel" } Supports only the `贈品` tag
+- :simple-stryker: [__Shop.com__](../../integrations/setup-shop-com.md){ title="Connect SHOP.COM Channel" } Supports only the `贈品` tag
 </div>
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. In the product list, click the **product name** of the product you want to exclude to open the product edit page.
 3. Click the **Settings** tab and enter one of the following exclusion tags in the **Product Tags** field:
 	 - `排除product feed` ("exclude product feed"): Applies to GMC, the Facebook Dynamic Product Catalog (DPA), and LINE Shopping.
-	 - `贈品` ("gift"): Applies to all third-party platforms, including Market America.
+	 - `贈品` ("gift"): Applies to all third-party platforms, including Shop.com.
 
     !!! warning "Do not add a space between `排除` and `product`."
 

@@ -132,7 +132,7 @@ The system automatically embeds tracking code for the following actions, so you 
 | :--- | :--- |
 | **CompleteRegistration** | Visitor completes registration |
 | **Search** | Search for products |
-| **PageView** | View any page on the storefront |
+| **PageView** | View any page on the online store |
 | **ViewContent** | View a product detail page |
 | **AddToCart** | Add a product to the cart |
 | **InitiateCheckout** | Enter the checkout page |
@@ -143,7 +143,7 @@ The system automatically embeds tracking code for the following actions, so you 
 
 ## How to Check Whether Setup Is Successful { #operate-line-tag-settings }
 
-*   **Method 1 (manual check)**: Perform a specific action on the storefront, such as registering or adding a product to the cart. Then refresh the LINE Tag management page and check whether the event name appears in the status list.
+*   **Method 1 (manual check)**: Perform a specific action on the online store, such as registering or adding a product to the cart. Then refresh the LINE Tag management page and check whether the event name appears in the status list.
 
     ![Tag Tracking Status](../../../../assets/images/ec-第三方整合-lineoa-linetag追蹤狀態.en.png){ title="Tag Tracking Status" }
 
@@ -195,7 +195,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
 
 - :lucide-split:{ .lg }   
   [__Audience Integration__](setup-line-oa-audience.md){ title="Set Up LINE OA Audience Integration" }  
-  Filter storefront members and sync them to LINE to create audiences. Use these audiences for precise push messages or ad campaigns.
+  Filter online store members and sync them to LINE to create audiences. Use these audiences for precise push messages or ad campaigns.
 
 </div>
 
@@ -204,7 +204,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
 ??? quote "Why does my LINE Tag status keep showing 'Waiting for data' or 'No activity'?"
     There are usually three possible causes:
 
-    1. **No traffic yet**: Visit a few product pages on the storefront yourself and complete an **Add to Cart** action.
+    1. **No traffic yet**: Visit a few product pages on the online store yourself and complete an **Add to Cart** action.
     2. **Ad blocker interference**: Make sure ad blockers such as AdBlock are turned off during the check.
     3. **Tag ID entered in the wrong place**: Make sure the IDs for `account` (OA) and `lap` (Ad) are not swapped.
 

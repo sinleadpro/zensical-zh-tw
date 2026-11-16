@@ -219,8 +219,8 @@ The "Order Payment and Shipping Analysis" and "Order Reports" tabs are available
 
 The **Third-Party Referral** charts in "Order Payment and Shipping Analysis" appear only if your store is integrated with a referral platform. They appear if any of the following conditions is met:
 
-* "Market America Partner Store" is set up
-* "LINE Shopping" is integrated
+* "Shop.com Partner Store" is set up
+* "LINE Shopping" is connected
 
 If none of these are enabled, the whole set of third-party referral charts isn't shown.
 
@@ -605,7 +605,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 ??? quote "Why can't I see the "Third-Party Referral" charts?"
     [](){ #faq-order-analysis-no-third-party }
-    Third-party referral charts appear only if your store is integrated with a referral platform. Check whether "Market America Partner Store" or "LINE Shopping" is set up. Details in [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" }.
+    Third-party referral charts appear only if your store is connected with a referral platform. Check whether "Shop.com Partner Store" or "LINE Shopping" is set up. Details in [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" }.
 
 ??? quote "Can I export Order Analysis data?"
     [](){ #faq-order-analysis-export }

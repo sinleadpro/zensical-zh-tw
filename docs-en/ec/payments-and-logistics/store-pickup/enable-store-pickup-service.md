@@ -81,7 +81,7 @@ Complete setup guide for store pickup, including enabling the feature, configuri
 
 ## Store Pickup Overview { #intro-store-pickup }
 
-Store pickup provides an O2O experience that combines online shopping with offline pickup. After a customer places and pays for an order on the storefront, the customer can choose to collect the items at a designated physical store. This feature not only reduces home delivery costs but also increases store visits and drives additional in-store sales.
+Store pickup provides an O2O experience that combines online shopping with offline pickup. After a customer places and pays for an order on the online store, the customer can choose to collect the items at a designated physical store. This feature not only reduces home delivery costs but also increases store visits and drives additional in-store sales.
 
 !!! tip "Use Cases"
     - **Reduce shipping costs**: Offer free or low-cost store pickup options to attract customers to pick up in store.

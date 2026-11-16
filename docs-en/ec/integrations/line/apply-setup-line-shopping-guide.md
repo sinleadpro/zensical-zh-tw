@@ -64,7 +64,7 @@ hide: []
 
 ## LINE Shopping Overview { #overview-setup-line }
 
-**LINE Shopping** is an e-commerce platform that combines referrals, points rewards, and price comparison. By integrating your website to LINE Shopping, merchants can use the LINE Shopping app or its official account entry point to refer customers to the website to submit orders.
+**LINE Shopping** is an e-commerce platform that combines referrals, points rewards, and price comparison. By connecting your website to LINE Shopping, merchants can use the LINE Shopping app or its official account entry point to refer customers to the website to submit orders.
 
 ## Important { #intro-setup-line }
 

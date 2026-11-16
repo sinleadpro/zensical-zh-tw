@@ -91,7 +91,7 @@ Learn how to sync EC website products to POS stores, or create exclusive product
 
 ### Copy EC Products to POS Store { #operate-pos-products-ec-product-pos }
 
-Sync existing storefront products to the specified store.
+Sync existing online store products to the specified store.
 
 1. Log in to the CYBERBIZ admin panel, go to **Products > All Products**, and select the products to sync. To select all products for batch operations, click **Select All**.
 2. Click **Copy products to POS stores**.

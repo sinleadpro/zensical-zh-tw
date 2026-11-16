@@ -20,11 +20,11 @@ permalink: "https://help.cyberbiz.io/ec/"
 <div style="flex: 1 1 380px; min-width: 0;" markdown>
 
 <h1 style="margin-top: 0; margin-bottom: 0; font-size: 1.5rem; font-weight: 700;">
-  Build your brand storefront
+  Build your brand online store
 </h1>
 <hr style="border: none; border-top: 1px solid var(--md-default-fg-color--lightest); margin: 0.5rem 0; width: 3rem;">
 <p style="font-size: 0.9rem; line-height: 1.7; margin-top: 0;">
-From site setup and product management to fulfillment and analytics, manage your brand storefront in one place.
+From site setup and product management to fulfillment and analytics, manage your brand online store in one place.
 </p>
 
 [:lucide-rocket: Get started](get-started.md){ title="Beginner guide" .md-button .md-button--primary }

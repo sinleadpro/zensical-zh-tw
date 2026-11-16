@@ -1,6 +1,6 @@
 ---
 title: "Set up LINE Group-Buy Products"
-description: "Set up LINE group-buy product categories by building a group-buy list from public storefront products and setting group-buy prices."
+description: "Set up LINE group-buy product categories by building a group-buy list from public online store products and setting group-buy prices."
 created: "2026-03-12 10:29"
 last_modified: 2026-06-26 10:05
 lang: en-US
@@ -67,7 +67,7 @@ hide: []
 
 ## LINE Group-Buy Product Overview { #overview-line-products }
 
-**LINE Group-Buy Product Setup** lets merchants select products from the storefront's public products, build a dedicated group-buy product list, and set a separate **group-buy price**.
+**LINE Group-Buy Product Setup** lets merchants select products from the online store's public products, build a dedicated group-buy product list, and set a separate **group-buy price**.
 
 ## Create Group-Buy Product Categories and Set Group-Buy Prices { #operate-line-products }
 
@@ -105,7 +105,7 @@ If you want to offer the same product combination to different group organizers 
 *   **Product source:** Only products with a status of "Public" in the storefront can be selected.
 *   **Name restriction:** After a group-buy product category is saved, its name is locked. To change it, you must add a new category or use the copy feature.
 *   **Variant display:** In the LINE group-buy interface, each variant of a product appears separately in the list for group members to choose from.
-*   **Marketing campaign restriction:** The group-buy cart does **not** support general storefront marketing campaigns (such as store-wide discount or spend-threshold gifts).
+*   **Marketing campaign restriction:** The group-buy cart does **not** support general online store marketing campaigns (such as store-wide discount or spend-threshold gifts).
 
 
 ## Next Steps { #next-steps-line-products }
@@ -121,13 +121,13 @@ If you want to offer the same product combination to different group organizers 
 ## FAQ { #faq-line-products }
 
 ??? quote "Why can't I find a product in the "Select Products" list?"
-    Check whether the product's status in the storefront admin is "Public." The system only pulls products that are listed and public, so customers can submit orders normally.
+    Check whether the product's status in the online store admin is "Public." The system only pulls products that are listed and public, so customers can submit orders normally.
 
 ??? quote "What should I do if I entered the wrong name for a group-buy product category?"
     Because the system does not allow the name to be edited after it is saved, we recommend that you use the "Copy Group-Buy Product Category" feature, enter the correct name, save it, and then delete the original category.
 
-??? quote "Can the group-buy price be set higher than the original storefront price?"
-    Yes. The system allows custom group-buy prices. However, to maintain the group-buy CVR, we recommend setting the group-buy price lower than or equal to the storefront price.
+??? quote "Can the group-buy price be set higher than the original online store price?"
+    Yes. The system allows custom group-buy prices. However, to maintain the group-buy CVR, we recommend setting the group-buy price lower than or equal to the online store price.
 
-??? quote "Can customers use coupon or bonus redemption from the storefront when they submit orders through LINE group-buy?"
-    No. As described in "Important Notes," LINE group-buy uses a separate checkout process and currently does not support general storefront marketing campaigns (such as coupon, bonus points, or store-wide spend-threshold discounts).
+??? quote "Can customers use coupon or bonus redemption from the online store when they submit orders through LINE group-buy?"
+    No. As described in "Important Notes," LINE group-buy uses a separate checkout process and currently does not support general online store marketing campaigns (such as coupon, bonus points, or store-wide spend-threshold discounts).

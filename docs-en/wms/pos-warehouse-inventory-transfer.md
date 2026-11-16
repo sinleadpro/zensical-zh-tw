@@ -77,7 +77,7 @@ If you use EC, POS, and WMS together, transfer inventory between stores, check W
 
 In the three-in-one (EC + POS + WMS) setup, products in the e-commerce warehouse are split by sales channel:
 
-- **CYBERBIZ-G**: Stock for storefront (EC) sales.
+- **CYBERBIZ-G**: Stock for online store (EC) sales.
 - **CYBERBIZ-POS**: Stock for transfers to physical stores (POS).
 
 

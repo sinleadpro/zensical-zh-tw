@@ -209,7 +209,7 @@ function openTab(evt, tabName) {
 </div>
 
 
-## Brand Storefront { #overview-home-ec }
+## Brand Online Store { #overview-home-ec }
 
 <div class="grid cards" markdown>
 
@@ -218,7 +218,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Build your brand storefront from scratch and learn admin basics quickly. -->
+    Build your brand online store from scratch and learn admin basics quickly. -->
 
 -   :lucide-store:{ .lg }
     [__Store settings__](ec/website-management/){ title="Admin center" }
@@ -411,7 +411,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the storefront for their country.
+    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the online store for their country.
 
 </div>
 

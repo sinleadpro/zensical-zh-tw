@@ -65,7 +65,7 @@ hide:
 
 ## About the Facebook Business Extension { #overview-fbe-authorization }
 
-"**Facebook Business Extension**" (Facebook Business Extension, FBE) can connect **Conversions API**, **Facebook Pixel**, **Product Catalog**, **Instagram Shopping**, and **Facebook Page** assets at once. This helps merchants link these assets to the storefront admin quickly and manage ad tracking, audience building, and product promotion in one place.
+"**Facebook Business Extension**" (Facebook Business Extension, FBE) can connect **Conversions API**, **Facebook Pixel**, **Product Catalog**, **Instagram Shopping**, and **Facebook Page** assets at once. This helps merchants link these assets to the online store admin quickly and manage ad tracking, audience building, and product promotion in one place.
 
 ## Setup Path { #operate-fbe-authorization }
 

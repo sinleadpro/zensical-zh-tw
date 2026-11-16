@@ -1,5 +1,5 @@
 ---
-title: "Add LINE Friend Entry to Storefront"
+title: "Add a LINE Friend Entry to the Online Store"
 description: "Add a LINE Official Account add-friend entry to your drag-and-drop template site, guiding visitors to add you as a friend through pop-ups, carousels, the footer, or the navigation menu."
 created: 2026-02-24 00:00
 last_modified: 2026-06-26 10:05
@@ -72,7 +72,7 @@ hide:
 
 ## Add-Friend Tool Guide for Drag-and-Drop Templates { #overview-add-line }
 
-Merchants can use several built-in features to display LINE OA invitation information (such as links, QR codes, and images) on the storefront, improving brand loyalty and member engagement.
+Merchants can use several built-in features to display LINE OA invitation information (such as links, QR codes, and images) on the online store, improving brand loyalty and member engagement.
 
 The following guide explains how to set up the LINE OA add-friend tool for drag-and-drop templates:
 
@@ -80,13 +80,13 @@ The following guide explains how to set up the LINE OA add-friend tool for drag-
 
 Before you start, get the LINE Official Account add-friend link and promotional materials.
 
-- [x] Make sure you have set up the LINE OA account for your brand storefront.
-- [x] Before you set up the storefront, go to **LINE Official Account Manager** to get promotional materials:
+- [x] Make sure you have set up the LINE OA account for your brand online store.
+- [x] Before you set up the online store, go to **LINE Official Account Manager** to get promotional materials:
 
 	1. Log in to [**LINE Official Account Manager** :lucide-external-link:](https://manager.line.biz), and go to **Home > Increase Friends > Add Friend Tools**.
 	2. Here, you can copy **URL**, download the **QR Code**, or copy the syntax for the **Add Friend Button**.
 
-## Storefront Setup Methods { #operate-add-line }
+## Online Store Setup Methods { #operate-add-line }
 
 ### Right-Side Pop-up Ad <small>Pop-up Window</small> { #operate-add-line-ads }
 
@@ -198,5 +198,5 @@ Add the add-friend feature directly to the main menu of your website.
 ??? quote "Will the LINE app open directly when mobile users click the Add Friend link?"
 	Yes. If users click the link in a mobile browser, the system automatically detects it and triggers a **Deep Link** to open the LINE app and go to the Add Friend page. If users click the link on a desktop, they are guided to scan the QR Code or log in to the LINE web version.
 
-??? quote "If I change my LINE OA account, will the storefront links update automatically?"
+??? quote "If I change my LINE OA account, will the online store links update automatically?"
 	**No.** The LINE friend invitation link is linked to a specific account ID. If you change your official account, you must manually go back to Pop-up Ad, Carousel Assets, Footer, and Menu, and replace each with the new invitation link and QR Code image.

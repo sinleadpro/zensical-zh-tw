@@ -251,7 +251,7 @@ Integrations: choose what to set up:
 - :lucide-share-2:{ .lg } [__Facebook settings__](integrations/fb/index.md){ title="Facebook overview" }
 - :simple-google:{ .lg } [__Google settings__](integrations/google/index.md){ title="Google integrations" }
 - :lucide-message-circle:{ .lg } [__LINE settings__](integrations/line/index.md){ title="LINE integrations overview" }
-- :lucide-shopping-bag:{ .lg } [__Shop.com (Meian) settings__](integrations/setup-shop-com.md){ title="Connect the Shop.com channel" }
+- :lucide-shopping-bag:{ .lg } [__Shop.com settings__](integrations/setup-shop-com.md){ title="Connect SHOP.COM Channel" }
 
 </div>
 

@@ -88,12 +88,12 @@ Before a new product enters the warehouse, create its record in the WMS admin pa
 2. Click **Add Product** in the upper-right corner.
 
 3. **Basic settings**:
-    - **Product name (required)**: We recommend using the same name as on your storefront.
+    - **Product name (required)**: We recommend using the same name as on your online store.
     - **Barcode (Required)**: Enter the barcode on the product packaging (letters and numbers only, no symbols).
     - **Product Uid (Required)**: Enter the product's unique ID code.
 
         !!! info "Online Store Integration Tip"
-            If your warehouse system is connected to a CYBERBIZ storefront, this field must match the **product SKU** in the online store admin panel.
+            If your warehouse system is connected to a CYBERBIZ online store, this field must match the **product SKU** in the online store admin panel.
             To find the SKU, log in to the online store admin panel, go to **Products > All Products**, and open the product details page. The SKU is shown in the variant information.
 
     - **Storage temperature zone**: Choose the temperature at which the product is stored.

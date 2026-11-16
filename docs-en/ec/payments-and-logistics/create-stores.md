@@ -81,8 +81,8 @@ Before you offer in-store services, you need to create store information in the 
 { .doc-badge }
 
 !!! tip "Use Cases"
-    - **Offer in-store pickup on the storefront**: Create a store list so customers can choose a nearby store to pick up products at checkout.
-    - **Integrate offline physical stores**: Sync your physical store information to the storefront and use those stores as redemption points for **Store Pickup** and **e-vouchers**.
+    - **Offer in-store pickup on the online store**: Create a store list so customers can choose a nearby store to pick up products at checkout.
+    - **Integrate offline physical stores**: Sync your physical store information to the online store and use those stores as redemption points for **Store Pickup** and **e-vouchers**.
 
 
 ## Store Type Comparison { #specs-create-stores }
@@ -92,7 +92,7 @@ Before you create a store, choose the correct store type using the table below:
 | Store Type | Applicable To | Store Pickup | CYBERBIZ NOW Quick Delivery | E-Voucher Redemption |
 | :--- | :--- | :--- | :--- | :--- |
 | **General Store** | Online-only merchants<br>**Merchants using Quick Delivery with a POS system** | ✓ | ✓ | ✓ |
-| **POS Store** | Merchants using the storefront with a POS system | ✓ | ✕ | ✓ |
+| **POS Store** | Merchants using the online store with a POS system | ✓ | ✕ | ✓ |
 
 
 ## Setup Steps { #operate-create-stores }
@@ -145,7 +145,7 @@ If you need to create multiple stores at once and turn on the **Store Pickup** f
 If you have multiple stores that need the same shipping fees and payment methods, set one store up first as the **Default Store**. Each time you add a store, you can apply that store's settings with one click, so you don't need to re-enter the same values for every store.
 
 !!! tip "Clarifying Concepts"
-    This lets you quickly copy settings to other branches in the admin panel. It does not pre-select a pickup store for customers on the storefront checkout page.
+    This lets you quickly copy settings to other branches in the admin panel. It does not pre-select a pickup store for customers on the online store checkout page.
 
 1. Go to **Payment and Logistics > Store Pickup Settings** and select a store with configured rules to open its edit page.
 2. In the **Basic Settings** section, select **Set as Default Store** and click **Save**.

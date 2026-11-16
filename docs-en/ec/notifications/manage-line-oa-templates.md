@@ -90,7 +90,7 @@ Here's how to set up and use LINE OA message reminder templates:
 
 Complete the following setup before you use templates:
 
-- [x] [**Connect the Messaging API**](../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  : Integrate your LINE Official Account to the admin through the API.
+- [x] [**Connect the Messaging API**](../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  : Connect your LINE Official Account to the admin through the API.
 
 - [x] **Collect LINE UIDs**: Turn on **LINE Login** or guide members through [**linking their LINE Official Account to their website membership**](../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }  , so the system can collect their LINE UIDs and send them messages.
 

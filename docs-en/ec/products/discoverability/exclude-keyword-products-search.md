@@ -1,6 +1,6 @@
 ---
 title: "Exclude Products with Specific Keywords from Search Results"
-description: "Edit the Liquid template code to exclude products with specific keywords from storefront search results."
+description: "Edit the Liquid template code to exclude products with specific keywords from online store search results."
 created: 2026-02-25 00:00
 last_modified: 2026-06-30 11:26
 lang: en-US

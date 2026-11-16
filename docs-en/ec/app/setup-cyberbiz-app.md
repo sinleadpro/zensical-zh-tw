@@ -120,7 +120,7 @@ The online store app fully inherits the visual settings and product data of your
 ## Create the In-App Store Map { #operate-app-store-map }
 
 
-Log in to your storefront admin and go to **APP 功能 > APP門市列表** to show your physical store information in the app so customers can look it up.
+Log in to your online store admin and go to **APP 功能 > APP門市列表** to show your physical store information in the app so customers can look it up.
 
 
 1.  **Turn On the Feature**: Click the ON/OFF button.

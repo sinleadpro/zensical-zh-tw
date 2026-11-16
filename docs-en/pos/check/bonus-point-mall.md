@@ -77,7 +77,7 @@ Create a dedicated online Bonus Mall where members redeem products with points. 
 
 
 !!! info "Version Differences"
-    - **EC storefront (EC)** and **physical store (POS)** both support the Bonus Mall feature. This document applies only to the setup of **Smart POS** Bonus Mall.
+    - **EC online store (EC)** and **physical store (POS)** both support the Bonus Mall feature. This document applies only to the setup of **Smart POS** Bonus Mall.
     - Bonus Mall is an optional module under the "Marketing A" add-on in the PLUS plan (choose 2 of 11). Merchants must confirm that this module is selected before they use it. The Enterprise plan includes this feature by default.
 
 
@@ -209,6 +209,6 @@ When store staff check out a member at the POS front counter, they can add Bonus
 
 - :lucide-hash:{ .lg }
     [__EC Bonus Mall__](../../ec/marketing/bonus-and-gifts/bonus-point-mall.md)
-    Create an online Bonus Mall for the EC storefront.
+    Create an online Bonus Mall for the EC online store.
 
 </div>

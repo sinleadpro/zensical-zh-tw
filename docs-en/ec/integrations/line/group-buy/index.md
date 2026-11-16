@@ -29,7 +29,7 @@ hide:
 
     ---
 
-    Set up LINE group-buy product categories. Create group-buy lists from public storefront products and set group-buy prices.
+    Set up LINE group-buy product categories. Create group-buy lists from public online store products and set group-buy prices.
 
     [:octicons-arrow-right-24: Go](setup-line-group-buy-products.md)
 

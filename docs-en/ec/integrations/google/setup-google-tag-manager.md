@@ -1,6 +1,6 @@
 ---
 title: "Set up Google Tag Manager and Connect CYBERBIZ"
-description: "Create a Google Tag Manager account and container, and correctly install the GTM code on the CYBERBIZ storefront."
+description: "Create a Google Tag Manager account and container, and correctly install the GTM code on the CYBERBIZ online store."
 created: "2026-03-17 16:31"
 last_modified: 2026-07-02 14:03
 lang: en-US
@@ -58,7 +58,7 @@ icon: lucide/code
 hide: []
 ---
 
-![Google Tag Manager integration setup](../../../assets/images/ec-第三方整合-google設定-gtm.en.png){ title="Google Tag Manager integration setup" .hero-page }
+![Google Tag Manager connection setup](../../../assets/images/ec-第三方整合-google設定-gtm.en.png){ title="Google Tag Manager connection setup" .hero-page }
 
 ## What Is Google Tag Manager { #intro-tag-manager }
 
@@ -67,7 +67,7 @@ hide: []
 ## Create a GTM Account and Container { #operate-tag-manager }
 
 1.  **Create an account**: Sign in to [Google Tag Manager :lucide-external-link:](https://tagmanager.google.com/) and click "Create Account". Enter an **Account name** (we recommend your company or brand name) and select your country.
-2.  **Set up a container**: Enter a [container](#reference-tag-manager-gtm){ title="container " }**Name** (we recommend your storefront URL or name) and select "**Web**" as the target platform.
+2.  **Set up a container**: Enter a [container](#reference-tag-manager-gtm){ title="container " }**Name** (we recommend your online store URL or name) and select "**Web**" as the target platform.
 3.  **Accept the terms**: Select the checkbox to agree to the terms of service, then click "Yes".
 4.  **Get the code**: The system displays an installation code window. Find the container ID in the **GTM-XXXXXX** format and copy it.
 
@@ -82,13 +82,13 @@ hide: []
 
 ## Important Notes <small>Avoid Data Anomalies</small> { #specs-tag-manager }
 
-To ensure data accuracy, **the following tools already have dedicated integrations in CYBERBIZ. Always set them up directly in the system admin, and do not bind them separately through GTM**, to avoid tag conflicts or double counting:
+To ensure data accuracy, **the following tools already have dedicated connections in CYBERBIZ. Always set them up directly in the system admin, and do not bind them separately through GTM**, to avoid tag conflicts or double counting:
 
 *   **Google Analytics (GA4)**.
 *   **Google Ads conversion tracking**.
 *   **Meta Pixel (Facebook Pixel)**.
 
-!!! warning "If you previously set up tracking for these tools through GTM, you must **remove the old tags from GTM** after switching to the CYBERBIZ admin integration. Otherwise, your ad data will be inaccurate."
+!!! warning "If you previously set up tracking for these tools through GTM, you must **remove the old tags from GTM** after switching to the CYBERBIZ admin connection. Otherwise, your ad data will be inaccurate."
 
 ## Check and Verify { #operate-tag-manager-verification }
 

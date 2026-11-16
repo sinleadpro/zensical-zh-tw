@@ -151,7 +151,7 @@ The "Customized Collections" page is split into two columns:
     - **Product Type**: Filter by product type. You can select multiple types.
     - **Product Vendor**: Filter by vendor. You can select multiple vendors.
     - **Tag**: Filter products that have the specified tags. You can select multiple tags.
-    - **Shop**: The product source. Filter products by POS or storefront source.
+    - **Shop**: The product source. Filter products by POS or online store source.
 
     ??? example "Filter Logic and Example"
         The system filters using **AND across different categories (all must match) and OR within the same category (any can match)**.
@@ -160,10 +160,10 @@ The "Customized Collections" page is split into two columns:
           - **Product Type**: Stress-relief items, Piano
           - **Product Vendor**: Genben, YAMAHA
           - **Tag**: stress relief, piano
-          - **Source**: Storefront
+          - **Source**: Online Store
 
         - **Logic applied:**
-          (type `Stress-relief items` or `Piano`) + (vendor `Genben` or `YAMAHA`) + (tag `stress relief` or `piano`) + (source: storefront)
+          (type `Stress-relief items` or `Piano`) + (vendor `Genben` or `YAMAHA`) + (tag `stress relief` or `piano`) + (source: online store)
 
         - **Result:**
           The system shows products that "match all four categories at the same time". For example, an **online store** product tagged **piano** from vendor **YAMAHA**.

@@ -99,7 +99,7 @@ Before you begin, make sure you understand the CYBERBIZ inventory structure, bec
 
 The CYBERBIZ system manages **EC website inventory** and **POS store inventory** as separate warehouses:
 
-1. **EC warehouse**: Manages the shipping inventory for storefront orders.
+1. **EC warehouse**: Manages the shipping inventory for online store orders.
 2. **POS store warehouse**: Each physical store has its own inventory, which does not affect other stores.
 
 
@@ -115,7 +115,7 @@ You can also choose to manage **EC website inventory** and **POS store inventory
 
 - :lucide-shield-check:{ .lg }   
   [__Set up Shared Inventory Between POS and the Online Store__](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ data-preview }       
-  Ask customer support to enable shared inventory so that products with the same SKU in the store and on the storefront share the same inventory.
+  Ask customer support to enable shared inventory so that products with the same SKU in the store and on the online store share the same inventory.
 
 </div>
 

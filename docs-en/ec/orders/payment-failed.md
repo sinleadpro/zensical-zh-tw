@@ -103,7 +103,7 @@ Each option has different requirements. Most are available on all plans; only a 
 - [x] **Automatic failed payment reminders**: Available on all plans. Once enabled, notifications are sent based on the number of days you set.
 - [x] **Automatic order cancellation**: Available on all plans. Takes effect once you enter the number of days on the setup page.
 - [x] **Subscription recharge**: Requires a plan with the subscription feature enabled.
-- [x] **Market America order commission handling**: Requires a plan with the Market America partner store feature enabled.
+- [x] **Shop.com order commission handling**: Requires a plan with the Shop.com partner store feature enabled.
 
 ??? plan "Feature Availability by Plan"
     | Option | Requirement |
@@ -112,7 +112,7 @@ Each option has different requirements. Most are available on all plans; only a 
     | Automatic failed payment reminders | Built into all plans |
     | Automatic order cancellation | Built into all plans |
     | Subscription recharge | Requires the subscription feature |
-    | Market America (Shop.com) referrals | Requires the Market America partner store feature |
+    | Shop.com referrals | Requires the Shop.com partner store feature |
     | AFTEE buy now, pay later | Requires the AFTEE buy now, pay later feature |
 
 ---
@@ -256,10 +256,10 @@ If an error occurs when downloading ECPay shipping labels, a common cause is tha
 
 ---
 
-### Market America (Shop.com) Referral Orders { #specs-payment-failed-shopcom }
+### Shop.com Referral Orders { #specs-payment-failed-shopcom }
 
 !!! note "Important"
-    If you use Market America (Shop.com) referrals, orders with failed payments still count toward commission. Be sure to "Cancel Order" for failed Market America orders so the system cancels them with Market America and removes them from commission.
+    If you use Shop.com referrals, orders with failed payments still count toward commission. Be sure to "Cancel Order" for failed Shop.com orders so the system cancels them with Shop.com and removes them from commission.
 
 ---
 
@@ -284,9 +284,9 @@ If an error occurs when downloading ECPay shipping labels, a common cause is tha
     [](){ #faq-payment-failed-recurring }
     No. When a subscription sub-order charge fails, customers can't do anything on their side. You need to click "Recharge" in the [subscription order list](#operate-payment-failed-recurring-recharge){ title="Handle Orders with Failed Payments" }.
 
-??? quote "Do Market America orders with failed payments need special handling?"
+??? quote "Do Shop.com orders with failed payments need special handling?"
     [](){ #faq-payment-failed-shopcom }
-    Yes. Market America orders with failed payments still count toward commission. Be sure to "Cancel Order" for those orders so the system cancels them with Market America and removes them from commission.
+    Yes. Shop.com orders with failed payments still count toward commission. Be sure to "Cancel Order" for those orders so the system cancels them with Shop.com and removes them from commission.
 
 ---
 

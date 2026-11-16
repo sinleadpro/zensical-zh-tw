@@ -169,6 +169,6 @@ Block customers in specific regions from visiting your storefront. This is often
 
 If you run websites for several countries, you can show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the matching website. The system doesn't redirect customers automatically. Customers must click **Go to** themselves.
 
-For the full steps, storefront display, and FAQs, see [Redirect Shoppers to a Country-Specific Storefront](setup-country-site-redirect.md).
+For the full steps, storefront display, and FAQs, see [Redirect Shoppers to a Country-Specific Online Store](setup-country-site-redirect.md).
 
 

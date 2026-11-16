@@ -87,7 +87,7 @@ Before you add a product set, make sure you complete the following:
 
 1.  **Access Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook > Product Set**.
 
-    - If not yet integrated: Click "Connect Now" to initialize (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
+    - If not yet connected: Click "Connect Now" to initialize (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
     - If already integrated: Click "**Go Now**."
 
 2.  **Start Creating**: Click Catalog Product Sets > Create Catalog Product Set in the left navigation menu.

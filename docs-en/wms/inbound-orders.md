@@ -87,7 +87,7 @@ Before goods arrive at the warehouse, create a receipt order in the admin panel.
 1. **Create the receipt order**: Add the inbound details in the admin panel. The system creates an order waiting for confirmation.
 2. **Goods arrive**: The goods reach the warehouse on the booked date, and warehouse staff sign for them.
 3. **Inspection and shelving**: Warehouse staff count the items and check expiry dates, and then shelve them in the system.
-4. **Closed**: The system updates the receipt order status, and storefront inventory increases accordingly.
+4. **Closed**: The system updates the receipt order status, and online store inventory increases accordingly.
 
 
 ## Add a Receipt Order { #operate-inbound-orders-create }

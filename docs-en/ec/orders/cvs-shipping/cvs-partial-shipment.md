@@ -174,7 +174,7 @@ If the order uses **convenience store Cash on Delivery**, note the following:
 
 ### Delivery Tracking { #specs-cvs-partial-shipment-tracking }
 
-Customers can see **two tracking numbers** under **"Order Lookup/Order Details" > "Delivery Information"** in the storefront member area, to track the convenience store and custom carrier deliveries separately.
+Customers can see **two tracking numbers** under **"Order Lookup/Order Details" > "Delivery Information"** in the online store member area, to track the convenience store and custom carrier deliveries separately.
 
 ---
 
@@ -238,7 +238,7 @@ If a shipping label is lost or damaged, you can reprint it before the deadline.
 
 ??? quote "Where can customers find the tracking numbers for both shipments?"
     [](){ #faq-cvs-partial-shipment-tracking-where }
-    Customers can sign in to the storefront member center and see two tracking numbers on the **"Order Lookup" > "Order Details" > "Delivery Information"** page. Click each one to check the carrier's delivery progress.
+    Customers can sign in to the online store member center and see two tracking numbers on the **"Order Lookup" > "Order Details" > "Delivery Information"** page. Click each one to check the carrier's delivery progress.
 
 ??? quote "What if the customer picks up the first batch but doesn't want the second?"
     [](){ #faq-cvs-partial-shipment-partial-refund }

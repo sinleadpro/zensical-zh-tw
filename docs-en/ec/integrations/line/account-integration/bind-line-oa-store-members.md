@@ -102,7 +102,7 @@ The following provides a detailed explanation and tutorial on LINE OA website me
 
 Merchants must first complete the following system integration settings before data can be shared:
 
-- [x] [**Create and Connect the Messaging API**](connect-line-messaging-api.md){ title="Connect the LINE Messaging API" }  : Complete the API integration between the LINE Official Account and the CYBERBIZ admin backend.
+- [x] [**Create and Connect the Messaging API**](connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  : Complete the API connection between the LINE Official Account and the CYBERBIZ admin backend.
 
 - [x] [**Set Up LINE Login (Quick Login)**](setup-line-quick-login.md){ title="Set up LINE Quick Login" }  : Be sure to configure "LINE Login" and "Messaging API" under the **same LINE Developers Provider (service provider)**.
 

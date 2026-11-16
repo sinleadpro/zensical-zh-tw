@@ -75,7 +75,7 @@ hide: []
 
 Before editing group content, merchants must complete the following three setup steps in order:
 
-- [x] [**LINE Group-Buy Bot Setup**](setup-line-group-bot.md){ title="Set Up LINE Group-Buy Bot" }: Create a dedicated bot and complete the Messaging API and LIFF integration.
+- [x] [**LINE Group-Buy Bot Setup**](setup-line-group-bot.md){ title="Set Up LINE Group-Buy Bot" }: Create a dedicated bot and complete the Messaging API and LIFF connection.
 - [x] [**Referral Commission Code Setup**](../../../profit-sharing/referrer-profit-sharing.md){ title="Referrer Commission" }: Set up the "Referrer Commission" plan in the commission system.
 - [x] [**Group-Buy Product Category Setup**](setup-line-group-buy-products.md){ title="Set Up LINE Group-Buy Products" }: Select the products to sell and set the group-buy price.
 

@@ -177,7 +177,7 @@ hide:
 
     ---
 
-    Edit the Liquid template code to exclude products with specific keywords from your storefront's search results.
+    Edit the Liquid template code to exclude products with specific keywords from your online store's search results.
 
     [:octicons-arrow-right-24: Go](discoverability/exclude-keyword-products-search.md)
 
@@ -225,7 +225,7 @@ hide:
 
     ---
 
-    Learn how to copy storefront products in batches to POS stores, using either batch actions or specifying stores directly when adding a product.
+    Learn how to copy online store products in batches to POS stores, using either batch actions or specifying stores directly when adding a product.
 
     [:octicons-arrow-right-24: Go](bulk-operations/copy-products-to-pos-stores.md)
 

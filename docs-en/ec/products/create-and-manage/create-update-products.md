@@ -103,7 +103,7 @@ hide: []
 
 ## About Adding Products { #intro-product }
 
-In the CYBERBIZ admin, every product you sell on your online storefront starts with **Add Product**. A product's settings are spread across the tabs at the top of the product edit page:
+In the CYBERBIZ admin, every product you sell on your storefront starts with **Add Product**. A product's settings are spread across the tabs at the top of the product edit page:
 
 - **Product Information**: Core sales settings such as product name, images, variants, price, and inventory, which you can fill in when adding a product.
 - **Product Description**: Descriptive content such as the product introduction, specifications, and delivery methods.
@@ -402,7 +402,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 
 - :lucide-languages:{ .lg }  
   [__Set Up Multi-Language and Multi-Currency for Your Storefront__](../../website-management/setup-multi-language-and-multi-currency.md){ title="Set Up Multi-Language and Multi-Currency for Your Storefront" }  
-  Build a multi-language storefront with local currency display.
+  Build a multi-language online store with local currency display.
 
 - :lucide-search:{ .lg }  
   [__Google Shopping Ads Settings (GMC)__](../../integrations/google/setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" }  

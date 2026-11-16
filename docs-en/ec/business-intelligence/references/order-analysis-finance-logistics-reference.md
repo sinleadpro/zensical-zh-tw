@@ -69,7 +69,7 @@ hide:
     * Payment method shares use "total orders" as the base. Shipping method and third-party referral shares and average order values use "recognized orders" as the base.
     * For every dimension, the return rate's denominator is "non-canceled orders."
     * Average order value is the average within "that dimension itself" (calculated separately for each method or source), not divided by all orders.
-    * **Third-party referrals** are orders brought in through connected referral platforms (such as LINE Shopping or Market America). The chart shows each source based on the platforms actually connected.
+    * **Third-party referrals** are orders brought in through connected referral platforms (such as LINE Shopping or Shop.com). The chart shows each source based on the platforms actually connected.
 
 <!---->
 <!---->
@@ -82,6 +82,6 @@ hide:
 <!-- | Third-Party Referrals | Order trend, order share, average order value, return rate | See the number, share, and average order value of orders from referral platforms to assess referral performance. | Appears only if the store has connected a referral platform. See the note below. | -->
 <!---->
 <!-- !!! note "Note" -->
-<!--     * **Third-party referral** charts appear only if the store meets any of these conditions: "Market America Partner Store" is set up, "iChannels" is connected, or "LINE Shopping" is connected. If none is enabled, the whole group of third-party referral charts does not appear. -->
+<!--     * **Third-party referral** charts appear only if the store meets any of these conditions: "Shop.com Partner Store" is set up, "iChannels" is connected, or "LINE Shopping" is connected. If none is enabled, the whole group of third-party referral charts does not appear. -->
 <!--     * "Average order value" in each chart is that group's revenue divided by the corresponding number of orders. -->
 <!--     * Return rate and cancellation exclusion rules are the same as for the overall report. See "Important Rules and Limitations" in the main article for definitions. -->

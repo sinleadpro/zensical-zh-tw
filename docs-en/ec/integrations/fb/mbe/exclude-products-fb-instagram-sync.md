@@ -61,10 +61,10 @@ hide: []
 
 ## FB and IG Shop Product Exclusion Guide { #overview-exclude-products }
 
-After you enable the Facebook (FB) and Instagram (IG) shop integration, the system continuously updates catalog information through the product feed URL. If you have products you do not want to display, follow the steps below to configure and adjust them.
+After you enable the Facebook (FB) and Instagram (IG) shop connection, the system continuously updates catalog information through the product feed URL. If you have products you do not want to display, follow the steps below to configure and adjust them.
 
 !!! info "System Update Time"
-    Storefront product information usually syncs to the Facebook Shop automatically at **2:00 AM or 2:30 AM daily**. Content updated that day appears only after the sync is complete.
+    Online Store product information usually syncs to the Facebook Shop automatically at **2:00 AM or 2:30 AM daily**. Content updated that day appears only after the sync is complete.
 
 ## Prerequisites and Restrictions { #prerequisites-exclude-products }
 
@@ -72,7 +72,7 @@ After you enable the Facebook (FB) and Instagram (IG) shop integration, the syst
 
 ## Steps { #operate-exclude-products }
 
-### Exclude via Storefront Admin Tags <small>Automated</small> { #operate-exclude-products-backend }
+### Exclude via Online Store Admin Tags <small>Automated</small> { #operate-exclude-products-backend }
 
 If you have specific products (such as free gifts or test products) that you do not want to sync to third-party platforms, the most direct method is to filter them with tags:
 
@@ -86,7 +86,7 @@ If you have specific products (such as free gifts or test products) that you do 
 
 ### Adjust in Meta Business Suite <small>Manual Adjustment</small> { #operate-exclude-products-manage }
 
-If the integration is complete, you can also adjust visibility directly in the management interface of Meta Business Suite:
+If the connection is complete, you can also adjust visibility directly in the management interface of Meta Business Suite:
 
 #### Hide the Entire Shop { #operate-exclude-products-overview }
 
@@ -131,11 +131,11 @@ If the integration is complete, you can also adjust visibility directly in the m
 
 ??? quote "How do I exclude specific products from syncing to the shop?"
 
-    If you do not want a free gift or test product to upload to the shop, enter **“排除product feed”** or **“贈品”** in the product tags field in the storefront admin (do not add a space between 排除 and product). The system automatically filters out that product.
+    If you do not want a free gift or test product to upload to the shop, enter **“排除product feed”** or **“贈品”** in the product tags field in the online store admin (do not add a space between 排除 and product). The system automatically filters out that product.
 
 ??? quote "When does product sync happen?"
 
-    Storefront product information syncs to the Facebook Shop automatically at **2:00 AM or 2:30 AM every day**. Content updated that day appears only after the sync is complete.
+    Online Store product information syncs to the Facebook Shop automatically at **2:00 AM or 2:30 AM every day**. Content updated that day appears only after the sync is complete.
 
 ??? quote "What is the difference between excluding with tags and hiding in Meta Business Suite?"
 

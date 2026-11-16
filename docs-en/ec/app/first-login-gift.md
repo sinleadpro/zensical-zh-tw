@@ -92,7 +92,7 @@ Set up the coupon or bonus points that members receive automatically the first t
 - **Automatic Issuing**: When the conditions are met, the system issues the gift automatically, so members don't need to claim it manually. A failed login doesn't trigger issuing.
 - **One per Member**: Each member account can claim the gift only once, regardless of how many devices it uses.
 - **Reward Content**: Enable at least one of coupon or bonus points. You can issue either one or both.
-- **Where to Use**: The issued coupon and bonus points aren't limited to one device and can also be used at checkout on the storefront (Web).
+- **Where to Use**: The issued coupon and bonus points aren't limited to one device and can also be used at checkout on the online store (Web).
 - **Recommended Timing**: Before you promote app downloads to customers, finish the first-login gift setup and enable the master toggle. This way, members get the offer on their first login, and nothing is left unissued during the promotion.
 
 

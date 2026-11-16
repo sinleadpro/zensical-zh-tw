@@ -73,7 +73,7 @@ Learn about the positioning, interface, and common tasks of the CYBERBIZ online 
 ## What Is the CYBERBIZ APP { #intro-app }
 
 
-The storefront app is a mobile app service from CYBERBIZ. It extends your **online store** to customers' mobile devices and gives your brand a touchpoint for proactive communication and long-term member relationships.
+The online store app is a mobile app service from CYBERBIZ. It extends your **online store** to customers' mobile devices and gives your brand a touchpoint for proactive communication and long-term member relationships.
 
 
 ### Product Highlights { #overview-app-highlights }
@@ -81,7 +81,7 @@ The storefront app is a mobile app service from CYBERBIZ. It extends your **onli
 
 1.  **A Channel Between Your Online Store and Offline Shoppers**
     *   Uses the mobile app as a fixed entry point for your brand
-    *   Makes it easier for customers to return to your storefront
+    *   Makes it easier for customers to return to your online store
 
 3.  **Member Pool Management**
     *   Integrates the membership card, coupon, and bonus points features

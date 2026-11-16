@@ -105,7 +105,7 @@ Prepare the following information in Japanese in advance. Some fixed items (such
 
 ## Step 2: Create a Custom Page { #operate-jp-legal-page }
 
-Put the information above together on a dedicated page on your storefront.
+Put the information above together on a dedicated page on your online store.
 
 1. Go to **Website Appearance > Customized Pages Management**.
 2. Click **Create custom page**.

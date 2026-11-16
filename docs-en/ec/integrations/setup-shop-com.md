@@ -70,9 +70,9 @@ hide: []
 
 ![SHOP.COM Integration](../../assets/images/ec-第三方整合-美安.en.png){ title="Third-Party Integration - SHOP.COM" .hero-page }
 
-## SHOP.COM Integration Guide { #intro-setup-shop-com }
+## SHOP.COM Connection Guide { #intro-setup-shop-com }
 
-Integrate your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell products through its active dealer member channel.
+Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell products through its active dealer member channel.
 
 ## Prerequisites and Restrictions { #prerequisites-setup-shop-com }
 
@@ -91,7 +91,7 @@ Integrate your CYBERBIZ website with **SHOP.COM** to boost brand exposure and se
 
 ### Admin Settings { #operate-shop-com-backend-settings }
 
-!!! warning "If you integrated with SHOP.COM before 2022, contact CYBERBIZ Customer Support to enable the **SHOP.COM API** feature before it can work."
+!!! warning "If you connected with SHOP.COM before 2022, contact CYBERBIZ Customer Support to enable the **SHOP.COM API** feature before it can work."
 
 1.  **Enter the identifiers**: Go to **Third-Party Integration > SHOP.COM Settings** in the CYBERBIZ admin, and enter the OFFER_ID and Advertiser_id you received.
 
@@ -127,7 +127,7 @@ If you do not want certain products (such as free gifts or items not suitable fo
 
 Learn [How to Exclude Products from Third-Party Platform Uploads](../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage Product Tags" }.
 
-!!! warning "SHOP.COM integration currently **does not support** the "排除product feed" tag. Products can only be excluded with the **贈品** tag."
+!!! warning "SHOP.COM connection currently **does not support** the "排除product feed" tag. Products can only be excluded with the **贈品** tag."
 
 ---
 
@@ -146,7 +146,7 @@ Before going live, SHOP.COM will run order tests:
     ![Cancel SHOP.COM order](../../assets/images/ec-第三方整合-美安-取消訂單.en.gif){ title="SHOP.COM Cancel Order" }
 
 !!! info "Contact and Support"
-    If you have questions about integration progress or actions on the SHOP.COM side, contact the SHOP.COM Partner Store team directly:
+    If you have questions about connection progress or actions on the SHOP.COM side, contact the SHOP.COM Partner Store team directly:
 
     * **Email**: [twunfranchiseservices@markettaiwan.com.tw](mailto:twunfranchiseservices@markettaiwan.com.tw)
     * **Customer service phone**: 02-87125598
@@ -154,9 +154,9 @@ Before going live, SHOP.COM will run order tests:
 
 ## FAQ { #faq-shop-com }
 
-??? quote "Integration testing is complete, but later orders are not being counted"
+??? quote "Connection testing is complete, but later orders are not being counted"
     [](){ #faq-shop-com-attribution }
-    This is caused by SHOP.COM's single-click attribution mechanism, not an integration error:
+    This is caused by SHOP.COM's single-click attribution mechanism, not a connection error:
 
     1. **Only the first completed order is attributed**: Each time a customer clicks a SHOP.COM referral link and goes to your website, the system **attributes only the first completed order after that click**. If a customer places multiple orders in the same browsing session, only the first order is attributed.
 
@@ -168,7 +168,7 @@ Before going live, SHOP.COM will run order tests:
 
 ??? quote "If I list new products on my website, do I need to re-import the product data XML file?"
 
-    You only need to import the product data XML file once during integration. SHOP.COM updates automatically. Product updates on the SHOP.COM side depend on when SHOP.COM fetches the data, so they are not real-time.
+    You only need to import the product data XML file once during connection. SHOP.COM updates automatically. Product updates on the SHOP.COM side depend on when SHOP.COM fetches the data, so they are not real-time.
 
 ??? quote "If I issue a partial refund on the Enterprise plan, will SHOP.COM refund the commission on the refunded portion?"
 
@@ -176,7 +176,7 @@ Before going live, SHOP.COM will run order tests:
 
 ??? quote "Questions about SHOP.COM test orders?"
 
-    CYBERBIZ only provides system integration and does not handle SHOP.COM operational services.
+    CYBERBIZ only provides system connection and does not handle SHOP.COM operational services.
 
 ??? quote "Can recurring billing orders and one-page store orders earn SHOP.COM rewards?"
 

@@ -153,7 +153,7 @@ Control whether the checkout page shows the coupon field, and whether store-wide
     !!! info ""
         This limit is the combined total of coupon and coupon codes. You cannot set separate usage limits for each.
 
-        Using multiple coupon (codes) together is available for **Expert PLUS** and **Enterprise**. The EC storefront and POS system must be configured separately. For detailed rules, see [Multiple coupon Stacking Setup Guide](../../marketing/coupon/multiple-coupons.md){ title="Multiple coupon Stacking Setup Guide" }.
+        Using multiple coupon (codes) together is available for **Expert PLUS** and **Enterprise**. The EC online store and POS system must be configured separately. For detailed rules, see [Multiple coupon Stacking Setup Guide](../../marketing/coupon/multiple-coupons.md){ title="Multiple coupon Stacking Setup Guide" }.
 
 4. **Specify a store-wide coupon code to apply automatically:** In the "Specify Store-Wide Coupon Code" setting, enter the coupon code. When a customer enters the checkout page and meets the coupon conditions, the system applies it automatically[^coupon-auto].
 

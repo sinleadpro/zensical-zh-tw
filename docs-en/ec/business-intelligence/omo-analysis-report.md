@@ -338,7 +338,7 @@ After you open the report, first set the period and stores to analyze at the top
 
 - :lucide-dollar-sign:{ .lg }  
   [__Revenue__](revenue-analysis.md){ title="Revenue Analysis" }  
-  Look more closely at your storefront's revenue makeup and growth trends.
+  Look more closely at your online store's revenue makeup and growth trends.
 
 - :lucide-users:{ .lg }  
   [__Member Analysis__](member-analysis.md){ title="Member Analysis" }  

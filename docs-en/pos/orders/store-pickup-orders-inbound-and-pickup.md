@@ -78,7 +78,7 @@ hide: []
 ---
 
 # Store Pickup Orders (Inbound/Pickup)
-Learn how to handle inbound arrivals, customer pickups, and overdue order management for storefront orders at the POS front end. This supports OMO operations, where orders are placed online and picked up in store.
+Learn how to handle inbound arrivals, customer pickups, and overdue order management for online store orders at the POS front end. This supports OMO operations, where orders are placed online and picked up in store.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
@@ -179,7 +179,7 @@ If the customer asks to return an item right after opening the package at the st
 
 If the customer has already taken the item out of the store, the return must be handled through the website front end or by contacting customer service.
 
-1. The customer logs in to the storefront **Member Center > My Order(s)** and clicks **Request Return**.
+1. The customer logs in to the online store **Member Center > My Order(s)** and clicks **Request Return**.
 2. The administrator goes to the admin panel and changes order `Delivery Status` to `Returning`.
 3. The administrator can arrange reverse logistics to collect the package.
 

@@ -215,7 +215,7 @@ Enter the items the customer is buying into the system and confirm whether they 
         - **Merchant Notes**: **Internal only**. This information is visible only to back-office administrators and is not visible to customers.
         - **Order Notes**: **Visible to both parties**. This information is shared with both the merchant and the member.
 
-            > Member access path: Members can log in to the storefront, go to **Orders > All Orders**, and view this note on the order details page.
+            > Member access path: Members can log in to the online store, go to **Orders > All Orders**, and view this note on the order details page.
 
         ![](../../assets/images/POS-前台-結帳-建立備註01.en.png){ .screenshot }
 

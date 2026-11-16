@@ -144,7 +144,7 @@ Before you begin, make sure you have the following:
 
         **Reason**: LINE user identifiers (UIDs) are managed per Provider. If the bot and the brand official account belong to different Providers, the system cannot recognize them as the same user.
 
-        **Impact**: Creating the brand official account and the group buy bot under the **same Provider** keeps member identity consistent and prevents data integration failures.
+        **Impact**: Creating the brand official account and the group buy bot under the **same Provider** keeps member identity consistent and prevents data connection failures.
 
 5.  **Connect to the back office**:
 

@@ -19,7 +19,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 
 # CYBERBIZ NOW Quick Delivery: Real-Time Operations Navigation
 
-**CYBERBIZ NOW Quick Delivery** is a real-time delivery service that integrates third-party delivery providers, such as Uber Direct and Pandago. After a customer places an order on the storefront, store staff quickly pick the items. A delivery driver then delivers them to the specified location within 1-2 hours, providing a shopping experience similar to a delivery platform.
+**CYBERBIZ NOW Quick Delivery** is a real-time delivery service that integrates third-party delivery providers, such as Uber Direct and Pandago. After a customer places an order on the online store, store staff quickly pick the items. A delivery driver then delivers them to the specified location within 1-2 hours, providing a shopping experience similar to a delivery platform.
 !!! tip "Use Cases"
     - **Food and Beverage**: Delivers cakes, desserts, and ready-to-eat meals while keeping products fresh.
     - **Everyday Essentials**: Delivers urgently needed items such as baby products and cleaning supplies, offering high convenience for repeat purchases.
@@ -29,7 +29,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 
 Before enabling the quick delivery service, confirm that your storefront settings meet the following system requirements and marketing restrictions:
 
-- **Supported systems**: If your storefront is integrated with the **POS system** or **full e-commerce warehouse integration**, this quick delivery feature is not currently supported.
+- **Supported systems**: If your online store is integrated with the **POS system** or **full e-commerce warehouse integration**, this quick delivery feature is not currently supported.
   > Quick delivery supports partial warehouse integration.
 - **Applicable marketing campaigns**: Quick delivery does not support first-purchase gift.
 - **Applicable payment methods**: To ensure delivery efficiency, only **online payment** is supported. This avoids collection disputes that can arise with cash on delivery.

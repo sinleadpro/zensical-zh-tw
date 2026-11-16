@@ -1,6 +1,6 @@
 ---
 title: "Copy Products to POS Stores"
-description: "Learn how to batch copy storefront products to POS stores, either through the batch operation flow or by assigning stores directly when you add a product."
+description: "Learn how to batch copy online store products to POS stores, either through the batch operation flow or by assigning stores directly when you add a product."
 created: 2026-06-28 00:00
 last_modified: 2026-07-08 12:43
 lang: en-US
@@ -70,7 +70,7 @@ hide: []
 
 ## About Copying Products to POS Stores { #intro-copy-to-pos }
 
-"Copy products to POS stores" lets you copy existing products in bulk to one or more POS stores at once, so your stores quickly get the same product data. Typical cases include products already published on your storefront, setting up the same items in a newly opened physical store, or syncing best-selling products to several stores.
+"Copy products to POS stores" lets you copy existing products in bulk to one or more POS stores at once, so your stores quickly get the same product data. Typical cases include products already published on your online store, setting up the same items in a newly opened physical store, or syncing best-selling products to several stores.
 
 !!! info "Tip"
     Copying "creates a new set of product data" in the target store that is independent of the original product. After copying, the store's price, inventory, and publishing status can be adjusted separately without affecting each other.
