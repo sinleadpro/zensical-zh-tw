@@ -2,7 +2,7 @@
 title: DHL 跨境物流
 description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
 created: 2026-03-05 00:00
-last_modified: 2026-08-10 11:20
+last_modified: 2026-11-18 11:00
 lang: zh-TW
 type: guide
 author: Ann
@@ -228,7 +228,7 @@ hide: []
 2. 解壓縮託運文件並列印明細。
 3. 完成出貨準備。
     - **DHL_Commercial_Invoice**：商業發票，共 3 份。須逐份簽名，其中 1 份置於包裹內，另 2 份於取件時交由司機帶回。
-    - **DHL_waybill**：貨件提單，共 4 份。其中 3 份黏貼於包裹外箱，剩餘 1 份交由司機。
+    - **DHL_waybill**：貨件提單，共 2 份。其中 1 份黏貼於包裹外箱，另 1 份交由司機。
     - **Picking_list**：揀貨單。供內部作業使用，無需隨貨附寄。
     - **Fulfillment_details**：託運單明細。供商家留存備查，無需隨貨附寄。
 
