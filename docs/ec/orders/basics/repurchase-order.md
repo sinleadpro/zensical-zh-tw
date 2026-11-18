@@ -86,7 +86,7 @@ hide: []
     ![訂單查詢-再次購買](../../../assets/images/EC-前台-訂單查詢-再次購買.png){ title="訂單查詢-再次購買" }
 
     !!! note "自動過濾非銷售品項"
-        系統僅會將「一般商品」加入購物車。原訂單內的贈品、加價購商品、首購禮及贈品券將自動排除，不會重複加入。 [瞭解詳情][order-repurchase-block]{ data-preview }
+        系統僅會將「一般商品」加入購物車。原訂單內的贈品、加價購商品、首購禮及贈品券將自動排除，不會重複加入。 [瞭解詳情][#prerequisites-repurchase-block]{ data-preview }
 
     ??? warning "若包含失效或缺貨商品"
 

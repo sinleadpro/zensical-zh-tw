@@ -89,7 +89,7 @@ hide: []
 
 ### 開啟物流設定入口 { #operate-ninja-van-entry }
 
-1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS > 物流管理**。
+1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS > 基本設定**。
 2. 開啟物流設定入口。
 
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS啟用ninja物流01.png){ .screenshot }

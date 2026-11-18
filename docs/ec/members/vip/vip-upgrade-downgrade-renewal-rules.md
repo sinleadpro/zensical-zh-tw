@@ -220,7 +220,7 @@ hide: []
     2.  **回溯區間**：從 2026/05/01 往回推 365 天，計算區間為 2025/05/01 ~ 2026/05/01。統計該區間內總消費是否 ≧ 10,000 元。若扣除退貨金額後，總額低於門檻，則執行降級。
     3.  **設定新等級效期**：降級後的等級從 2026/05/01 起算 180 天。
 
-    ![建立全館 VIP 制度](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-降等機制01.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-降等機制01.png)
 
 ### 續會範例 { #operate-vip-rules-renewal-example }
 
@@ -260,4 +260,4 @@ hide: []
     2.  **回溯區間**：與前兩者不同，續會僅計算「該層級有效期間」內的消費，即 2025/11/02 ~ 2026/05/01，檢查這 180 天內的累積消費是否達標。
     3.  **展延效期**：若符合，則從原到期日往後順延 180 天 (Y)。
 
-    ![建立全館 VIP 制度](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-續會機制01.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-續會機制01.png)

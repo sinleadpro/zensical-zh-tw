@@ -118,7 +118,7 @@ hide: []
 	1. 在 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 商品群組與商品頁設定**。
 	2. 勾選 **顯示商品無庫存狀態** 中的 **當無庫存時，款式為可點選狀態**。
 	
-	![商品貨到通知02](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知02.png){ title="商品貨到通知02" .screenshot }
+	![](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知02.png){ title="商品貨到通知02" .screenshot }
 
 ---
 
@@ -134,8 +134,8 @@ hide: []
 
 <div class="grid cards borderless two-columns" markdown>
 
-- ![商品貨到通知03](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知03.png){ title="已售完，貨到通知我" }
-- ![商品貨到通知04](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知04.png){ title="已登記補貨通知" }
+- ![](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知03.png){ title="已售完，貨到通知我" }
+- ![](https://www.cyberbiz.io/support/wp-content/uploads/商品貨到通知04.png){ title="已登記補貨通知" }
 
 </div>
 

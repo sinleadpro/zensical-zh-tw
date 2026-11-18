@@ -118,7 +118,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 4. 複製並妥善保存 **網站金鑰** 跟 **密鑰**，後續將用於綁定步驟。
 
-![reCAPTCHA金鑰申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ title="reCAPTCHA金鑰申請" .screenshot }
+![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ title="reCAPTCHA金鑰申請" .screenshot }
 
 
 ### 綁定 reCAPTCHA 金鑰至商品評論區 { #operate-recaptcha-reviews }
@@ -156,7 +156,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ??? quote "如果金鑰填寫錯誤會怎麼樣？"
     請確保金鑰填寫正確，否則留言功能將無法正常使用。如有錯誤訊息 (如下圖)，請檢查金鑰是否填寫無誤。
 
-    [![reCAPTCHA 金鑰填寫錯誤](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)
 
 ??? quote "此 reCAPTCHA 功能是否適用於所有版型網站？"
     此功能僅限拖拉版型網站使用。

@@ -160,7 +160,7 @@ hide: []
     - :material-close: **錯誤範例**： `<span style="color:black;">浙江風味，甘鹹好下飯>`
     - :material-fire: **建議**：HTML 相關問題仍委託專業人士處理，CYBERBIZ 無法提供個別協助。
 
-    ![常見問題跑版](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/常見問題跑版.png){ title="常見問題跑版" .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/常見問題跑版.png){ title="常見問題跑版" .screenshot }
 
 ??? quote "CYBERBIZ 是否提供個別程式碼修改協助？"
     CYBERBIZ 僅提供現有文件內修改資訊，無法提供文件外程式碼修改協助。若需進一步修改，可透過 [APP MARKET](https://appmarket.cyberbiz.io/category/store_design) 聯繫外部設計廠商。

@@ -44,6 +44,7 @@ related:
   - pos/hardware/posiflex-wired-invoice-printer/
   - pos/hardware/taishin-wired-credit-card-machine/
   - pos/hardware/mypay-wireless-credit-card-machine/
+  - pos/hardware/a910s-credit-card-machine/
   - pos/hardware/label-printer/
   - pos/hardware/customer-display-screen/
   - pos/hardware/hprt-n130-barcode-scanner/
@@ -114,7 +115,7 @@ hide: []
 
         - :lucide-credit-card:{ .lg }
           __刷卡機__<br>
-          串接金流服務。支援 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine/) 或 [MYPAY 無線刷卡機](../hardware/mypay-wireless-credit-card-machine/)。
+          串接金流服務。支援 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine/)、[MYPAY 無線刷卡機](../hardware/mypay-wireless-credit-card-machine/) 或 [A910S 刷卡機](../hardware/a910s-credit-card-machine/)。
 
         - :lucide-tags:{ .lg }
           [__標籤機__](../hardware/label-printer/)<br>

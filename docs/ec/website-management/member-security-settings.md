@@ -2,7 +2,7 @@
 title: 設定會員安全與網站保護
 description: 管理會員密碼強度、個資隱碼遮蔽與地區黑名單，並可為前台網站設定密碼保護，全方位守護顧客資料與網站存取安全。
 created: 2026-08-12 10:59
-last_modified: 2026-08-12 10:59
+last_modified: 2026-10-23 10:30
 lang: zh-TW
 type: guide
 status: ""
@@ -35,12 +35,14 @@ features:
   - 會員密碼規則
   - 會員個資部分隱碼
   - 訪問限制地區黑名單
+  - 跳轉至其他國家指定官網
 prerequisites:
   - 需具備「設置」權限
 related:
   - ec/website-management/admin-security-settings/
   - ec/website-management/bot-protection-settings/
   - ec/website-management/add-admin-set-permissions/
+  - ec/website-management/setup-country-site-redirect/
 tags:
   - 會員安全
   - 網站密碼
@@ -162,5 +164,11 @@ hide: []
 3. **儲存設定：** 點擊 **儲存** 套用。設定後，名單中地區的顧客將無法造訪你的網站前台。
 
 ![訪問限制地區黑名單](../../assets/images/ec-管理中心-安全性設定-會員登入-訪問限制地區黑名單.png)
+
+### 跳轉至其他國家指定官網 { #operate-security-country-redirect }
+
+同時經營多個國家站別時，可依顧客 IP 所在國家，於前台顯示提示列，引導顧客前往對應官網。系統不會自動轉走顧客，須由顧客自行點選 **前往**。
+
+完整操作步驟、前台顯示與常見問題，請見 [設定跳轉至其他國家指定官網](setup-country-site-redirect.md)。
 
 

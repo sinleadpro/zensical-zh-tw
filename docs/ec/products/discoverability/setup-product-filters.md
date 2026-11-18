@@ -175,12 +175,12 @@ hide: []
 	- 桌機前台最多顯示 5 個篩選器
     - 超過 5 個需點擊「所有篩選器」查看其餘項目
 
-	![桌機前台篩選器顯示](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器05.png){ title="桌機前台篩選器顯示" .screenshot }
+	![](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器05.png){ title="桌機前台篩選器顯示" .screenshot }
 
 === ":material-cellphone: 手機"
 	手機網頁前台的所有篩選器，皆需點擊「所有篩選器」才會顯示。
 
-	![手機前台篩選器顯示](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器06.png){ title="手機前台篩選器顯示" }
+	![](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器06.png){ title="手機前台篩選器顯示" }
 
 ---
 
@@ -202,7 +202,7 @@ hide: []
 
 套用篩選器後，可點擊 **清除所有篩選** 一次性移除所有已套用的條件。
 	
-![清除所有篩選條件](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器08.png){ title="清除所有篩選條件" }
+![](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器08.png){ title="清除所有篩選條件" }
 
 
 ## 常見問題 { #faq-product-filters }

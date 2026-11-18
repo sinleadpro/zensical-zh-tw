@@ -99,8 +99,12 @@ hide: []
         [__信用卡 (信用卡機)__](../../hardware/taishin-wired-credit-card-machine.md)   
         串接台新銀行有線刷卡機，自動同步交易金額至卡機，減少手動輸入錯誤。
 
+        - :lucide-credit-card:{ .lg }   
+        [__信用卡 (A910S卡機)__](../../hardware/a910s-credit-card-machine.md)<br>
+        適用於 iPad POS，搭配 A910S 刷卡機。收單行為環匯亞太。
+
         - :lucide-smartphone:{ .lg }   
-        [__MYPAY__](../../hardware/mypay-wireless-credit-card-machine.md) <br>
+        [__MYPAY__](../../hardware/mypay-wireless-credit-card-machine.md)<br>
         適用於平板操作，需搭配商米 P2 PRO 刷卡機服務。
 
         - :lucide-wallet:{ .lg }   

@@ -33,7 +33,7 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/returns-refunds/cvs-unclaimed-order/
   - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
 tags:
@@ -103,7 +103,7 @@ hide: []
 
 ### 哪些付款方式支援自動退款 { #reference-overdue-cvs-refund-flow-auto-refund-payment }
 
-各金流商支援自動退刷的範圍與期限差異請見 [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }。
+各金流商支援自動退刷的範圍與期限差異請見 [退款方式與作業](../order-refund-process/#specs-order-refund){ title="退款方式與作業" data-preview }。
 
 對於超商逾期未取（顧客 4–7 日內未取），所有支援自動退刷的金流都遠在退刷期限內，因此 **金流期限通常不是阻礙**。實際是否觸發自動退款取決於下方綜合條件。
 
@@ -115,7 +115,7 @@ hide: []
 
 - [x] **配送狀態：** 由「已出貨」轉為「逾期未取」
 - [x] **付款狀態：** 為「已收到款項」
-- [x] **付款方式：** 屬於 [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview } 列出的金流（且仍在退刷期限內）
+- [x] **付款方式：** 屬於 [退款方式與作業](../order-refund-process.md#specs-order-refund){ title="退款方式與作業" data-preview } 中標示支援「系統自動退款」的付款方式
 - [x] **整筆訂單以同一超商物流出貨：** 非部分出貨
 - [x] **未啟用「超商逾期未取不自動退款」功能**
 - [x] **商家方案支援自動退款金流**
@@ -138,7 +138,7 @@ hide: []
 ## 參考資料 { #reference-overdue-cvs-refund-flow }
 
 * [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
-* [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" }
+* [退款方式與作業](../order-refund-process/){ title="退款方式與作業" }
 * [黑貓快速到店逾期說明](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
 
 

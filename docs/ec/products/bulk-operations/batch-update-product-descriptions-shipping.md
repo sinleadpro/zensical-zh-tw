@@ -106,7 +106,7 @@ hide: []
 	2. 點擊 **已選取__個商品** 欄位，選擇 **選取全部商品**。
 	3. 點擊操作選單，選擇 **匯出商品**，系統將自動下載 Excel 檔案至您的電腦。
 	
-	![匯出全部商品](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png){ title="匯出全部商品" .screenshot }
+	![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png){ title="匯出全部商品" .screenshot }
 
 ---
 
@@ -160,13 +160,13 @@ hide: []
 === ":material-progress-check: 資料匯入處理中"
     若輸入格式無誤，您將會收到「資料匯入處理中」的 EMAIL 通知。
 
-    ![資料匯入處理中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png){ title="資料匯入處理中" .screenshot }
+    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png){ title="資料匯入處理中" .screenshot }
 
 === ":material-check-circle-outline: 商品資料匯入成功" 
 
     當匯入作業完成後，您會再收到「商品 資料匯入成功」的 EMAIL 通知，表示批次修改商品內容已完成。
 
-    ![商品資料匯入成功](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png){ title="商品資料匯入成功" .screenshot }
+    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png){ title="商品資料匯入成功" .screenshot }
 
 ## 後續操作 { #next-steps-batch-update }
 

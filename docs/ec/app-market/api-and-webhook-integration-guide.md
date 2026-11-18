@@ -2,7 +2,7 @@
 title: API 與 Webhook 串接指南
 description: 了解如何透過 API 與 Webhook 服務串接外部系統（如 ERP、CRM），實現自動化數據同步與即時通知。
 created: 2026-06-11 14:45
-last_modified: 2026-10-07 16:20
+last_modified: 2026-11-13 14:40
 lang: zh-TW
 type: guide
 author: Ann
@@ -140,18 +140,25 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 
 4. 點擊 **儲存**，系統將開始推送相關事件資訊。
 
-
 ## 開發參考資訊 { #reference-api-webhook }
 
 ### API 文件查詢 { #reference-api-webhook-api-docs }
 
-您可以透過測試帳號登入 API 文件中心，查看各項 API 的詳細參數與資料格式。
+您可以透過以下方式前往 API 文件中心，查看各項 API 的詳細參數與資料格式：
 
-- **文件網址**：[https://api-doc.cyberbiz.co/v1/api_document](https://api-doc.cyberbiz.co/v1/api_document)
-- **User Name**：`apidemo`
-- **Secret**：`apidemo`
+=== "透過後台連結前往"
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/APIWebhook串接01.png){ .screenshot }
+    登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務**，於 **自訂** 頁籤點擊 **API 文件**。
+
+    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-前往API文件網站01.png){ .screenshot }
+
+=== "手動輸入網址"
+
+    登入 CYBERBIZ 管理後台後，另開一個分頁，在網址列輸入 `https://商店網域/admin/api_document`
+
+    如：官網網址為 `https://www.xxxx.com.tw/`，則 API 文件網址為 `https://www.xxxx.com.tw/admin/api_document`
+
+
 
 API串接項目依照顏色簡單分類：
 
@@ -194,4 +201,3 @@ curl https://app-store-api.cyberbiz.io/v2/product_feeds \
     -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODkxMzI0ODksImV4cCI6MTY4OTEzOTY4OSwic2hvcF9pZCI6NzEwOSwic2NvcGVzIjoicHVibGljIHNob3BfYXBpIiwic2hvcF9kb21haW4iOiJkZW1vLmN5YmVyYml6LmNvIn0.VyW3B2wA1b6uhH9pDfbzRvPjOmSQD7VHy-IiRmnof9g" \
     -H "Accept: application/json"
 ```
-

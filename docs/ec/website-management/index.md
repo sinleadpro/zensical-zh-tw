@@ -106,6 +106,14 @@ hide:
 
     [:octicons-arrow-right-24: 前往](member-security-settings.md)
 
+-   :lucide-globe-2: __跳轉至其他國家指定官網__
+
+    ---
+
+    依顧客 IP 所在國家顯示前台提示列，引導顧客前往對應國家官網。
+
+    [:octicons-arrow-right-24: 前往](setup-country-site-redirect.md)
+
 -   :lucide-shield: __資安防護總覽與最佳實務__
 
     ---
