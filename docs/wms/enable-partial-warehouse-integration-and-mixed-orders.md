@@ -87,7 +87,8 @@ hide: []
 顧客將「入倉商品」與「不入倉商品」加入同一個購物車，並透過「混合物流」在同一筆訂單中合併結帳。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../resources/conventions.md) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../resources/conventions.md) | 電商官網 / 智慧倉儲<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-混單畫面總覽01.png){ .hero-page }

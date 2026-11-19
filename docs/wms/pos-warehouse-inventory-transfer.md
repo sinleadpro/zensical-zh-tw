@@ -23,8 +23,13 @@ sites:
   - TW
 audiences: []
 difficulty: ""
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents:
@@ -70,7 +75,8 @@ hide: []
 同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲 / 智能 POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲 / 智能 POS<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ## 三合一庫存機制 { #overview-pos-transfer }

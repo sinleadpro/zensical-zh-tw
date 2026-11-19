@@ -19,8 +19,13 @@ sites:
   - TW
 audiences: []
 difficulty: ""
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents:
@@ -65,7 +70,8 @@ hide: []
 在超商端漏傳收貨狀態時，手動更新電商倉儲訂單為「已收貨」狀態，以利後續帳務結案與退貨流程執行。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ## 使用須知 { #prerequisites-receipt }
