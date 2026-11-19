@@ -53,10 +53,6 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5739
-  - https://www.cyberbiz.io/support/?p=4750
-  - https://www.cyberbiz.io/support/?p=4781
-  - https://www.cyberbiz.io/support/?p=4799
-  - https://www.cyberbiz.io/support/?p=4814
   - https://www.cyberbiz.io/support/?p=9088
 permalink: "https://help.cyberbiz.io/wms/inbound-orders/"
 comments: false

@@ -60,10 +60,8 @@ paths:
   - 商品 > 組合商品
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/helpcenter/?p=8055
   - https://www.cyberbiz.io/support/?p=37330
-  - https://www.cyberbiz.io/support/?p=9749
 comments: false
 search:
   exclude: false

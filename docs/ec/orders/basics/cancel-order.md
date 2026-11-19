@@ -50,7 +50,6 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=174
-  - https://www.cyberbiz.io/support/?p=52159
   - https://www.cyberbiz.io/support/?p=1675
 permalink: "https://help.cyberbiz.io/ec/orders/basics/cancel-order/"
 comments: false
