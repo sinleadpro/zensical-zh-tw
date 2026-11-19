@@ -177,24 +177,30 @@ hide: []
 
 ### 門市關轉處理 { #operate-shipping-issue-store-closed }
 
-顧客選擇的超商取貨門市若結束營業或整修（門市關轉），系統會發送通知信，您需在期限內聯絡顧客重新選擇門市。
+若消費者選擇的取貨門市發生關轉（裝修、歇業等），系統會發送通知信給商家。各通路聯繫消費者的期限如下：
 
-1. **聯絡顧客：** 收到門市關轉通知後，與顧客確認新的取貨門市。
-2. **重新選擇門市：** 進入該筆訂單詳情頁的門市資訊區塊，點選 **「重新選擇門市」** 設定新的取貨門市。
-3. **於期限內完成：** 依各通路規定的期限內完成重新選擇並回報物流商：
-    * 7-11（店到店 C2C）：**6 天內**
-    * 7-11（大宗寄倉 B2C）：**2 天內**
-    * 全家：**6 天內**
-    * 萊爾富：請 **盡速** 聯絡顧客重新選擇門市
+| 通路 | 聯繫期限 |
+| :-- | :-- |
+| 7-ELEVEN | 收到通知信件 **2 日內** |
+| 全家（常溫／冷凍） | 收到通知信件 **6 日內** |
+| 萊爾富 | 收到通知信件 **2 日內** |
 
-!!! info "提示"
-    若超過通路規定期限仍未重新選擇門市，可能導致包裹被退回。請務必在收到通知後盡快處理。
+1. **聯繫消費者**：收到通知信後，於上表期限內主動聯繫消費者確認新的取貨門市。
+2. **重新選擇門市**：前往後台搜尋該筆訂單，進入訂單詳情頁，**重新選擇收件門市**。
+
+    !!! warning "重選門市的位置"
+
+        訂單詳情頁的重選門市按鈕，只適用 CYBERBIZ 直串的超商物流。綠界超商物流請到綠界後台重選門市。
+        [綠界教學文件 :lucide-external-link:](https://www.ecpay.com.tw/Announcement/DetailAnnouncement?nID=3357)
+
+3. **確認更新**：確認後系統會自動更新出貨資訊。
+
+若超過通路規定期限仍未重新選擇門市，可能導致包裹被退回。請務必在收到通知後盡快處理。
 
 <div class="grid cards" markdown>
 
-- :lucide-store:{ .ig .middle } [__超商 C2C 門市關轉（閉店）__](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed)
-- :lucide-package:{ .ig .middle } [__超商 B2C 門市關轉處理__](../cvs-shipping/cvs-b2c-bulk-shipping.md#operate-cvs-b2c-shipping-store-change)
-- :lucide-rotate-ccw:{ .ig .middle } [__7-11 C2C 退貨門市關轉__](../returns-refunds/7-11-c2c-return.md#operate-seven-eleven-c2c-return-pickup)
+- :lucide-store:{ .ig .middle } [__超商 C2C 出貨__](../cvs-shipping/cvs-c2c-shipping.md)
+- :lucide-package:{ .ig .middle } [__超商 B2C 出貨__](../cvs-shipping/cvs-b2c-bulk-shipping.md#operate-cvs-b2c-shipping-store-change)
 
 </div>
 
