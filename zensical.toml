@@ -385,6 +385,7 @@ copyright = """
                 {"日本站金流服務" = "ec/payments-and-logistics/japan-payment-services.md"},
                 {"東南亞站金流服務" = "ec/payments-and-logistics/southeast-asia-payment-services.md"},
                 {"澳洲落地版金流服務" = "ec/payments-and-logistics/australia-local-payment-services.md"},
+                {"日到台／日本落地版金流服務" = "ec/payments-and-logistics/japan-local-payment-services.md"},
                 {"DHL 跨境物流" = "ec/payments-and-logistics/dhl-cross-border-logistics.md"},
                 {"LINEX 跨境物流" = "ec/payments-and-logistics/linex-cross-border-logistics.md"},
                 {"順豐海外物流" = "ec/payments-and-logistics/sf-express-overseas-logistics.md"},
