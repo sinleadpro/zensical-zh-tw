@@ -48,6 +48,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2020
+  - https://www.cyberbiz.io/helpcenter/?p=2710
   - https://www.cyberbiz.io/helpcenter/?p=7534
   - https://www.cyberbiz.io/helpcenter/?p=9285
   - https://www.cyberbiz.io/support/?p=44090

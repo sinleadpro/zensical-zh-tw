@@ -73,6 +73,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1865
   - https://www.cyberbiz.io/helpcenter/?p=1871
+  - https://www.cyberbiz.io/helpcenter/?p=1885
 permalink: "https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification/"
 comments: false
 search:
