@@ -20,8 +20,13 @@ sites:
   - TW
 audiences: []
 difficulty: ""
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents: 
@@ -57,7 +62,8 @@ hide: []
 針對不同串倉模式，系統對「倉庫出貨」與「商家自行出貨」的宅配物流設定路徑有所不同。本表彙整各情境下的設定位置，協助您快速完成配置。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ## 設定位置一覽表 { #overview-logistics }

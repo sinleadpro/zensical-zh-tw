@@ -23,8 +23,13 @@ sites:
   - TW
 audiences: []
 difficulty: ""
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents:
@@ -74,7 +79,8 @@ hide: []
 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ## 串倉核心須知 { #prerequisites-wms-activation }

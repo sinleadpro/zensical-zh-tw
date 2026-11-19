@@ -22,8 +22,13 @@ sites:
   - TW
 audiences: []
 difficulty: ""
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents:
@@ -70,7 +75,8 @@ hide: []
 了解官網（EC）與電商倉儲（WMS）間的庫存同步邏輯、訂單拋轉機制以及出貨的基本規則，確保訂單能順利履行。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲<br>
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ## 庫存同步規則 { #specs-sync-rules }
