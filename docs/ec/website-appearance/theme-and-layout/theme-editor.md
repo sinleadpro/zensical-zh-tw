@@ -64,6 +64,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9153
   - https://www.cyberbiz.io/support/?p=39903
+  - https://www.cyberbiz.io/support/?p=29446
 icon: lucide/layout-dashboard
 hide:
 comments: false

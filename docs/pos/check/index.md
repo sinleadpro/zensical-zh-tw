@@ -83,6 +83,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5012
+  - https://www.cyberbiz.io/support/?p=2923
 permalink: "https://help.cyberbiz.io/pos/check/"
 comments: false
 search:

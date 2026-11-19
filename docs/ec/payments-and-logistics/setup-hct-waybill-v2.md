@@ -56,7 +56,9 @@ ui_components: []
 paths:
   - 金物流 > 新竹物流託運單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=10625
+  - https://www.cyberbiz.io/support/?p=46286
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2/"
 comments: false
 search:

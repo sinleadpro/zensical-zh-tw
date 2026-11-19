@@ -55,7 +55,9 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=3430
+  - https://www.cyberbiz.io/support/?p=15891
 permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-features/"
 comments: ""
 search:

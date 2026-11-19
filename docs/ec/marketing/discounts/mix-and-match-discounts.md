@@ -50,6 +50,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1357
   - https://www.cyberbiz.io/support/?p=1380
   - https://www.cyberbiz.io/support/?p=7316
+  - https://www.cyberbiz.io/helpcenter/?p=11176
 permalink: "https://help.cyberbiz.io/ec/marketing/discounts/mix-and-match-discounts/"
 comments: false
 search:

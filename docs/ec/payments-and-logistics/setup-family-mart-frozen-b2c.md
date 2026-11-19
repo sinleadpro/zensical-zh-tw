@@ -66,6 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5068
   - https://www.cyberbiz.io/support/?p=21320
+  - https://www.cyberbiz.io/support/?p=10100
 comments: false
 search:
   exclude: false

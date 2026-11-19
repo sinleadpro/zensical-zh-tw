@@ -45,6 +45,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39872
+  - https://www.cyberbiz.io/helpcenter/?p=7936
 permalink: "https://help.cyberbiz.io/ec/orders/manual-refund-for-third-party-payment-orders/"
 comments: false
 search:

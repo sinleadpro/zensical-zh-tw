@@ -58,6 +58,7 @@ paths:
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url: 
+  - https://www.cyberbiz.io/support/?p=35401
     - https://www.cyberbiz.io/support/?p=35401
 permalink: "https://help.cyberbiz.io/pos/check/storewide-order-discounts/"
 comments: false

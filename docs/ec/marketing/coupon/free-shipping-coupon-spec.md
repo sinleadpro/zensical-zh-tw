@@ -60,6 +60,8 @@ paths:
     - 行銷活動 > 優惠券
 layouts: []
 wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=7960
+  - https://www.cyberbiz.io/support/?p=28947
     - https://www.cyberbiz.io/helpcenter/?p=7960
     - https://www.cyberbiz.io/support/?p=28947
 permalink: "https://help.cyberbiz.io/ec/marketing/coupon/free-shipping-coupon-spec/"

@@ -80,7 +80,9 @@ paths:
   - 網站外觀 > 套版主題管理
 layouts:
   - draggable
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4404
+  - https://www.cyberbiz.io/support/?p=26488
 icon: lucide/panel-top
 hide:
 comments: false

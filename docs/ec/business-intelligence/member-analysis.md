@@ -62,6 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5050
+  - https://www.cyberbiz.io/support/?p=11528
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
 comments: false
 search:

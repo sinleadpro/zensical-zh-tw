@@ -52,6 +52,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6879
   - https://www.cyberbiz.io/support/?p=24549
   - https://www.cyberbiz.io/support/?p=36678
+  - https://www.cyberbiz.io/support/?p=33051
 permalink: "https://help.cyberbiz.io/ec/members/batch-import-and-edit-members/"
 comments: false
 search:

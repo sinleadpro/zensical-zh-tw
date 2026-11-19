@@ -58,7 +58,8 @@ paths:
   - 金物流 > 順豐託運單
   - 訂單 > 所有訂單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=3744
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2/"
 comments: false
 search:

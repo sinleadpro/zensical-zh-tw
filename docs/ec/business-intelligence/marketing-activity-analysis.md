@@ -72,6 +72,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5056
   - https://www.cyberbiz.io/helpcenter/?p=8101
+  - https://www.cyberbiz.io/support/?p=40350
+  - https://www.cyberbiz.io/support/?p=9871
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/"
 comments: false
 search:
