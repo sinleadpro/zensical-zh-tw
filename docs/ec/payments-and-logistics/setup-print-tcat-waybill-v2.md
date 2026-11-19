@@ -57,7 +57,8 @@ ui_components: []
 paths:
   - 金物流 > 黑貓託運單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=986
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2/"
 comments: false
 search:

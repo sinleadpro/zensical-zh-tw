@@ -11,6 +11,8 @@ icon: lucide/users
 permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/"
 hide:
   - feedback
+wp_url:
+  - https://www.cyberbiz.io/support/?p=29174
 ---
 
 ## 商家設定流程 { #operate-line-group-buy }

@@ -52,7 +52,8 @@ ui_components: []
 paths:
   - 訂單 > 所有訂單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=2324
 permalink: "https://help.cyberbiz.io/ec/orders/references/order-filter-status-reference/"
 comments: false
 search:

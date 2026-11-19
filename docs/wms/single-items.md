@@ -56,6 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5733
   - https://www.cyberbiz.io/support/?p=8920
+  - https://www.cyberbiz.io/support/?p=6108
 permalink: "https://help.cyberbiz.io/wms/single-items/"
 comments: false
 search:

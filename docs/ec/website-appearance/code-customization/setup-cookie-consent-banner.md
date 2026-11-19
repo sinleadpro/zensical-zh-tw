@@ -50,7 +50,8 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=24351
 permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/"
 comments: false
 search:

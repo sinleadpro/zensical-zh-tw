@@ -61,6 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=53869
   - https://www.cyberbiz.io/support/?p=16465
   - https://www.cyberbiz.io/support/?p=1618
+  - https://www.cyberbiz.io/helpcenter/?p=7495
 permalink: "https://help.cyberbiz.io/ec/marketing/other-tools/subscription-campaign-page/"
 comments: false
 search:

@@ -63,6 +63,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8632
   - https://www.cyberbiz.io/support/?p=2142
+  - https://www.cyberbiz.io/helpcenter/?p=2282
+  - https://www.cyberbiz.io/helpcenter/?p=2291
 permalink: "https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart/"
 search:
   exclude: false

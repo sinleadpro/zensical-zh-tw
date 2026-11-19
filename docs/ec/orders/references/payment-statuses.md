@@ -41,7 +41,9 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=34944
+  - https://www.cyberbiz.io/support/?p=50143
 permalink: "https://help.cyberbiz.io/ec/orders/references/payment-statuses/"
 comments: ""
 search:

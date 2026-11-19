@@ -54,6 +54,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=275
   - https://www.cyberbiz.io/support/?p=2754
+  - https://www.cyberbiz.io/helpcenter/?p=6014
+  - https://www.cyberbiz.io/support/?p=24045
 permalink: "https://help.cyberbiz.io/ec/members/member-customer-service-system/"
 comments: false
 search:

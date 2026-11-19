@@ -58,6 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
   - https://www.cyberbiz.io/support/?p=51911
+  - https://www.cyberbiz.io/helpcenter/?p=2175
 permalink: "https://help.cyberbiz.io/ec/orders/order-refund-process/"
 comments: false
 search:

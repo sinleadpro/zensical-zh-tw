@@ -54,6 +54,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8226
   - https://www.cyberbiz.io/support/?p=23847
   - https://www.cyberbiz.io/support/?p=7378
+  - https://www.cyberbiz.io/helpcenter/?p=11179
 permalink: "https://help.cyberbiz.io/ec/marketing/discounts/red-and-green-bundle-discounts/"
 comments: false
 search:

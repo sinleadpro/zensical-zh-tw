@@ -75,7 +75,10 @@ paths:
   - APP 功能 > APP推播通知設定 > 通知樣板
   - APP 功能 > APP推播通知設定 > 活動推播列表
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=23345
+  - https://www.cyberbiz.io/support/?p=7761
+  - https://www.cyberbiz.io/support/?p=7978
 permalink: "https://help.cyberbiz.io/ec/app/setup-cyberbiz-app/"
 comments: false
 search:

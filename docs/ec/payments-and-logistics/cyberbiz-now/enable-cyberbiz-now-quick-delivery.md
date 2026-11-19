@@ -63,6 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12783
   - https://www.cyberbiz.io/support/?p=12967
+  - https://www.cyberbiz.io/support/?p=19363
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery/"
 comments: false
 search:

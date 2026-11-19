@@ -63,6 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=122
   - https://www.cyberbiz.io/support/?p=977
+  - https://www.cyberbiz.io/helpcenter/?p=6858
 permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/"
 comments: false
 search:

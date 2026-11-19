@@ -39,7 +39,8 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=44044
 permalink: "https://help.cyberbiz.io/ec/orders/references/fulfillment-statuses/"
 comments: ""
 search:

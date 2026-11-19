@@ -51,7 +51,8 @@ ui_components:
 paths:
   - 設定 > 功能設定 > 前台功能設定
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=41979
 permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance/"
 comments: false
 search:
