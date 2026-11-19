@@ -58,7 +58,8 @@ ui_components:
 paths:
   - 會員 > 顧客回饋&建議
   - 網站外觀 > 管理商品評論
-layouts: []
+layouts: 
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371
   - https://www.cyberbiz.io/support/?p=50193
@@ -74,11 +75,11 @@ hide: []
 
 ## 什麼是 reCAPTCHA { #intro-recaptcha }
 
-reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動化程式操作，保護網站表單、留言區與交易流程免受機器人攻擊。
+reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動化程式操作，保護留言區免受機器人攻擊。
 
 啟用 reCAPTCHA 可帶來以下助益：
 
-- **防範垃圾留言**：降低商品評論區與聯絡表單遭自動化濫用的風險。  
+- **防範垃圾留言**：降低商品評論區遭自動化濫用的風險。  
 - **提升網站安全性**：辨識非人類操作，減少詐欺與惡意行為。  
 - **維護互動品質**：確保提交內容的真實性，改善整體使用體驗。
 
@@ -89,7 +90,6 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ### 適用範圍 { #prerequisites-recaptcha-scope }
 
 - [x] 商品頁面評論區。
-- [x] 聯絡我們頁面。
 
 ---
 
@@ -135,16 +135,6 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 ![商品評論reCAPTCHA綁定](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.png){ title="商品評論reCAPTCHA綁定" }
 
-### 綁定 reCAPTCHA 金鑰至聯絡我們頁面 { #operate-recaptcha-contact }
-
-1. 登入 CYBERBIZ 管理後台，前往 **會員 > 顧客回饋 & 建議**。
-2. 點擊 **啟動機器人阻擋** 開關，以開啟功能（ON）。
-3. 貼上金鑰：
-	- **sitekey**：將申請過程中取得的 **網站金鑰** 填入此欄位。  
-	- **secret key**：將申請過程中取得的 **密鑰** 填入此欄位。
-4. 點擊 **儲存所有設定** 套用變更。
-
-![聯絡我們reCAPTCHA綁定](../../../assets/images/ec-member-feedback-google-recaptcha.zh-tw.png){ title="聯絡我們reCAPTCHA綁定" }
 
 ## 常見問題 { #faq-recaptcha }
 ??? quote "一組 Google reCAPTCHA 帳號可以綁定多個網域嗎？"

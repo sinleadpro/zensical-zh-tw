@@ -2,7 +2,7 @@
 title: 設定會員安全與網站保護
 description: 管理會員密碼強度、個資隱碼遮蔽與地區黑名單，並可為前台網站設定密碼保護，全方位守護顧客資料與網站存取安全。
 created: 2026-08-12 10:59
-last_modified: 2026-10-23 10:30
+last_modified: 2026-11-19 13:51
 lang: zh-TW
 type: guide
 status: ""
@@ -83,7 +83,7 @@ hide: []
 
 - **會員安全**：負責保護網站與顧客資料。
 - **[管理員登入](admin-security-settings/)**：負責保護你與員工登入後台的安全。
-- **[機器人防護](bot-protection-settings/)**：負責過濾惡意訪客，在簡訊發送前建立第一道防線。
+- **[機器人防護](bot-protection-settings/)**：在指定的前台操作前驗證是否為機器人，通過後系統才繼續。
     
 
 ## 使用前提與限制 { #prerequisites-security }

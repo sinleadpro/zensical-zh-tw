@@ -431,7 +431,6 @@ copyright = """
             { "顧客互動" = [
                 { "網站客服視窗" = "ec/website-appearance/customer-interaction/setup-customer-service-widget.md" },
                 { "客服中心資訊調整" = "ec/website-appearance/customer-interaction/setup-edit-customer-service-info.md" },
-                { "留言區 reCAPTCHA" = "ec/website-appearance/customer-interaction/enable-comment-recaptcha.md" }
             ]},
             { "結帳與購物流程" = [
                 { "優先填寫收件人設定" = "ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout.md" }
@@ -617,9 +616,10 @@ copyright = """
                 { "會員安全" = "ec/website-management/member-security-settings.md" },
                 { "跳轉至其他國家官網" = "ec/website-management/setup-country-site-redirect.md" },
                 { "管理者登入" = "ec/website-management/admin-security-settings.md" },
-                { "機器人防護" = "ec/website-management/bot-protection-settings.md" },
                 { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
                 { "安裝 Authy 驗證器" = "ec/website-management/authy-two-factor-authentication.md" },
+                { "機器人防護" = "ec/website-management/bot-protection-settings.md" },
+                { "留言區 reCAPTCHA 防護" = "ec/website-appearance/customer-interaction/enable-comment-recaptcha.md" },
                 { "管理員與權限" = "ec/website-management/add-admin-set-permissions.md" },
             ]},
             {"搜尋引擎最佳化" = [
