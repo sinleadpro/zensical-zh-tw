@@ -1,0 +1,151 @@
+---
+title: 日到台／日本落地版金流服務
+description: 日到台／日本落地版透過與 Airwallex 合作，提供商家穩定且多元的在地金流服務。本文將引導您完成從帳戶申請、官網合規審核到後台 API 串接的完整流程。
+created: 2026-11-19 17:00
+last_modified: 2026-11-19 17:00
+lang: zh-TW
+type: guide
+author: Ann
+reviewers: []
+notes:
+  - 內部連結：建立商品、頁腳、購物車相關設定、訂單相關設定
+ga_views: 0
+feedback: 0
+products:
+  - EC
+modules:
+  - 金物流
+sites:
+  - JP
+audiences:
+  - merchant
+difficulty: intermediate
+tnb: branch
+plans: 
+  - global_advanced
+plan_options: []
+cyb_extensions: []
+intents:
+  - 申請_Airwallex_帳戶
+  - 激活收單功能
+  - 串接_API_密鑰
+features:
+  - 日本落地版
+  - 跨境金流
+  - Airwallex 收單
+prerequisites:
+  - 需為日本落地版商家
+  - 需先聯繫開店顧問取得申請連結
+related: []
+tags:
+  - Airwallex
+  - 跨境電商
+acoiv: integration
+apis: []
+devices:
+  - desktop
+ui_components: []
+paths:
+  - 金物流 > 金流設定
+layouts: []
+wp_url: []
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/japan-local-payment-services/"
+comments: false
+search:
+  exclude: false
+icon: lucide/globe
+hide: []
+---
+
+# 日到台／日本落地版金流服務
+
+日到台／日本落地版透過與 Airwallex 合作，提供商家穩定且多元的在地金流服務。本文將引導您完成從帳戶申請、官網合規審核到後台 API 串接的完整流程。
+{ .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商 (日到台／日本落地版)
+{ .doc-badge }
+
+![](../../assets/images/日到台-後台-金物流-金流設定-啟用金流01.png){ .hero-page }
+
+## 使用須知 { #prerequisites-au-payments }
+
+- **費用規範**：有關帳戶月費、金流手續費及撥款機制，請參閱 [Airwallex 官方定價說明](https://www.airwallex.com/au/pricing)。
+
+
+
+## 步驟 1：申請與激活 Airwallex 帳戶 { #operate-au-payments-airwallex }
+
+### 1. 提交帳戶申請 { #operate-au-payments-apply }
+
+請聯繫您的 CYBERBIZ 開店顧問取得專屬的 **Airwallex 申請連結**。
+
+- **帳戶設置**：
+    - **公司所在地**：請依貴司實際登記地點選擇。
+        ![](../../assets/images/Airwallex-前台-會員註冊頁-建立會員01.png)
+
+- **準備文件**：開戶所需文件因地區而異，請參考 [Airwallex 各地區開戶文件清單](https://help.airwallex.com/hc/zh-cn/sections/8352632554767)。
+
+
+
+### 2. 激活帳戶資格 { #operate-au-payments-activate }
+
+1. 完成註冊並進入 Airwallex 後台後，請點擊主頁的 **激活帳戶** 按鈕。
+    ![](../../assets/images/Airwallex-前台-首頁-激活帳戶01.png)
+2. 依指示完成 Email 驗證。
+    ![](../../assets/images/Airwallex-前台-首頁-激活帳戶02.png)
+
+## 步驟 2：激活收單功能 { #operate-au-payments-acquire }
+
+### 1. 建立官網合規資訊 { #operate-au-payments-compliance }
+
+請確保您的官網已完成以下基本結構，以供 Airwallex 窗口審核：
+
+- **品牌識別**：網站 Logo。
+- **商品展示**：建立至少一個商品，並標註正確售價。
+- **頁腳必備頁面**：
+    - **聯絡資訊**：提供客服聯繫方式。
+    - **關於我們**：須包含公司名稱與統編（或當地商業登記號碼）。
+    - **隱私政策**。
+    - **服務條款**。
+
+### 2. 提交審核並開啟收單 { #operate-au-payments-submit }
+
+1. 提供您的官網連結給 Airwallex 服務窗口進行評估。
+2. 評估完成後，進入 Airwallex 後台的 **收單** 頁面。
+3. 依據 Airwallex 指示[新增支付方式](https://www.airwallex.com/docs/payments/get-started/payment-method-activation)，並選擇 CYBERBIZ 平台支援的付款方式。
+
+    - **CYBERBIZ 支援付款方式**：信用卡、Apple Pay、Google Pay。
+
+4. 視需要[開啟或關閉支付方式](https://help.airwallex.com/hc/en-gb/articles/5898028587279-How-do-I-enable-or-disable-a-payment-method)。
+
+![](../../assets/images/Airwallex-前台-會員頁-收單-開啟收單功能01.png)
+
+
+## 步驟 3：串接 CYBERBIZ 後台 { #operate-au-payments-bind }
+
+完成 Airwallex 端的激活後，最後一步是將兩端系統串接。
+
+### 1. 取得 API 密鑰 { #operate-au-payments-api-key }
+
+前往 Airwallex 後台，**帳戶 > 開發者 > API 密鑰 (API Keys)**，複製您的 **CLIENT ID** 與 **API 密鑰**。
+
+![](../../assets/images/Airwallex-前台-帳戶-開發者-複製API密鑰01.png)
+
+### 2. 在 CYBERBIZ 啟用金流 { #operate-au-payments-enable }
+
+1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
+2. 找到 **Airwallex** 選項並點擊編輯。
+    ![](../../assets/images/日到台-後台-金物流-金流設定-啟用金流01.png)
+3. 於 **啟用設定** 區塊，填入剛複製的 **CLIENT ID** 與 **API 密鑰**。
+    ![](../../assets/images/日到台-後台-金物流-金流設定-串接API密鑰01.png)
+4. 勾選欲在官網開啟的付款方式。
+    ![](../../assets/images/日到台-後台-金物流-金流設定-開啟付款方式01.png)
+5. 點擊儲存，即可完成金流啟用。
+
+
+
+## 常見問題 { #faq-au-payments }
+
+??? quote "如有帳務疑義該聯繫誰？"
+    有關撥款時間、手續費核對或交易失敗查詢，建議直接聯繫 [Airwallex 客服中心](https://www.airwallex.com/contact-us)，能獲得最即時的技術支援。
+
