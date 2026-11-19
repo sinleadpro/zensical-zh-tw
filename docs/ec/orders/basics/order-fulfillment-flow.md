@@ -256,10 +256,6 @@ icon: lucide/workflow
     [](){ #faq-fulfillment-reship }
     無法重新出貨。若配送途中發生異常，除了 **超商門市關轉** 可修改配送門市外（見下一則），其餘情況只能請顧客重新下單。
 
-??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
-    [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）。
-
 ??? quote "同一位顧客有多筆訂單，可以合併出貨嗎"
     [](){ #faq-fulfillment-merge }
     依是否串接智慧倉儲(峰潮)而定：

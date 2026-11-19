@@ -55,6 +55,7 @@ related:
   - ec/orders/renew-waybill-after-expiration/
   - ec/orders/cvs-shipping/family-mart-frozen-c2c/
   - ec/website-management/setup-store-basic-info/
+  - ec/orders/order-settings/shipping-label-or-shipment-status-error/
 tags:
   - 超商店到店
   - C2C
@@ -358,11 +359,15 @@ hide:
 
 ---
 
-### 門市關轉 <small>閉店</small> { #operate-cvs-c2c-exception-store-closed }
+### 門市關轉  { #operate-cvs-c2c-exception-store-closed }
 
-- **7-11**：CYBERBIZ 系統發送通知信，需於收到通知信件的 2 日內聯繫消費者，並前往後台搜尋到該筆訂單，於訂單詳情頁重新選擇 7-11 門市。
-- **全家**：CYBERBIZ 系統發送通知信，需於收到通知信件的 6 日內聯繫消費者，並前往後台搜尋到該筆訂單，於訂單詳情頁重新選擇全家門市。
-- **萊爾富**：CYBERBIZ 系統發送通知信，需於收到通知信件的 2 日內聯繫消費者，並前往後台搜尋到該筆訂單，於訂單詳情頁重新選擇萊爾富門市。
+<div class="grid cards" markdown>
+
+- :lucide-map-pin-off:{ .lg }
+  [__門市關轉處理__](../order-settings/shipping-label-or-shipment-status-error.md#operate-shipping-issue-store-closed){ data-preview }
+  取貨門市關轉時，於期限內聯繫消費者並改選門市，避免包裹被退回。
+
+</div>
 
 ---
 

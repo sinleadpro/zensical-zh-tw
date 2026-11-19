@@ -46,6 +46,7 @@ related:
   - ec/orders/renew-waybill-after-expiration/
   - ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/
   - ec/website-management/points-deposits/
+  - ec/orders/order-settings/shipping-label-or-shipment-status-error/
 tags:
   - 超商大宗寄倉
   - B2C 出貨
@@ -176,20 +177,13 @@ hide: []
 
 ### 門市關轉處理 { #operate-cvs-b2c-shipping-store-change }
 
-若消費者選擇的取貨門市發生關轉（裝修、歇業等），系統會發送通知信給商家。各通路聯繫消費者的期限如下：
+<div class="grid cards" markdown>
 
-| 通路 | 聯繫期限 |
-| :-- | :-- |
-| 7-ELEVEN | 收到通知信件 **2 日內** |
-| 全家（常溫／冷凍） | 收到通知信件 **6 日內** |
-| 萊爾富 | 收到通知信件 **2 日內** |
+- :lucide-map-pin-off:{ .lg }
+  [__門市關轉處理__](../order-settings/shipping-label-or-shipment-status-error.md#operate-shipping-issue-store-closed){ data-preview }
+  取貨門市關轉時，於期限內聯繫消費者並改選門市，避免包裹被退回。
 
-1. **聯繫消費者**：收到通知信後，於上表期限內主動聯繫消費者確認新的取貨門市。
-2. **重新選擇門市**：前往後台搜尋該筆訂單，進入訂單詳情頁，**重新選擇收件門市**。
-3. **確認更新**：確認後系統會自動更新出貨資訊。
-
-!!! warning "逾期風險"
-    若超過通路規定期限仍未重新選擇門市，可能導致包裹被退回。請務必在收到通知後盡快處理。
+</div>  
 
 ---
 
@@ -248,7 +242,7 @@ hide: []
 ??? quote "託運單下載後可以修改收貨資訊嗎？"
     [](){ #faq-cvs-b2c-shipping-edit }
     
-    **不可以**。下載託運單即代表已完成託運申請，收件地址、門市、收件人皆無法修改。若遇門市關轉，請依「[門市關轉處理](#operate-cvs-b2c-shipping-store-change){ title="門市關轉處理" }」流程處理。
+    **不可以**。下載託運單即代表已完成託運申請，收件地址、門市、收件人皆無法修改。
 
 ??? quote "可以混合不同超商一次下載嗎？"
     [](){ #faq-cvs-b2c-shipping-mixed }
