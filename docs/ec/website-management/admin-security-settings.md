@@ -2,7 +2,7 @@
 title: 設定管理員登入安全防護
 description: 透過 IP 白名單、二階段驗證 (2FA)、自動登出與密碼規則設定，強化後台帳號安全，防止未經授權的登入與帳號盜用。
 created: 2026-08-12 10:59
-last_modified: 2026-08-12 10:59
+last_modified: 2026-11-19 13:51
 lang: zh-TW
 type: guide
 status: ""
@@ -86,7 +86,7 @@ hide: []
 
 - **[會員安全](member-security-settings/)**：負責保護網站與顧客資料。
 - **管理員登入**：負責保護你與員工登入後台的安全。
-- **[機器人防護](bot-protection-settings/)**：負責過濾惡意訪客，在簡訊發送前建立第一道防線。
+- **[機器人防護](bot-protection-settings/)**：在指定的前台操作前驗證是否為機器人，通過後系統才繼續。
 
 
 ## 使用前提與限制 { #prerequisites-security }

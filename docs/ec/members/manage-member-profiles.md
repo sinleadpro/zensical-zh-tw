@@ -48,6 +48,7 @@ related:
   - ec/website-appearance/code-customization/customize-other-channel-order-label/
   - ec/marketing/coupon/free-shipping-coupon-spec/
   - ec/marketing/coupon/gift-coupon-spec/
+  - ec/website-management/bot-protection-settings/
 tags:
   - 會員明細
   - 代客下單
@@ -100,7 +101,7 @@ hide: []
 - **帳號不可刪除**：會員資料建立後無法刪除；若有重複或不再使用的帳號，可在 **帳號設定** 將帳號狀態設為 `禁用帳號`，會員將無法登入。
 
 
-## 任務一：查看會員行為與資產數據 { #operate-member-profiles-metrics }
+## 查看會員行為與資產數據 { #operate-member-profiles-metrics }
 
 進入明細頁後，您可以透過上方的數據概覽，快速判斷該會員的消費實力與目前的互動狀態：
 
@@ -127,7 +128,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-會員-所有會員-查看會員數據指標01.png)
 
-## 任務二：基本資料與帳號維護 { #operate-member-profiles-account }
+## 基本資料與帳號維護 { #operate-member-profiles-account }
 
 ### 1. 編輯會員基本資料 { #operate-member-profiles-edit-basic }
 
@@ -168,7 +169,7 @@ hide: []
     - **自訂欄位**：檢視商家[自定義之註冊欄位](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom)，以及會員對應的填答內容。
       > 本功能僅支援 **高手 PLUS版 與企業版** 客戶使用。
 
-## 任務三：消費行為與訂單管理 { #operate-member-profiles-orders }
+## 消費行為與訂單管理 { #operate-member-profiles-orders }
 
 為了協助商家精準判斷會員價值，系統整合了 **官網與門市即時訂單** 與 **外站手動補入訂單**，提供全面的消費數據彙整。這能確保無論會員在何處消費，其 VIP 等級與權益計算皆能完整延續。
 
@@ -227,7 +228,7 @@ hide: []
         ![](../../assets/images/EC-前台-會員中心-編輯其他通路有效訂單名稱01.png)
 
 
-## 任務四：資產配置 { #operate-member-profiles-assets }
+## 資產配置 { #operate-member-profiles-assets }
 
 
 ### 1. 紅利點數派發與管理 { #operate-member-profiles-bonus }
@@ -298,7 +299,7 @@ hide: []
 
 </div>
 
-## 任務五：行銷標籤與分眾管理 { #operate-member-profiles-tags }
+## 行銷標籤與分眾管理 { #operate-member-profiles-tags }
 
 透過標籤，您可以對個別會員進行更細緻的標記：
 
@@ -321,7 +322,7 @@ hide: []
     ![](../../assets/images/EC-後台-會員-所有會員-批次綁定會員標籤01.png)
 
 
-## 任務六：代客下單 { #operate-member-profiles-proxy-order }
+## 代客下單 { #operate-member-profiles-proxy-order }
 
 適用於協助會員完成訂購，或處理托運單過期需重新下單的情境。
 
@@ -347,7 +348,7 @@ hide: []
 !!! info "版本適用說明"
     代客下單功能不支援專業版使用。
 
-## 任務七：會員忘記密碼 { #operate-member-profiles-password }
+## 會員忘記密碼 { #operate-member-profiles-password }
 
 基於資安原則，管理員無法直接查看或修改會員密碼。
 
@@ -358,6 +359,18 @@ hide: []
     若消費者使用 **HiNet 信箱** 註冊，可能會因電信商阻擋而無法收到忘記密碼信件，建議引導使用其他信箱。
 
 ![](../../assets/images/EC-前台-會員登入-忘記密碼01.png)
+
+
+## 資安防護 { #next-steps-member-profiles-security }
+
+
+<div class="grid cards" markdown>
+
+- :lucide-bot:{ .lg }
+  [__設定機器人防護__](../website-management/bot-protection-settings.md){ title="設定機器人防護" }
+  開啟 Cloudflare Turnstile 驗證，避免程式大量建立假帳號、用外洩帳密反覆登入，或寄出大量重設密碼的信件與簡訊。
+
+</div>
 
 ## 常見問題 { #faq-member-profiles }
 

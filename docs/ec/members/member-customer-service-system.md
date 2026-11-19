@@ -34,7 +34,8 @@ features:
   - 訂單留言
   - 顧客回饋與建議
 prerequisites: []
-related: []
+related: 
+  - ec/website-management/bot-protection-settings/
 tags:
   - 客服管理
   - 顧客關係
@@ -76,24 +77,24 @@ hide: []
     - **數據優化建議**：透過匯出功能分析常見問題，作為產品描述優化或 FAQ 建置的依據。
 
 
-## 一、功能導覽 { #overview-member-cs }
+## 功能導覽 { #overview-member-cs }
 
 官網客服問答主要涵蓋以下溝通路徑：
 
 1.  **聯絡我們（全站）**：不論是否登入，訪客皆可透過表單留言。
 2.  **訂單詢問（會員限定）**：會員針對 **特定訂單** 在明細頁中留言，訊息會自動標註單號。
 
-## 二、前台架設與互動情境 { #intro-member-cs }
+## 前台架設與互動情境 { #intro-member-cs }
 
 以下呈現 **客服問答** 的互動流程：
 
 
-### 1. 聯絡我們表單 { #intro-member-cs-contact }
+### 聯絡我們表單 { #intro-member-cs-contact }
 
 === "顧客視角"
 
     在官網導覽列或頁腳點擊 **聯絡店家**，選擇問題主題、填寫姓名、Email 與詢問內容後送出。
-    > **聯絡店家** 為系統預設文字，商家可手動修改名稱。設定完成後，請務必於頁面中同步指引顧客點擊該指定文字，以確保諮詢路徑明確。
+    > **聯絡店家** 為系統預設文字，商家可手動修改名稱。設定完成後，請務必於頁面中同步指引顧客點擊位置，以確保諮詢路徑明確。
 
     ![](../../assets/images/EC-前台-聯絡我們表單01.png)
 
@@ -103,7 +104,7 @@ hide: []
     - **處理**：前往 **會員 > 所有客服問題**，點擊 :lucide-pencil: 進行回覆。
 
 
-### 2. 專屬訂單詢問 { #intro-member-cs-order }
+### 專屬訂單詢問 { #intro-member-cs-order }
 
 === "顧客視角"
 
@@ -118,7 +119,7 @@ hide: []
       > 該筆訊息會自動帶入對應的 **訂單編號**，點擊即可直接查看訂單內容。
 
 
-## 三、設置客服主題 { #operate-member-cs-topics }
+## 設置客服主題 { #operate-member-cs-topics }
 
 在開放前台留言前，可先設定問題分類，以便將訊息分流處理。
 
@@ -129,9 +130,9 @@ hide: []
 
 ![](../../assets/images/EC-後台-會員-客服問題分類-建立訊息主題01.png)
 
-## 四、訊息回覆與管理 { #operate-member-cs }
+## 訊息回覆與管理 { #operate-member-cs }
 
-### 1. 回覆會員詢問 { #operate-member-cs-reply }
+### 回覆會員詢問 { #operate-member-cs-reply }
 
 1. 前往 **會員 > 所有客服問題**。
 2. 針對待回覆項目點選 **編輯**。
@@ -145,20 +146,30 @@ hide: []
 
 ![](../../assets/images/EC-後台-會員-所有客服問題-回覆與結案客服問題01.png)
 
-### 2. 處理訪客（非會員）留言 { #operate-member-cs-guest }
+### 處理訪客（非會員）留言 { #operate-member-cs-guest }
 
 1. 若訪客留下的 Email 系統查無會員帳號，請前往 **會員 > 顧客回饋 & 建議**。
 2. 您需使用顧客留下的聯絡資訊（如手動發 Email 或電話）在外部進行回覆。
 
 ![](../../assets/images/EC-後台-會員-顧客回饋建議-畫面總覽01.png)
 
-### 3. 匯出紀錄與分析 { #operate-member-cs-export }
+### 匯出紀錄與分析 { #operate-member-cs-export }
 
 1. 前往 **會員 > 客服問題 – 依會員分類**。
 2. 勾選欲分析的會員。
 3. 點選頁面上方 **選擇操作 > 匯出客服**，系統將產生 Excel 檔案供您下載分析。
 
 ![](../../assets/images/EC-後台-會員-客服問題-依會員分類-匯出客服問題01.png)
+
+## 資安防護 { #next-steps-member-cs-security }
+
+<div class="grid cards" markdown>
+
+- :lucide-bot:{ .lg }
+  [__設定機器人防護__](../website-management/bot-protection-settings.md){ title="設定機器人防護" }
+  開啟 Cloudflare Turnstile 驗證。避免程式在「聯絡我們」表單張貼垃圾或廣告訊息。
+
+</div>
 
 
 ## 常見問題 { #faq-member-cs }
