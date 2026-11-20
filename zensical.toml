@@ -353,6 +353,8 @@ copyright = """
                 {"街口支付" = "ec/payments-and-logistics/setup-jkopay.md"},
                 {"Google Pay™" = "ec/payments-and-logistics/setup-google-pay.md"},
                 {"iPASS MONEY 一卡通" = "ec/payments-and-logistics/setup-ipass-money.md"},
+                {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
+                {"藍新金流" = "ec/payments-and-logistics/apply-newebpay.md"},
             ]},
             {"宅配物流" = [
                 {"建立宅配貨到付款物流" = "ec/payments-and-logistics/home-delivery-cash-on-delivery.md"},
@@ -362,7 +364,6 @@ copyright = """
                 {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
                 {"超商店到店 C2C" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
                 {"ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
-                {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
             ]},
             {"託運單設定" = [
                 {"黑貓託運單" = "ec/payments-and-logistics/setup-print-tcat-waybill-v2.md"},
