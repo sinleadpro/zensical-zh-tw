@@ -377,7 +377,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 跨境電商
+## 跨境電商 { #overview-home-global }
 
 <div class="grid cards" markdown>
 
