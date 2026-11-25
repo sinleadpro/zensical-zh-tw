@@ -182,7 +182,7 @@ comments: false
 *   廠商 B 購物車中可結帳：`廠商B 常溫` 及 `AS`。
 *   *不論先結帳哪個購物車，另一個購物車內的 AS 會自動消失。*
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品-商品通路設定03-1.png){ title="不同商品通路" .screenshot }
+![](../../../assets/images/EC-前台-購物車-結帳拆分多購物車01.png){ title="不同商品通路" .screenshot }
 
 ---
 
@@ -216,7 +216,7 @@ comments: false
 
 *   此範例說明其他條件相同下，若物流方式選擇不同仍會分多購物車進行結帳。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品-商品通路設定05-1.png){ title="物流" .screenshot }
+![](../../../assets/images/EC-前台-購物車-結帳拆分多購物車02.png){ title="物流" .screenshot }
 
 
 ## 常見問題 { #faq-split-cart }

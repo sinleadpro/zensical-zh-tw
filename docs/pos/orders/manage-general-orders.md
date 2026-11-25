@@ -151,8 +151,8 @@ hide: []
 
     1. 前往 POS 後台，前往 **訂單**，確認訂單發票狀態。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作06.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作07.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作01.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作02.png){ .screenshot }
 
     2. 將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
 
@@ -160,7 +160,7 @@ hide: []
 
     3. 原訂單發票會於隔日作廢。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作09.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作03.png){ .screenshot }
 
     4. 差額須由商家另行退款給消費者。
     
@@ -168,8 +168,8 @@ hide: []
 
     1. 前往 POS 後台，前往 **訂單**，確認訂單發票狀態。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作10.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作11.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作04.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作05.png){ .screenshot }
     
     2. 將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
 
@@ -177,7 +177,7 @@ hide: []
 
     3. 原訂單發票會於隔日作廢。**換貨後開立的發票** 不會更動，**需自行至發票商後台進行作廢**。
     
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作14.png){ .screenshot }
+        ![](../../assets/images/POS-後台-訂單-所有訂單-退貨操作06.png){ .screenshot }
 
     4. 差額須由商家另行退款給消費者。
     

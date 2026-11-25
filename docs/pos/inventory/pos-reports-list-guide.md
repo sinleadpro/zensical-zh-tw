@@ -100,19 +100,19 @@ hide:
 *   **應用**：業績認列與獎金計算。
 
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表2.png){ .screenshot }
+![](../../assets/images/EXCEL-POS庫存管理報表01.png){ .screenshot }
 
 ### 商品庫存、銷售報表（依廠商別） { #specs-pos-reports-product-inventory-report }
 
 *   **功能**：依據廠商分類，一次檢視該廠商商品的庫存餘額與銷售狀況。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表3.png){ .screenshot }
+![](../../assets/images/EXCEL-POS庫存管理報表02.png){ .screenshot }
 
 ### 全通路庫存、商品流向報表（依商品別） { #specs-pos-reports-channel-inventory-product }
 
 *   **功能**：查看特定商品在各分店的庫存數，以及該商品的流向紀錄。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表4.png){ .screenshot }
+![](../../assets/images/EXCEL-POS庫存管理報表03.png){ .screenshot }
 
 ## 報表統計標準 { #specs-report-standard }
 

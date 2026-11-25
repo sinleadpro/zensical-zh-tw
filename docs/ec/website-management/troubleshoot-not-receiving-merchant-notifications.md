@@ -74,7 +74,7 @@ hide: []
 2. 點擊上方的 **回報為非垃圾郵件** 按鈕。
 3. 系統會將該信件移回收件匣，並協助 Gmail 學習該寄件者為安全來源。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件08.jpg){ .screenshot }
+![](../../assets/images/Gmail-後台-設定-篩選器-商家通知信件01.jpg){ .screenshot }
 
 
 
@@ -86,13 +86,13 @@ hide: []
 
 登入 Gmail 網頁版，點擊右上角的 **設定（齒輪圖示） > 查看所有設定**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件02.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定齒輪圖示-查看所有設定-商家通知信件01.png){ .screenshot }
 
 ### 2. 建立新篩選器 { #operate-merchant-notify-create }
 
 切換至 **篩選器和封鎖的地址** 頁籤，點擊 **建立新篩選器**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件03.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定齒輪圖示-查看所有設定-商家通知信件02.png){ .screenshot }
 
 ### 3. 填入寄件者清單 { #operate-merchant-notify-senders }
 
@@ -106,7 +106,7 @@ hide: []
 
 填寫完畢後，點擊 **建立篩選器**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件04.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定-篩選器-商家通知信件02.png){ .screenshot }
 
 ### 4. 設定排除條件 { #operate-merchant-notify-exclude }
 
@@ -116,15 +116,15 @@ hide: []
 - **永不移至垃圾桶**：這是最重要的設定，確保信件不會被攔截。
 - **永遠將其標示為重要**：確保信件會出現在優先收件匣。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件05.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定-篩選器-商家通知信件03.png){ .screenshot }
 
 ### 5. 前往篩選器 { #operate-merchant-notify-apply }
 
 設定完畢後，可至 **篩選器和封鎖的地址**，查看所有篩選器。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件06.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定-篩選器-商家通知信件04.png){ .screenshot }
 
 至 **CYBERBIZ** 標籤收件夾查看篩選的所有信件。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件07.png){ .screenshot }
+![](../../assets/images/Gmail-後台-設定-篩選器-商家通知信件05.png){ .screenshot }
 

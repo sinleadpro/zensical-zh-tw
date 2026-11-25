@@ -151,15 +151,15 @@ hide: []
 
 1. 消費者在結帳頁點擊「選擇優惠券或輸入優惠碼」。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定03.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-免運券規格-多張優惠券設定01.png){ .screenshot }
 
 2. 若「全館優惠碼」與「個人優惠券」序號相同，系統優先套用 **個人優惠券**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼08.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-免運券規格-結帳流程01.png){ .screenshot }
 
 3. 若贈品庫存足夠，消費者可選擇套用該贈品券。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼09.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-贈品券規格-結帳流程01.png){ .screenshot }
 
 
 ## 常見問題 { #faq-coupon }

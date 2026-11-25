@@ -86,7 +86,7 @@ hide:
 本文件教您如何在 CYBERBIZ 後台完成星益欣電子發票設定，涵蓋購買方案、串接啟用、多站台共用、對帳發票設定及帳戶續購。
 
 !!! info "「美麗科技」已與「星益欣」合併"
-	美麗科技已與星益欣合併，本文後續以星益欣指稱相關服務。星益欣相關設定，請依[星益欣官網公告 :lucide-external-link:](https://www.wixtar.com/product/e-invoice)為準，電話: 02-2711-9528 #240。若需將字軌匯入星益欣後台，請參考[匯入字軌教學文件](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf)。
+	美麗科技已與星益欣合併，本文後續以星益欣指稱相關服務。星益欣相關設定，請依[星益欣官網公告 :lucide-external-link:](https://www.wixtar.com/product/e-invoice)為準，電話: 02-2711-9528 #240。若需將字軌匯入星益欣後台，請參考[匯入字軌教學文件](../../assets/docs/星益欣-後台-字軌設定-匯入字軌-匯入字軌手冊01.pdf)。
 
 ## 使用前提與限制 { #prerequisites-wixtar-invoice }
 
@@ -251,7 +251,7 @@ hide:
     了解 POS 星益欣電子發票的子機計價方式與申請流程。
 
 -   :lucide-file-input:{ .lg .middle }  
-    [__匯入字軌教學文件__](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf)  
+    [__匯入字軌教學文件__](../../assets/docs/星益欣-後台-字軌設定-匯入字軌-匯入字軌手冊01.pdf)  
     將字軌匯入星益欣後台的操作手冊。
 
 </div>

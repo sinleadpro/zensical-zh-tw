@@ -91,7 +91,7 @@ hide: []
     - **頻率限制**：每秒至多 5 個請求 (Request)。
     - **資料限制**：每個請求上限為 2 MB。
 - **權限要求**：操作人員需具備 **自訂應用程式** 權限，請前往 **管理中心 > 網站權限** [設定權限](../website-management/add-admin-set-permissions/)。
-  ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook10.png){ .screenshot }
+  ![](../../assets/images/EC-後台-管理中心-網站權限-Webhook01.png){ .screenshot }
 
 
 
@@ -116,14 +116,14 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務**。
 2. 切換至 **自訂** 分頁，點擊 **建立自訂應用程式**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-Webhook01.png){ .screenshot }
 
 3. 設定 **應用程式名稱** 並配置 **API scope**（權限範圍）：
     - **read_**：僅能執行取得資料 (Get) 的操作。
     - **write_**：可執行建立、更新與刪除 (Post, Put, Delete) 的操作。
 4. 設定完成後，系統將產生 **APP Secret** 與 **API Token**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook02.png){ .screenshot }
+    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-Webhook02.png){ .screenshot }
 
 ### 步驟二：設定 Webhook 事件 { #operate-api-webhook-step-settings-webhook }
 
@@ -131,12 +131,12 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 
 1. 在應用程式設定頁面中，找到 **Webhook Events** 欄位。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook08.png){ .screenshot }
+    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-Webhook03.png){ .screenshot }
 
 2. 勾選欲訂閱的事件類型（如 `orders/create`, `customers/update`）。
 3. 在 **Endpoint URL** 欄位填入接收資料的網址。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook09.png){ .screenshot }
+	  ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-Webhook04.png){ .screenshot }
 
 4. 點擊 **儲存**，系統將開始推送相關事件資訊。
 
@@ -170,7 +170,7 @@ API串接項目依照顏色簡單分類：
 !!! tip "文件使用技巧"
     在文件中點選 **Model** 標籤，可查看各欄位的中文對照名稱，協助開發人員快速理解資料結構。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/APIWebhook串接06.png){ .screenshot }
+    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-APIWebhook串接02.png){ .screenshot }
 
 ### 如何用 token 串接 API 取得資料 { #reference-api-webhook-api-token }
 

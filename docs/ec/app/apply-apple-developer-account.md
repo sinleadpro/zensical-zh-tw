@@ -118,10 +118,10 @@ hide: []
 
 1.  前往 [App Store Connect](https://appstoreconnect.apple.com/)，點擊 **使用者與存取權限**。  
       
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/Apple-後台-AppleStoreConnect-使用者存取權限-進入入口01.png)
+    ![](../../assets/images/Apple-後台-AppleStoreConnect-使用者存取權限-進入入口01.png)
 
 2.  點擊 **+** 按鈕。  
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/Apple-後台-AppleStoreConnect-使用者存取權限-新增權限人員01.png)
+    ![](../../assets/images/Apple-後台-AppleStoreConnect-使用者存取權限-新增權限人員01.png)
 3.  填寫使用者資訊：  
     
     *   姓氏：Wisdom
@@ -129,7 +129,7 @@ hide: []
     *   電子郵件：app@sinlead.com
     *   角色：選擇 **管理**
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/Apple-後台-AppleStoreConnect-使用者存取權限-選擇人員角色01.png)
+    ![](../../assets/images/Apple-後台-AppleStoreConnect-使用者存取權限-選擇人員角色01.png)
 
 4.  點擊 **邀請**。
 

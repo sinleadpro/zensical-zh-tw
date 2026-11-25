@@ -102,8 +102,8 @@ hide: []
 
     <div class="grid cards borderless two-columns" markdown>
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用01-scaled.jpg){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用02-scaled.jpg){ .screenshot }
+    - ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用01.jpg){ .screenshot }
+    - ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用02.jpg){ .screenshot }
 
     </div>
 
@@ -112,7 +112,7 @@ hide: []
 1. 連續點擊 **進紙按鈕** 5 下，接著再點擊 1 下。
 2. 發票機將吐出一張包含 **QR Code** 的設定紙。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用03-scaled.jpg){ .screenshot }
+    ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用03.jpg){ .screenshot }
 
 ### 4. 執行 Wi-Fi 連線設定 { #operate-epson-m30-4-run-wi }
 
@@ -120,22 +120,22 @@ hide: []
 2. 於平板上同意發票機加入目前的 Wi-Fi 網域。
 3. 此時發票機會再吐出第二個 QR Code，請使用平板再掃描一次。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用04-scaled.jpg){ .screenshot }
+    ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用04.jpg){ .screenshot }
 
 4. 平板將出現 Wi-Fi 設定介面，點擊 **Wi-Fi**。
 5. 找到步驟 3 取得的明細紙，將明細紙上 SSID 欄位 `DIRECT-TM-m30III-` 後方的英數字，填入平板介面的 **Current Password** 欄位。
 
     <div class="grid cards borderless two-columns" markdown>
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用05.png){ .screenshot }
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用07-scaled.jpg){ .screenshot }
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用06.png){ .screenshot }
+    ![](../../assets/images/EPSON-後台-硬體安裝-EPSONTMM30III發票機-wifi啟用01.png){ .screenshot }
+    ![](../../assets/images/EPSON-後台-硬體安裝-EPSONTMM30III發票機-wifi啟用02.jpg){ .screenshot }
+    ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用05.png){ .screenshot }
 
     </div>
 
 6. 於平板上輸入目前 Wi-Fi 的密碼，等待 Setup 完成。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用08.png){ .screenshot }
+    ![](../../assets/images/EPSON-後台-硬體安裝-EPSONTMM30III發票機-wifi啟用03.png){ .screenshot }
 
 ### 5. 取得 IP 位址並授權連線 { #operate-epson-m30-5-ip-connection }
 
@@ -143,7 +143,7 @@ hide: []
 2. 開啟平板瀏覽器，於網址列輸入該 IP 位址。
 3. 若出現「您的連線不是私人連線」，請點擊 **進階**，再點擊 **繼續前往** 以允許連線。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用09-scaled.jpg){ .screenshot }
+    ![](../../assets/images/硬體安裝-EPSONTMM30III發票機-wifi啟用06.jpg){ .screenshot }
 
 ### 6. POS 前台連線測試 { #operate-epson-m30-6-pos-frontend }
 
@@ -151,8 +151,8 @@ hide: []
 2. 點擊 **進行連接**，輸入剛才取得的 IP 位址。
 3. 點擊 **進行連接與測試**。若發票機吐出測試紙，即代表連線成功。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用10.png){ .screenshot }
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用11.png){ .screenshot }
+    ![](../../assets/images/POS-前台-其他功能-EPSONTMM30III發票機-wifi啟用01.png){ .screenshot }
+    ![](../../assets/images/POS-前台-其他功能-EPSONTMM30III發票機-wifi啟用02.png){ .screenshot }
 
 
 

@@ -135,7 +135,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
     *   **門市地址**：輸入完整地址，這將影響地圖定位的準確性。
     *   **備註**：可填寫營業時間或交通指南。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP門市列表-單筆新增門市01.png)
+![](../../assets/images/EC-後台-APP功能-APP門市列表-單筆新增門市01.png)
 
 ## 大量匯入門市名單 { #operate-app-store-import }
 
@@ -143,7 +143,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 2.  **輸入門市資訊**：開啟範本檔案，新增門市資訊。
 3.  **匯入檔案**：點擊 **匯入自訂店家**，上傳檔案。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP門市列表-批次匯入門市01.png)
+![](../../assets/images/EC-後台-APP功能-APP門市列表-批次匯入門市01.png)
 
 
 ## APP 預設通知開關 { #operate-app-notification-defaults }
@@ -156,7 +156,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
     *   **物流配送相關**：如 **貨物發送通知**、**貨物到店通知** 等。
     *   **顧客相關**：如 **會員生日紅利通知**、**優惠券即將到期通知** 等。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP推播通知設定-系統通知樣板01.png)
+![](../../assets/images/EC-後台-APP功能-APP推播通知設定-系統通知樣板01.png)
 
 
 
@@ -182,7 +182,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
     *   **通知列表**：APP 小鈴鐺通知的動態快訊
     *   **推播導向**：點擊通知導往的落地頁面
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP推播通知設定-新增推播活動01.png)
+![](../../assets/images/EC-後台-APP功能-APP推播通知設定-新增推播活動01.png)
 
 從建立活動到發送後的管理，系統提供兩大核心工具幫助您優化流程：  
   
@@ -190,4 +190,4 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 *   :lucide-copy: **活動複製**：支援 **一鍵複製** 現有活動，僅需微調資訊即可快速再次發布，大幅提升操作效率。
 
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP推播通知設定-複製與測試推播活動01.png)
+![](../../assets/images/EC-後台-APP功能-APP推播通知設定-複製與測試推播活動01.png)

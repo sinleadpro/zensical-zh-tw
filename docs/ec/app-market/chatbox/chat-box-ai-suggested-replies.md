@@ -98,7 +98,7 @@ hide: []
 
 開啟「啟用 AI 建議回覆」開關。啟用後，每當接收到新訊息，聊天室對話框上方將出現 AI 觸發圖示。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手01.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-AI助手01.png){ .screenshot }
 
 ### 2. 建立客服資料庫 { #operate-chat-ai-2-create-data }
 
@@ -109,7 +109,7 @@ hide: []
     - **PDF**：單一檔案上限 5 MB。
 - **數量上限**：最多可上傳 20 個檔案。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手02.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-AI助手02.png){ .screenshot }
 
 ### 3. 追蹤檔案處理狀態 { #operate-chat-ai-3-file-status }
 
@@ -119,7 +119,7 @@ hide: []
 - **處理完成**：檔名變為藍色連結，代表已成功寫入，可點擊查看內容。
 - **處理錯誤**：若檔案損毀或格式不符，請刪除後重新上傳。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手05.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-AI助手05.png){ .screenshot }
 
 
 
@@ -133,7 +133,7 @@ hide: []
 4. **人工微調**：點擊編輯圖示，直接針對 AI 產出的文字進行修訂。
 5. **發送訊息**：確認內容無誤後，點擊發送按鈕完成回覆。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手04.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-AI助手04.png){ .screenshot }
 
 
 

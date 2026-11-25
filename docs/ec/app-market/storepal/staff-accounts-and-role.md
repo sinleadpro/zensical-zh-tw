@@ -119,12 +119,12 @@ hide: []
 1. 前往 **設定 > 管理帳號設定**。
 2. 點選 **新增管理帳號**，設定帳號、密碼並指派角色。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定13.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-設定-管理帳號設定-功能與帳號設定01.png){ .screenshot }
 
     - 若角色為 **群組管理者**，需進一步選擇其負責的門市群組。
     - 角色一旦新增，可以編輯人員身份、名稱，但無法更改信箱。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-後台-門市管理-門市人員帳號-新增管理者帳號01.png){ .screenshot }
+        ![](../../../assets/images/POS-後台-門市管理-門市人員帳號-新增管理者帳號01.png){ .screenshot }
         
 
 
@@ -134,7 +134,7 @@ hide: []
 2. 點選 **[特定門市]**，進入該店管理頁面。
 3. 點選 **門市人員帳號** 頁籤，點擊 **新增門市人員帳號**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定05.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-門市管理-新增門市人員帳號02.png){ .screenshot }
 
 ### 管理門市人員 { #operate-staff-access-manage-store }
 
@@ -147,7 +147,7 @@ hide: []
     - **使用情境**：店員於門市現場引導顧客掃碼，讓顧客在註冊會員的同時自動完成店員綁定。
 
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定09.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-門市管理-新增門市人員帳號01.png){ .screenshot }
 
 
 #### 批次建立 { #operate-staff-access-create }
@@ -156,15 +156,15 @@ hide: []
 
 1. 前往 **門市管理**，點選 **匯入 > 人員帳號與修改權限**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員01.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員01.png){ .screenshot }
 
 2. 點選 **下載 Excel 範本**，填寫資料後點選 **上傳檔案**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員02.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員02.png){ .screenshot }
 
 3. 可於 **上傳作業進度** 查看上傳紀錄。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員03.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員03.png){ .screenshot }
 
 
 !!! warning "匯入時注意事項"
@@ -181,25 +181,25 @@ hide: []
 
 1. 點擊 **匯出** 按鈕，系統將寄出 Excel 檔至您的登入 Email。  
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員04.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員04.png){ .screenshot }
 
 2. 開啟下載的檔案，調整各門市的權限勾選設定（開啟/關閉）。  
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員05.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員05.png){ .screenshot }
 
 3. 回到 **門市管理** 畫面，點選 **匯入 > 人員帳號與修改權限**。  
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員01.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員01.png){ .screenshot }
 
 4. 點擊 **上傳檔案**，選擇 **角色與權限**。  
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員06.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員06.png){ .screenshot }
 
 5. 選擇已修改的檔案，點擊 **確認**。
 
 
 6. 可於「上傳作業進度」查看上傳紀錄。  
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員03.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-批次建立修改門市人員03.png){ .screenshot }
 
 ### 設定角色權限 { #operate-staff-access-settings-role-permissions }
 
@@ -210,31 +210,31 @@ hide: []
 
     開啟後，帳號角色將能於會員資訊頁輯編輯 **會員基本資訊**。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定04-1.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-角色與權限01.png){ .screenshot }
 
 * 會員備註
     
     開啟後，帳號角色將能於會員註記編輯「會員備註」  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定04-2.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-角色與權限02.png){ .screenshot }
 
 * 門市標籤
 
     開啟後，帳號角色將能於會員註記編輯「門市標籤」  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定04-5.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-角色與權限03.png){ .screenshot }
 
 * 優惠券核銷
     
     開啟後，帳號角色將能於會員資訊頁內使用優惠券  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定04-3.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-角色與權限04.png){ .screenshot }
 
 * 輸入門市消費
     
     開啟後，帳號角色將在會員功能中看到「新增門市消費」功能按鈕  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定04-4.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-角色與權限05.png){ .screenshot }
 
 
 

@@ -229,7 +229,7 @@ hide: []
 
     3. 訂單若由 CYBERBIZ 人工退款，請依照顧客提供的退款資料填寫 **人工退款資料**。
 
-        ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
+        ![](../../assets/images/EC-後台-訂單-所有訂單-填寫人工退款01.png){ .small-image }
 
     4. 完成退貨審查後，請依站台版本與訂單付款方式，前往[退款方式與作業](order-refund-process.md)，查閱並執行適用的退款流程。
 
@@ -254,15 +254,15 @@ hide: []
 
     4. 訂單若由 CYBERBIZ 人工退款，請依照顧客提供的退款資料填寫 **人工退款資料**。
 
-        ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
+        ![](../../assets/images/EC-後台-訂單-所有訂單-填寫人工退款01.png){ .small-image }
 
     5. 點擊 **確認**，`退貨狀態`將更新為 `部分退貨`。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款08.png){ .small-image }
+        ![](../../assets/images/EC-後台-訂單-所有訂單-部分退貨退款01.png){ .small-image }
 
     6. 完成退貨審查後，請依站台版本與訂單付款方式，前往[退款方式與作業](order-refund-process.md)，查閱並執行適用的退款流程。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款09.png){ .small-image }
+        ![](../../assets/images/EC-後台-訂單-訂單退貨退款流程-部分退貨退款01.png){ .small-image }
 
 
 

@@ -99,7 +99,7 @@ hide: []
 2. 前往 **系統開發管理 > 系統介接設定**。
 3. 複製頁面中的 **商店代號 (MerchantID)**、電子發票的 **介接 HashKey** 與 **介接 HashIV**。
 
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界02.png){ .screenshot }
+![](../../assets/images/綠界-後台-系統開發管理-系統介接設定-複製介接金鑰01.png){ .screenshot }
 
 ### 步驟二：後台資訊串接 { #operate-ecpay-invoice-bind }
 
@@ -108,12 +108,12 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **管理中心 > 發票設定**。
 2. 找到「綠界發票設定」區塊，填入對應的 **綠界廠商編號**、**HashKey** 與 **HashIV**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-發票設定-串接綠界發票01.png){ .screenshot }
 
 3. 在「結帳發票設定」區塊，將 **已啟用結帳頁顯示發票** 切換為 `開啟 (ON)`。
 4. 在「發票開立方式」下拉選單中選擇 **綠界電子發票**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界03.png){ .small-image }
+    ![](../../assets/images/EC-後台-管理中心-發票設定-串接綠界發票02.png){ .small-image }
 
 ### 步驟三：設定發票開立時機 { #operate-ecpay-invoice-timing }
 

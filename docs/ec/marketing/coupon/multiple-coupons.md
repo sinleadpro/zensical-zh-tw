@@ -86,7 +86,7 @@ hide: []
 
         > 此數量為優惠券與優惠碼的合併總數，系統不支援分開設定各自的使用上限。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定01.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-結帳頁與物流設定-結帳頁優惠券設定-多張優惠券設定01.png){ .screenshot }
 
 === "POS"
 
@@ -134,16 +134,16 @@ hide: []
 
     1. 顧客在結帳頁點擊 **選擇優惠券或輸入優惠碼**。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定03.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-免運券規格-多張優惠券設定01.png){ .screenshot }
 
     2. 彈窗將預設顯示該會員擁有的個人優惠券（依到期日排序）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定04.png){ .screenshot }
+        ![](../../../assets/images/EC-前台-行銷活動-多優惠券碼-多張優惠券設定01.png){ .screenshot }
 
     3. 顧客可勾選多張欲使用的優惠券，若達張數上限，其餘選項將變更為不可勾選。
     4. 套用後可即時檢視各券的折抵金額，並支援隨時更換或刪除。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定05.png){ .screenshot }
+        ![](../../../assets/images/EC-前台-行銷活動-多優惠券碼-多張優惠券設定02.png){ .screenshot }
 
 
 === "POS"

@@ -310,14 +310,14 @@ hide: []
         - **固定組合**：區塊內商品與數量由商家固定，顧客不可更改。
         - **任選組合**：設定該區塊的 **任選數量總額**，顧客可從清單中自由挑選。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品04.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-商品-組合商品-建立組合品04.png){ .screenshot }
 
     3. **加入商品**：在區塊內點擊 **選擇商品**，於彈窗中勾選商品。
 
         - **快速搜尋**：輸入商品名稱或 SKU 碼找尋指定商品。
         - **批次篩選**：點擊 **進階搜尋**，開啟篩選器，篩選符合條件的商品。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品06.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-商品-組合商品-建立組合品06.png){ .screenshot }
 
     4. **設定購買數量**：
 
@@ -325,13 +325,13 @@ hide: []
 
             指定每個商品的購買數量。
 
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品10.png){ .screenshot }
+            ![](../../../assets/images/EC-後台-商品-組合商品-建立組合品10.png){ .screenshot }
 
         === "任選組合"
 
             指定組合內商品的購買總額。
 
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品11.png){ .screenshot }
+            ![](../../../assets/images/EC-後台-商品-組合商品-建立組合品11.png){ .screenshot }
 
 
     5. **實現混合模組**（關鍵步驟）：再次點擊 **新增組合區塊** 建立第二個區塊。
@@ -343,7 +343,7 @@ hide: []
         - **編輯區塊名稱**：點擊區塊標題（如「區塊 1」）可自訂名稱，此名稱將顯示於前台，引導顧客選購。
         - **調整排序**：拖曳區塊左側的圖示，即可調整各區塊在前台頁面的顯示順序。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品07.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-商品-組合商品-建立組合品07.png){ .screenshot }
 
 !!! warning "確認適用溫層與物流"
     前往 **設定** 頁籤設定配送規格時，請務必遵循以下規則：
@@ -375,13 +375,13 @@ hide: []
 
     前台商品頁將依據您在後台設定的 **組合區塊** 依序呈現。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-商品頁-組合商品01.png){ .screenshot }
+    ![](../../../assets/images/EC-前台-商品頁-商品頁-組合商品01.png){ .screenshot }
 
     === "指定組合區塊"
 
         當消費者瀏覽 **指定組合區塊** 時，商品品項與數量固定，無法編輯。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-商品頁-組合商品02.png){ .small-image }
+        ![](../../../assets/images/EC-前台-商品頁-商品頁-組合商品02.png){ .small-image }
 
     === "任選組合區塊"
 
@@ -391,7 +391,7 @@ hide: []
         2. **展開商品清單**：系統預設會自動展開第一個商品的款式選單。消費者亦可點擊右側的 **倒三角形** 箭頭，自由折疊或展開其他想看的商品。
         3. **增減款式數量**：消費者可透過 **+** 與 **-** 按鈕，彈性調配不同款式的購買件數，直到滿足該區塊的總件數要求。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-商品頁-組合商品03.png){ .small-image }
+        ![](../../../assets/images/EC-前台-商品頁-商品頁-組合商品03.png){ .small-image }
 
 - 購物車與結帳頁會判斷組合商品是否符合物流材積限制。  
 - 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/setup-product-shipping-conditions.md#specs-ship-conditions-split-cart){ title="設定商品配送條件（物流、溫層與出貨通路）" }。

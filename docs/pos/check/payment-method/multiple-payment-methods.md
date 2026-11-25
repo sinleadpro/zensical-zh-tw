@@ -99,14 +99,14 @@ hide: []
 
 選擇該付款方式的支付金額是否開立發票：
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/POS-後台-所有POS商店-新增付款方式01.png){ .screenshot }
+![](../../../assets/images/POS-後台-所有POS商店-所有POS商店-新增付款方式01.png){ .screenshot }
 
 - **開立發票**：於 **多付款方式（開立發票）** 區域新增付款方式。
 - **不開立發票**：於 **多付款方式（不開立發票）** 區域新增付款方式。
     - 結帳時透過系統開立發票時，此區塊的付款方式，其支付金額不予開立發票。
     - 明細中以 `[付款方式名稱] 扣抵` 欄位，註記不開發票之訂單金額。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS發票-多付款方式不開立發票01.png){ .small-image }
+    ![](../../../assets/images/POS-後台-結帳-多付款方式-多付款方式不開立發票01.png){ .small-image }
 
 !!! example "範例"
     訂單金額 1,000 元，透過 `現金（開立發票）` 支付 500 元、`禮券（不開立發票）` 支付 500 元。

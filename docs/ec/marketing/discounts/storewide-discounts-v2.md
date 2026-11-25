@@ -100,7 +100,7 @@ hide: []
 
 前往 **行銷活動 > 全館折扣**，您可依活動名稱查詢指定活動。  
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-搜尋01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-全館折扣-搜尋01.png){ .screenshot }
 
 ### 篩選 { #operate-discount-details }
 
@@ -113,7 +113,7 @@ hide: []
   
 *   **狀態**：「排程中」、「進行中」、「已結束」
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-篩選01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-全館折扣-篩選01.png){ .screenshot }
 
 ### 自定義列表欄位 { #operate-discount-fields }
 
@@ -128,8 +128,8 @@ hide: []
 
     <div class="grid cards borderless two-columns" markdown>
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯列表欄位01.png){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯列表欄位02.png){ .screenshot }
+    - ![](../../../assets/images/EC-後台-行銷活動-全館折扣-編輯列表欄位01.png){ .screenshot }
+    - ![](../../../assets/images/EC-後台-行銷活動-全館折扣-編輯列表欄位02.png){ .screenshot }
 
     </div>
 
@@ -144,7 +144,7 @@ hide: []
 *   活動期間：可選 **無期限** 或 **指定期限**
 *   適用通路：若站台同步啟用 EC +POS，可指定活動適用通路。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-基本設定01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-全館折扣-基本設定01.png){ .screenshot }
 
 ### 步驟二：填寫折扣設定 { #operate-discount-create-discount-details }
 
@@ -156,14 +156,14 @@ hide: []
     *   **折扣金額**：設定具體的折抵數額。
     *   **是否折扣累積**：勾選是否支援隨門檻倍增而重複累計折扣。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-金額設定01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-全館折扣-金額設定01.png){ .screenshot }
     
 === "百分比"
     
     *   **折扣門檻**：填寫觸發折扣的最低消費金額。
     *   **折扣百分比**：設定具體的折扣百分比。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-百分比設定01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-全館折扣-百分比設定01.png){ .screenshot }
     
 === "優惠券"
     
@@ -174,7 +174,7 @@ hide: []
     *   **綁定商品標籤**：指定特定標籤的商品，方可套用優惠券折抵。
     *   **與其他行銷活動併用限制**：設定此券是否可與其他行銷活動同時使用。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-優惠券設定01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-全館折扣-優惠券設定01.png){ .screenshot }
     
 
 
@@ -190,7 +190,7 @@ hide: []
 | **進行中** | - 全館折扣名稱<br>- 結束時間 `註一`<br>- 優惠券使用天數 `註二` |
 
 點擊活動名稱，即可進入編輯頁。調整內容前，請先確認目前活動狀態及其對應的可修改項目。  
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯活動01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-全館折扣-編輯活動01.png){ .screenshot }
 
 - `註一`：
     - 結束時間需不可早於於儲存編輯時的時間。  
@@ -210,7 +210,7 @@ hide: []
 
 
 排程中活動的調整不留紀錄，而進行中活動的異動則會留存以供備查。  
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯紀錄01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-全館折扣-編輯紀錄01.png){ .screenshot }
 
 
 ## 結帳頁差額提醒 { #intro-discount }
@@ -221,4 +221,4 @@ hide: []
 
 消費者前往結帳頁下單時，可於購物車查看當前訂單金額距離符合全館活動的條件差額。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-結帳頁-未達全館活動優惠差額01.png){ .screenshot }
+![](../../../assets/images/EC-前台-結帳頁-結帳頁-未達全館活動優惠差額01.png){ .screenshot }

@@ -107,7 +107,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-首頁01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-首頁01.jpg){ .mini-image }
 
     ### 首頁 { #overview-app-home }
 
@@ -116,7 +116,7 @@ hide: []
     - 了解產品類別與具體品項
     - 了解網站行銷活動與優惠
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-導覽列01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-導覽列01.jpg){ .mini-image }
 
     ### 導覽列 { #overview-app-navigation }
 
@@ -124,7 +124,7 @@ hide: []
 
     - 進入其他分頁
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-購物車01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-購物車01.jpg){ .mini-image }
 
     ### 購物車 { #operate-app-cart }
   
@@ -132,7 +132,7 @@ hide: []
 
     - 完成結帳
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-購物車01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-購物車01.jpg){ .mini-image }
     
     ### 門市地圖 { #overview-app-store-map }
   
@@ -141,7 +141,7 @@ hide: []
     - 顯示線下門市地圖
     - 可依裝置位置顯示較近門市
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-會員專區01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-APP介面-會員專區01.jpg){ .mini-image }
 
     ### 會員專區 { #operate-app-member }
   
@@ -162,13 +162,13 @@ hide: []
 
 <div class="grid cards" markdown>
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/手機鎖定螢幕-APP彈窗通知01.jpg){ .mini-image }
+-   ![](../../assets/images/手機鎖定螢幕-APP彈窗通知01.jpg){ .mini-image }
 
     **鎖定螢幕彈窗通知** 
 
     - 位置：手機鎖定螢幕
 
--   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-首頁-通知列表01.jpg){ .mini-image }
+-   ![](../../assets/images/EC-前台-APP介面-首頁-通知列表01.jpg){ .mini-image }
 
     **App內小鈴鐺通知列表**  
   
@@ -188,7 +188,7 @@ hide: []
 
 -   ### 網站瀏覽
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-首頁-搜尋01.jpg){ .mini-image }
+    ![](../../assets/images/EC-前台-APP介面-首頁-搜尋01.jpg){ .mini-image }
 
     **搜尋**  
 
@@ -200,7 +200,7 @@ hide: []
 
 -   ### 線下結帳
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-首頁-顯示會員條碼01.jpg){ .mini-image }
+    ![](../../assets/images/EC-前台-APP介面-首頁-顯示會員條碼01.jpg){ .mini-image }
 
     **顯示會員條碼**  
 

@@ -127,7 +127,7 @@ hide: []
         - **消費者結帳步驟**：
             1. 於結帳頁「滿額／滿件贈 贈品」區塊點擊下拉選單。
             2. 在彈窗中依獲得數量選擇指定款式。
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-結帳頁-滿額滿件贈區域-贈品自選款式01.png)
+            ![](../../../assets/images/EC-前台-結帳頁-滿額滿件贈區域-贈品自選款式01.png)
 
 ## 操作流程 { #operate-discount }
 

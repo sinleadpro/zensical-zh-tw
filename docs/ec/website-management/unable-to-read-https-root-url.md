@@ -88,7 +88,7 @@ hide: []
 3. 依照系統提示點擊 **繼續轉移**。
 4. 點擊 **按一下這裡即可檢視授權碼**，並將產生的 **授權碼** 複製備用。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png){ .screenshot }
+![](../../assets/images/Godaddy-後台-網域-網域設定-無法讀取HTTPS根網址01.png){ .screenshot }
 
 ### 步驟 2：於新網域商發起轉入 { #operate-https-root-import }
 
@@ -98,7 +98,7 @@ hide: []
 4. 完成結帳。
 5. 依照 Gandi 指引完成後續的 **Email 驗證**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png){ .screenshot }
+![](../../assets/images/Gandi-後台-網域-網域設定-無法讀取HTTPS根網址01.png){ .screenshot }
 
 ### 步驟 3：重新設定 DNS { #operate-https-root-dns }
 

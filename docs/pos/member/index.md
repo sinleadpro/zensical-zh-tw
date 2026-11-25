@@ -100,7 +100,7 @@ hide: []
 2. 在 **手機** 或 **信箱** 欄位輸入正確資訊（其中一項為必填）。
     ![](../../assets/images/POS-前台-會員-會員註冊01.png){ .screenshot }
 3. 點擊 **確認註冊**，系統將發送包含啟用連結的簡訊至顧客手機，請引導顧客開啟簡訊，完成帳戶啟用後，方可前往結帳。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-會員-會員註冊後前往結帳01.png){ .screenshot }
+    ![](../../assets/images/POS-前台-會員-會員註冊-會員註冊後前往結帳01.png){ .screenshot }
 
 
 

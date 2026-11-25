@@ -120,7 +120,7 @@ hide: []
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe src="https://www.cyberbiz.io/support/wp-content/uploads/POS-EPSON發票機軟體安裝設定.mp4" 
+  <iframe src="../../assets/videos/EPSON-後台-硬體安裝-EPSONTMT82III發票機-EPSON發票機軟體安裝設定01.mp4" 
           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   </iframe>

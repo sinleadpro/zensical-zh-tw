@@ -102,7 +102,7 @@ hide: []
 2. 確認 **門市助理** 已顯示於已安裝清單中。
 3. 點擊 **設定**，即可進入專屬管理介面。
 
-	![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置01.png){ .screenshot }
+	![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-門市助理資料設置01.png){ .screenshot }
 
 ### 步驟二：LINE 前置設定 { #operate-storepal-install-step-line-settings }
 
@@ -117,7 +117,7 @@ hide: []
 5. 若商家已取得 LINE Certified Provider 認證，請開啟 **自動產生LIFF網址**。  
   - **使用情境**：後續會員進行門市助理註冊綁定時，可透過 QRCODE 完成加入 LINE 官方帳號好友、官網註冊以及門市助理推薦人綁定。  
   - **操作路徑**：第三方整合 > LINE 註冊登入。
-      ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置05.png)
+      ![](../../../assets/images/EC-後台-第三方整合-LINE註冊登入-門市助理資料設置01.png)
   - **注意事項**：**若商家尚未取得 LINE Certified Provider 認證，先不要開啟 「自動產生LIFF連結」。**  
       無「自動產生LIFF連結」功能時，會員進行門市助理註冊綁定，會先以 QRCODE 加入 LINE官方帳號好友，並請引導會員進入手機驗證頁面、取得手機號碼，完成官網註冊以及門市助理推薦人綁定。
 
@@ -130,11 +130,11 @@ hide: []
 1. 前往 **管理中心 > 顧客註冊設定**。
 2. **註冊規範**：將「註冊方式」設定為 **快速結帳並註冊**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置04.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-管理中心-顧客註冊設定-門市助理資料設置01.png){ .screenshot }
 
 3. **手機驗證**：在手機欄位勾選 **必填**、**驗證** 及 **註冊時驗證電話**。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置02.png){ .screenshot }
+	  ![](../../../assets/images/EC-後台-管理中心-顧客註冊設定-門市助理資料設置02.png){ .screenshot }
 
 ### 步驟四：簡訊通知設定 { #operate-storepal-install-step-sms-notifications }
 
@@ -143,7 +143,7 @@ hide: []
 1. 前往 **訊息推播 > 簡訊通知樣板**。
 2. 在「顧客相關」類別中，開啟 **顧客請求發送驗證碼通知**。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置03-1.png){ .screenshot }
+	  ![](../../../assets/images/EC-後台-訊息推播-簡訊通知樣板-門市助理資料設置01.png){ .screenshot }
 
 
 ## 資料準備 { #prerequisites-data-preparation }

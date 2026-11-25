@@ -74,7 +74,7 @@ hide: []
 { .subtitle }
 
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-優惠碼-畫面說明01.png){ .hero-page }
 
 !!! tip "應用情境"
 	- **異業合作**：提供專屬優惠碼給合作夥伴，追蹤不同管道的轉單成效。
@@ -115,7 +115,7 @@ hide: []
         - **綁定商品標籤**：可指定此優惠券僅適用於帶有特定標籤的商品。(進階、高手、PLUS、企業版專用)
         - **與其他活動的併用限制**：選擇此優惠券與其他行銷活動的堆疊規則，包含：`無限制`、`部分限制` 或 `不可與優惠活動併用`。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼03.png){ .screenshot }
+        ![](../../../assets/images/EC-前台-行銷活動-優惠碼-畫面說明01.png){ .screenshot }
 
     === "免運"
 
@@ -131,7 +131,7 @@ hide: []
         - **商品限制**：可設定僅購買指定商品或標籤時才可免運。
         - **綁定物流**：可限制僅特定物流方式（如 7-11 取貨）才適用此優惠。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼04.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-優惠碼-畫面說明02.png){ .screenshot }
 
     === "贈品"
 
@@ -149,7 +149,7 @@ hide: []
             > **庫存邏輯**：系統將依款式順序發送，直到所有款式庫存耗盡。
 
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼05.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-優惠碼-畫面說明03.png){ .screenshot }
 
 
 
@@ -166,7 +166,7 @@ hide: []
 3. 依照範本格式填寫優惠碼資訊（如名稱、序號、門檻、效期等）。
 4. 上傳檔案並選擇欲匯入的類型（折價或免運），系統即會完成建立。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼17.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-優惠碼-批次建立優惠碼01.png){ .screenshot }
 
 ## 進階設定 { #operate-coupon-settings }
 
@@ -214,7 +214,7 @@ hide: []
 3. 輸入欲自動套用的 **全館型優惠碼序號**。
 4. 設定完成後，當消費者進入結帳頁且符合門檻時，系統將自動套用該優惠。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼16.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-結帳頁與物流設定-結帳頁優惠券設定-設定步驟01.png){ .screenshot }
 
 
 

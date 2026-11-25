@@ -77,7 +77,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
 { .doc-badge }
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁01.png){ .hero-page }
 
 !!! info "版本差異說明"
     - 「定期訂購」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
@@ -116,7 +116,7 @@ hide: []
 
 > **注意**：設定後會立即套用至所有活動頁，但不會影響已成立的舊訂單。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁19.png){ .screenshot }
+![](../../../assets/images/EC-後台-結帳頁與物流設定-定期定額購物車設定-定期定額活動頁01.png){ .screenshot }
 
 
 ## 步驟二：建立定期定額活動頁 { #operate-subscription-campaign-create }
@@ -124,11 +124,11 @@ hide: []
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 定期訂購活動頁**。
 2. 點選右上角 **新增頁面**。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁02.png){ .screenshot }
 3. 填寫 **標題**（前台顯示名稱）與 **網址標題**（自訂 URL 後綴）。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁02.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁03.png){ .screenshot }
 4. 儲存後即可進入詳細設定頁。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁01.png){ .screenshot }
 
 
 
@@ -162,20 +162,20 @@ hide: []
             設定 **1**，則系統於 **第 2 期** 後可取消訂單。即使第 1 期訂單成立失敗，第 2 次配送期一到，顧客仍可取消母訂單。
 
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁07.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁04.png){ .screenshot }
     
 - **是否與 VIP 折扣併用**：若開啟，系統會判斷母訂單是否享有 VIP 折扣/免運。
 
 
 - **寄送時間單位**：設定以「月」、「週」或「特定日期」為單位寄送商品（可複選）。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁08.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁05.png){ .screenshot }
 
 
 ### 2. 款式設定 { #operate-subscription-campaign-variants }
 
 在此處設定該活動頁專屬的商品價格，並選擇是否在購物車內容中顯示。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁10.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁06.png){ .screenshot }
 
 
 ### 3. 編輯內容 { #operate-subscription-campaign-content }
@@ -185,20 +185,20 @@ hide: []
 !!! danger "重要提醒"
     CYBERBIZ 不提供任何關於此區塊的修改或復原教學。若需調整語法，請務必由貴司內部的技術人員執行，並建議在修改前自行備份原始代碼。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁11.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁07.png){ .screenshot }
 
 
 ### 4. 進階優惠設定 { #operate-subscription-campaign-promotions }
 
 - **指定期數送贈品**：可設定 **指定期數** 或 **指定區間** 配送時，額外贈送特定商品。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁14.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁08.png){ .screenshot }
 
 
 
 - **指定期數折扣**：可設定 **指定期數** 或 **指定區間** 配送時，享有額外折數優惠。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁16.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額活動頁09.png){ .screenshot }
 
 !!! warning "操作注意事項"
     - **期數優惠防重疊限制**：已設定優惠的期數，不可重複建立相同類型的優惠。
@@ -232,7 +232,7 @@ hide: []
 
 勾選欲提供給此活動的付款方式。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額金流設定-1024x528.jpg){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-定期定額金流設定01.jpg){ .screenshot }
 
 
 !!! tip "設定提示"

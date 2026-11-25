@@ -82,7 +82,7 @@ hide: []
     2.  **會員卡圖片**：此圖片將顯示於會員中心的前台畫面，強化品牌專屬感。
         *   **建議尺寸**：320x210px (1MB 以內)。    
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-VIP設定-新增會員層級01.png)
+    ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級07.png)
 
 ## 步驟 2：設定升等門檻 { #operate-store-vip-upgrade }
 

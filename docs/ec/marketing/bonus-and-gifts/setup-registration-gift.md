@@ -67,7 +67,7 @@ hide: []
 { .subtitle }
 
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-會員註冊贈送優惠券-紅利積點01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-註冊禮-紅利積點01.png){ .hero-page }
 
 !!! tip "應用情境"
 	- **新客引導**：顧客註冊即送紅利或優惠券，降低首購門檻。
@@ -98,7 +98,7 @@ hide: []
     - **使用限制**：設定使用次數、訂單滿額門檻、綁定商品標籤及併用限制。
     - **有效期限**：設定領取後幾天內有效（輸入 0 代表永久有效）。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-會員註冊贈送優惠券-紅利積點01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-註冊禮-紅利積點01.png){ .screenshot }
 
 
 ### 2. 設定註冊禮紅利點數 { #operate-registration-gift-settings-bonus }
@@ -111,7 +111,7 @@ hide: []
     
 3. 設定紅利有效期限（輸入 0 代表永久有效）。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數註冊.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-全館折扣紅利與優惠券-會員紅利點數-紅利點數註冊01.png){ .screenshot }
 
 
 !!! info "版本適用說明"

@@ -94,10 +94,10 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
 		<div class="grid cards two-columns borderless" markdown>
 		
 		:material-check-circle: 符合規範：無浮水印
-		![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC03-1.png){ .screenshot }
+		![](../../../assets/images/示意圖-GOOGLE購物廣告設定GMC01.png){ .screenshot }
 
 		:material-close-circle: 不符合規範：有浮水印 
-		![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC02-1.png){ .screenshot }
+		![](../../../assets/images/示意圖-GOOGLE購物廣告設定GMC02.png){ .screenshot }
 
 		</div>
 	
@@ -133,7 +133,7 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
 
     === "新增商家地址"
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC03-1024x504.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC01.png){ .screenshot }
 
     === "確認網路商店"
 
@@ -144,48 +144,48 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
         5.  登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 選擇操作「CSS/HTML 編輯器」>「theme.liquid」**。
         6.  將 HTML 標記貼至 `</head>` 上方。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC06-1-1024x696.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC09-1-1024x508.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC02.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC03.png){ .screenshot }
 
     === "新增產品運送方式"
 
         依步驟輸入商家配送資訊。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC07-1024x486.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC08-1024x486.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC09-1-1024x485.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC10-1024x486.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC04.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC05.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC06.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC07.png){ .screenshot }
 
     === "新增退貨政策"
 
         依步驟輸入商家退貨政策。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC11-1024x504.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC12-1024x504.png){ .screenshot }
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC13-1024x504.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC08.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC09.png){ .screenshot }
+        ![](../../../assets/images/Google-後台-串接GMC10.png){ .screenshot }
 
     === "新增產品"
 
         1. 選取國家/地區：選取商品適用的國家或地區。
 
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC14-1024x504.png){ .screenshot }
+            ![](../../../assets/images/Google-後台-串接GMC11.png){ .screenshot }
 
         ２. 複製產品動態饋給連結。
         > 前往 CYBERBIZ 管理後台，前往 **第三方整合 > 谷歌 Google 設定 > Google Merchant Center**，複製 **產品動態饋給連結**。
 
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC16-1024x490.png){ .screenshot }
+            ![](../../../assets/images/EC-後台-第三方整合-谷歌Google設定-串接GMC01.png){ .screenshot }
 
 
         3. 貼上連結。
 	        - 回到 GMC 後台，選擇 **透過檔案新增產品**。
             - 將 **產品動態饋給連結** 貼至 **請輸入檔案連結**。
 
-            ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC15-1024x504.png){ .screenshot }
+            ![](../../../assets/images/Google-後台-串接GMC12.png){ .screenshot }
 
 3. 待資料上傳後，可於產品頁查看完成畫面。
 > 上傳所需時間依產品數量而有所不同，請稍待片刻。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC17-1024x486.png){ .screenshot }
+    ![](../../../assets/images/Google-後台-串接GMC13.png){ .screenshot }
 
 ## 排除商品上傳至 GMC
 

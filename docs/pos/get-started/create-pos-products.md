@@ -99,7 +99,7 @@ hide: []
     - **選擇門市**：勾選欲複製到的 POS 門市（可複選）。
     - **複製圖片**：建議開啟 **連帶複製商品所有圖片**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png){ .screenshot }
+![](../../assets/images/POS-後台-商品-所有商品-商品建立01.png){ .screenshot }
 
 
 ### POS 獨賣商家建立商品 { #operate-pos-products-pos-create-product }
@@ -111,7 +111,7 @@ hide: []
 3. 勾選該商品要套用販售的 **POS 門市**。
 4. 完成商品其他資訊填寫後，點擊 **儲存**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-POS獨賣商家建立商品時同步POS商店01.png){ .screenshot }
+![](../../assets/images/EC-後台-商品-所有商品-POS獨賣商家建立商品時同步POS商店01.png){ .screenshot }
 
 !!! warning "限制說明"
     - **不溯及既往**：此同步設定僅限 **新建立商品時** 使用。已建立的商品請使用上述「複製商品至 POS 商店」方式新增至門市。
