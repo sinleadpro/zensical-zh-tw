@@ -87,7 +87,7 @@ hide: []
 14. 運費與免運優惠
 15. 付款手續費：支付方式為信用卡分期者，計算信用卡分期費用費用。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/TOP02.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-結帳優惠計算順序-畫面說明01.png){ .screenshot }
 
 ## 核心運算邏輯 { #specs-discount }
 

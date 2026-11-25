@@ -94,7 +94,7 @@ hide: []
 
 **檢查方式**：登入 [Meta Business Suite](https://business.facebook.com/)，前往 **設定 > 用戶 > 用戶**，查看權限名單。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/Meta-Business-Suite-設定-用戶-查看粉專權限名單01.png){ .screenshot }
+![](../../../assets/images/Meta-後台-用戶-用戶-查看粉專權限名單01.png){ .screenshot }
 
 
 ### 2. 資產管理平台粉專權限 { #prerequisites-chat-facebook-2-assets-manage }
@@ -126,7 +126,7 @@ hide: []
 
 **檢查方式**：登入Facebook，前往「設定與隱私」>「你的動態」>「應用程式和網站」，確認 **應用程式、網站和遊戲** 處於開啟狀態。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/Facebook-設定與隱私-應用程式與網站-開啟應用程式通知與網站01.png){ .screenshot }
+![](../../../assets/images/Facebook-後台-你的動態-應用程式和網站-開啟應用程式通知與網站01.png){ .screenshot }
 
 
 
@@ -138,36 +138,36 @@ hide: []
 2. 點擊左側選單最下方的 **設定** 圖示。
 3. 找到 Facebook 區塊，點擊右側的 **設定** 按鈕。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
 
 ### 第二步：進行 Meta 授權 { #operate-chat-facebook-meta-authorize }
 
 1. 進入「Facebook 連結設定」頁面後，點擊 **使用 Facebook 繼續**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-FB串接01.png){ .screenshot }
 
 2. 系統將自動跳出 Meta（Facebook）的授權視窗，請依序完成：
 
     - **登入帳號**：確認登入具備粉專管理權限的帳號。
     - **選擇粉專**：勾選欲存取的粉絲專頁。
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接02.png){ .small-image }
+        ![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-FB串接02.png){ .small-image }
 
     - **確認權限要求**：確認包含「管理 Messenger 對話」等權限要求後，點擊 **儲存**。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接03.png){ .small-image }
+        ![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-FB串接03.png){ .small-image }
 
 ### 第三步：綁定粉絲專頁 { #operate-chat-facebook-section }
 
 1. 授權完成後，頁面將自動跳回 CHAT BOX 後台。
 2. 勾選您欲正式串接的粉專，點擊 **確認綁定**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接04.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-FB串接04.png){ .screenshot }
 
 ### 第四步：確認連結狀態 { #operate-chat-facebook-link-status }
 
 綁定成功後，列表將顯示該粉專資訊。請確認 **狀態** 顯示為 **已連結**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接05.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-FB串接05.png){ .screenshot }
 
 
 

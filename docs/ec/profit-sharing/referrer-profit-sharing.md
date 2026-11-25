@@ -172,7 +172,7 @@ hide: []
         !!! warning "適用範圍限制"
             此處僅限設定是否與 **全館折扣**、**任選折扣** 兩項行銷活動併用，此設定 **並非針對全站所有行銷活動**，恕無法排除或指定其他未列出的活動項目。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表04.png){ .screenshot }
+    ![](../../assets/images/EC-後台-分潤-推薦人分潤-推薦人分潤第三方列表01.png){ .screenshot }
 
 2. **送優惠券 (會員)**：消費者達成門檻後，系統自動發送優惠券，供消費者下次使用。
     - **優惠種類**：可選「金額」或「百分比」折扣。
@@ -181,7 +181,7 @@ hide: []
     - **行銷活動併用限制**：無限制/部分限制/不可與優惠活動併用。
 
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表05.png){ .screenshot }
+    ![](../../assets/images/EC-後台-分潤-推薦人分潤-推薦人分潤第三方列表02.png){ .screenshot }
 
 
 3. **送紅利 (會員)**：消費者達成門檻後，獲得指定紅利點數。
@@ -189,12 +189,12 @@ hide: []
     - **贈送紅利**：設定符合條件後贈送幾點紅利。
     - **有效期限**：設定該紅利的使用期限。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表06.png){ .screenshot }
+    ![](../../assets/images/EC-後台-分潤-推薦人分潤-推薦人分潤第三方列表03.png){ .screenshot }
 
 4. **送紅利 (顧客推薦人)**：消費者達成門檻後，推薦人可依訂單金額比例，獲得紅利點數。
     - **有效期限**：設定該紅利的使用期限。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/分潤-推薦人分潤第三方列表07.png){ .screenshot }
+    ![](../../assets/images/EC-後台-分潤-推薦人分潤-推薦人分潤第三方列表04.png){ .screenshot }
 
     !!! info "發送紅利給推薦人規則"
         - **計算方式**：贈送之紅利點數依方案設定之分潤比例計算。例如分潤 5%、訂單金額 :lucide-dollar-sign:800 元，則贈送 40 點（:lucide-dollar-sign:800 × 5%）。

@@ -150,7 +150,7 @@ hide: []
     - **發票設定**：選擇 `星益欣(美麗科技)`。
     - **發票機設定**：依現場硬體型號選擇對應的發票機。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png){ .small-image }
+	  ![](../../assets/images/POS-後台-POS功能-所有POS商店-美麗科技01.png){ .small-image }
 
 ### 步驟二：購買星益欣 POS 子機 { #operate-wixtar-einvoice-step-b-pos }
 
@@ -159,18 +159,18 @@ hide: []
 1. 前往 **管理中心 > 發票設定**，點選 **POS** 分頁。
 2. 輸入 **公司統一編號** 進行驗證。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技02.png){ .screenshot }
+    ![](../../assets/images/POS-後台-管理中心-發票設定-美麗科技01.png){ .screenshot }
 
 3. 在 **選擇 POS 子機** 頁面，勾選欲購買的 POS 子機。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技03.png){ .screenshot }
+    ![](../../assets/images/POS-後台-管理中心-發票設定-美麗科技02.png){ .screenshot }
 
 4. 進入 **購買結帳** 頁面，填寫聯絡人與公司發票資訊。
 
     - **方案選擇**：可選擇 1 年或 2 年期（首次購買加送 2 個月）。
     - **付款方式**：使用信用卡完成支付。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png){ .screenshot }
+	  ![](../../assets/images/POS-後台-管理中心-發票設定-美麗科技03.png){ .screenshot }
 
 ### 步驟三：串接與啟用 { #operate-wixtar-einvoice-step-c-enable }
 
@@ -178,21 +178,21 @@ hide: []
 
 系統會先預填好 「門市代碼」、「POS 機碼」、「POS 機序號(PID)」、「產品名稱(PNAME)」 欄位。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技06.png){ .small-image }
+![](../../assets/images/POS-後台-第三方服務-星益欣電子發票-美麗科技01.png){ .small-image }
 
 1. 登入「星益欣加值中心後台」，前往 **營業人資訊**。
 2. 點選對應的 **門市代碼** 與 **POS 機編碼**，點擊 **下載**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png){ .screenshot }
+    ![](../../assets/images/星益欣-後台-營業人資訊-POS機編碼-下載串接資訊01.png){ .screenshot }
 
 3. 在下載的文件中複製 **認證碼 (RID)** 與 **AES KEY**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技08.png){ .small-image }
+    ![](../../assets/images/星益欣-後台-營業人資訊-POS機編碼-下載串接資訊02.png){ .small-image }
 
 4. 回到 CYBERBIZ 管理後台，前往 **管理中心 > 發票設定 > POS**，將資訊貼回對應欄位並儲存。
 5. 串接成功後，POS 子機狀態將由「申請中」變更為 **啟用中**。
 
-	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png){ .small-image }
+	  ![](../../assets/images/POS-後台-發票設定-POS-美麗科技01.png){ .small-image }
 
 
 ## 常見問題 { #faq-wixtar-einvoice }

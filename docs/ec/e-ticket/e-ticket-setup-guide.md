@@ -379,7 +379,7 @@ hide: []
     !!! note "分票前的核銷碼為 10 碼，分票後的核銷碼為 25 碼。"
    
     ??? example "分票 QR Code 圖示"
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定35.png){ .screenshot }
+        ![](../../assets/images/EC-前台-我的帳戶-電子票券訂單查詢-電子票券設定01.png){ .screenshot }
         
 ### 查看分票後的票券 { #operate-e-ticket-split-view }
 
@@ -400,7 +400,7 @@ hide: []
 2. 輸入核銷碼進行核銷。（票後的核銷碼為 25 碼，核銷數量將預設為 1 且不可編輯）。
 3. 點擊「查看票券」後，點擊 **確認核銷**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定37.png){ .screenshot }
+![](../../assets/images/EC-後台-商品-核銷票券頁-電子票券設定01.png){ .screenshot }
 
 ## 電子票券對帳 { #reference-e-ticket-reconciliation }
 
@@ -422,7 +422,7 @@ hide: []
 
 電子票券對帳單提供位置可參考附圖。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定31.png){ .screenshot }
+![](../../assets/images/EXCEL-電子票券報表.png){ .screenshot }
 
 ## 票券分潤與自動結案設定 { #specs-e-ticket-revenue-close }
 

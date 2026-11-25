@@ -171,25 +171,25 @@ hide: []
 - **紅利資訊顯示**：頁面將顯示會員目前擁有的紅利總點數，以及已使用的點數資訊。
 - **自動引導登入**：若消費者在未登入狀態下嘗試將商品「加入購物車」，系統將引導至登入頁，登入成功後會自動跳回紅利商城頁面。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台01.png){ .screenshot }
+![](../../../assets/images/EC-前台-紅利商城02.png){ .screenshot }
 
 ### 2. 商品瀏覽與挑選 { #operate-bonus-mall-flow-product }
 - **紅利標價**：商城內商品僅顯示「兌換所需點數」，不顯示商品原價。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台04.png){ .screenshot }
+    ![](../../../assets/images/EC-前台-紅利商城03.png){ .screenshot }
 
 - **來源追蹤**：若消費者同時在多個紅利商城群組挑選商品，購物車會紀錄商品所屬的群組名稱，並提供連結可跳回該群組頁面。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台02.png){ .screenshot }
+    ![](../../../assets/images/EC-前台-紅利商城04.png){ .screenshot }
 
 ### 3. 結帳與點數扣除 { #operate-bonus-mall-flow-checkout }
 - **紅利不足警示**：若購物車內商品所需的點數總額超過會員餘額，結帳按鈕將無法點擊，並提示「您的紅利點數不足」。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台05.png){ .screenshot }
+    ![](../../../assets/images/EC-前台-紅利商城05.png){ .screenshot }
 
 - **點數扣除優先序**：當購物車同時包含紅利商品與一般商品時，系統會優先扣除紅利商品所需的點數，餘額若仍有剩，才可用於折抵一般商品。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台07.png){ .screenshot }
+    ![](../../../assets/images/EC-前台-紅利商城06.png){ .screenshot }
 
 - **全額折抵**：紅利商城商品僅能使用紅利點數「全額兌換」，結帳時無法搭配現金支付差額。
 
@@ -208,7 +208,7 @@ hide: []
 !!! info "商品開賣時間倒數功能適用版本"
     此功能僅限企業版專用。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/紅利商城後台設定11.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-商品開賣時間通知01.png){ .screenshot }
 
 - **前置條件**：需搭配 **拖拉版型**。
 - **適用範圍**：所有紅利商城中 **尚未上架** 的商品。公開與未公開狀態商品，皆會套用倒數顯示。
@@ -220,11 +220,11 @@ hide: []
 
     - 紅利商城的 **商品列表頁**
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利商城後台設定13.png){ .screenshot }
+        ![](../../../assets/images/EC-前台-紅利商城01.png){ .screenshot }
 
     - 紅利商城的 **商品彈窗頁**
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利商城後台設定14.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-分析報表-行銷活動分析-紅利商城報表.png){ .screenshot }
 
 
 

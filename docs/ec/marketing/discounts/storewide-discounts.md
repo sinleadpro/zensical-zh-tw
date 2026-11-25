@@ -97,7 +97,7 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 全館折扣-紅利 & 優惠券**。
 2. 點擊 **新增全館活動**。
 
-	![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-全館活動01.png){ .screenshot }
+	![](../../../assets/images/EC-後台-行銷活動-全館折扣紅利與優惠券-全館活動01.png){ .screenshot }
 
 3. 設定活動基本資訊：
     - **活動名稱**：輸入活動名稱。
@@ -109,13 +109,13 @@ hide: []
 
         輸入折抵金額。可勾選 **是否累計折抵**（如：滿千折百，滿兩千折兩百）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-全館活動02.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-全館折扣紅利與優惠券-全館活動02.png){ .screenshot }
 
     === "百分比"
 
         輸入折抵比例（如：85 折輸入 85%）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-全館活動02.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-全館折扣紅利與優惠券-全館活動02.png){ .screenshot }
 
     === "優惠券"
 
@@ -131,7 +131,7 @@ hide: []
             > 此功能不支援 **專業版** 使用。
             - **併用限制**：設定此券與其他行銷活動的堆疊規則。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-全館活動03.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-行銷活動-舊版介面-全館活動01.png){ .screenshot }
 
 
 

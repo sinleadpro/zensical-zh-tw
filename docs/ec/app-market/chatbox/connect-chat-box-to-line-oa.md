@@ -105,7 +105,7 @@ CHAT BOX 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > CHAT BOX**。
 2. 點擊左側選單最下方的 **設定** 圖示。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
 
 ### 2. 啟用 LINE 同步 { #operate-chat-line-2-enable-line }
 
@@ -118,7 +118,7 @@ CHAT BOX 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 1. 點擊 LINE 區塊內的 **設定**。
 2. 開啟官方帳號的 **啟用開關**。開啟後，系統方可開始同步對話。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-line啟用01.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-line啟用01.png){ .screenshot }
 
 #### 狀態 B：顯示為「未連結」 { #operate-chat-line-status-b-link }
 

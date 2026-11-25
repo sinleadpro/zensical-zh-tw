@@ -83,7 +83,7 @@ hide: []
 
     若點選開啟，全品牌門市人員可在前台介面查看及使用優惠券區塊。  
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定17.png){ .screenshot }
+    ![](../../../assets/images/門市助理-前台-功能設定-前台功能設定-功能與帳號設定01.png){ .screenshot }
 
 
 
@@ -91,7 +91,7 @@ hide: []
 
     若點選開啟，全品牌門市人員可在前台介面查看及使用全館優惠券區塊。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定25.png){ .screenshot }
+    ![](../../../assets/images/門市助理-前台-功能設定-前台功能設定-功能與帳號設定02.png){ .screenshot }
 
 
 
@@ -99,7 +99,7 @@ hide: []
 
     分成「顯示紅利點數」和「使用紅利點數」。若點選開啟，全品牌門市人員可在前台介面查看或使用紅利點數區塊。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定18.png){ .screenshot }
+    ![](../../../assets/images/門市助理-前台-功能設定-全站功能與業績歸因-功能與帳號設定01.png){ .screenshot }
 
 
 
@@ -107,7 +107,7 @@ hide: []
     
     若點選開啟，全品牌門市人員可在前台介面使用推薦商品功能。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定19.png){ .screenshot }
+    ![](../../../assets/images/門市助理-前台-功能設定-全站功能與業績歸因-功能與帳號設定02.png){ .screenshot }
 
 
 
@@ -115,7 +115,7 @@ hide: []
 
     若點選開啟，全品牌門市人員可在前台介面查看到該門市業績概況報表。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定20.png){ .screenshot }
+    ![](../../../assets/images/門市助理-前台-功能設定-全站功能與業績歸因-功能與帳號設定03.png){ .screenshot }
 
 
 
@@ -131,7 +131,7 @@ hide: []
         * 當門市人員在前台的會員資訊頁面點選標籤後，全品牌的門市人員皆可以在前台查看該會員的標籤，同時也可以在 EC 的會員頁面上查看線下標籤。
         * 至多可設定 5 個標籤群組，每個標籤群組內至多可設定 10 個標籤。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定21.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-功能設定-全站功能與業績歸因-功能與帳號設定01.png){ .screenshot }
 
 ### 全站業績認列規則 { #operate-storepal-settings-global-rules }
 
@@ -141,7 +141,7 @@ hide: []
 
     依商家營運需求訂定綁定歸因有效期限；在期間內，會員自主於官方網站下的有效訂單，會自動歸因至綁定的門市或門市店員身上。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定22.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-功能設定-業績歸因設定-功能與帳號設定01.png){ .screenshot }
 
 
 - 推薦商品認列對象
@@ -151,7 +151,7 @@ hide: []
     - 綁定門市推薦人
     - 商品推薦人
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定23.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-功能設定-業績歸因設定-功能與帳號設定02.png){ .screenshot }
 
 !!! warning "修改限制"
     商家僅能自行修改業績歸因欄位 **1 次**。若需多次更改，請聯繫 CYBERBIZ 客服。
@@ -169,7 +169,7 @@ hide: []
 
 啟用通知後，門市人員即可發送該類型簡訊給顧客。  
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-通知設定-簡訊列表01.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-設定-通知設定-簡訊列表01.png){ .screenshot }
 
 #### 編輯簡訊模板 { #operate-storepal-settings-sms-template }
 
@@ -181,7 +181,7 @@ hide: []
 !!! warning "系統預設參數編輯限制"
     {{...}}為系統預設參數，您可移動參數位置或選擇刪除，但 **不可修改參數名稱內容**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-通知設定-編輯簡訊模板01.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-設定-通知設定-編輯簡訊模板01.png){ .screenshot }
 
 ### 查看操作紀錄 { #operate-storepal-settings-operation-logs }
 
@@ -190,7 +190,7 @@ hide: []
 1. 前往 **設定 > 操作紀錄**。
 2. 系統將列出包含群組管理者、門市店長及店員的登入紀錄與執行動作。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-操作紀錄-查看操作紀錄01.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-設定-操作紀錄-查看操作紀錄01.png){ .screenshot }
 
 ## 管理門市 { #operate-store-management }
 
@@ -198,7 +198,7 @@ hide: []
 
 門市管理列表會依角色權限顯示對應可設定的門市：
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定02.png){ .screenshot }
+![](../../../assets/images/門市助理-後台-門市管理-門市業績歸因01.png){ .screenshot }
 
 | 角色權限 | 顯示門市 |
 | -------- | ------- |
@@ -214,7 +214,7 @@ hide: []
     - 當歸因至門市層級，店員業績將合併計算至門市層級（店績）。
     - 當歸因至店員層級，業績將依不同門市人員帳號分別計算（個績）。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定03.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-門市管理-門市業績歸因02.png){ .screenshot }
 
 2. 點選 **儲存** 完成設定。
 

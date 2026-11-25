@@ -140,7 +140,7 @@ CYBERBIZ 舉辦的 Meta 廣告系列線上分享會錄影，由產品經理與�
 
     影片示範如何在頁面中設定錨點連結，實現快速導航。
 
-    [:lucide-arrow-right: 觀看影片](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/錨點設定.mp4)
+    [:lucide-arrow-right: 觀看影片](../assets/videos/EC-後台-樣版編輯器-錨點設定01.mp4)
 
 </div>
 

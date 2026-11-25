@@ -100,7 +100,7 @@ hide: []
 
     1. 前往 **金物流 > 自訂物流**，點擊 **新增自訂物流**。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-新增自訂物流01.png)
+        ![](../../assets/images/EC-後台-金物流-宅配物流-新增自訂物流03.png)
 
     2. 點擊 **填寫表單申請**。
 
@@ -108,7 +108,7 @@ hide: []
 
     3. 申請啟用物流。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款01.png)
+        ![](../../assets/images/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款01.png)
 
     4. 填寫申請表格並送出。
     
@@ -116,7 +116,7 @@ hide: []
         - 送出後若需要更改資料，請告知 CYBERBIZ 客服人員。
         - 開通成功後，您即可啟用物流選項並開始使用，CYBERBIZ 將會同步發送通知信告知（工作天約 7~10 天）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款02.png)
+        ![](../../assets/images/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款02.png)
 
     !!! tip "下一步"
         啟用物流後，請依 [步驟二：新增自訂物流]()，建立一項自訂物流，可取名 **新竹物流貨到不付款**，並設定相關規則。
@@ -132,7 +132,7 @@ hide: []
 
     > **注意**：若此處未開啟（如未開啟離島），即便下方物流設定了離島配送，顧客在結帳時仍無法選擇。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定01.png){ .screenshot }
+![](../../assets/images/EC-後台-宅配物流-自訂物流-物流運費設定01.png){ .screenshot }
 
 
 
@@ -158,7 +158,7 @@ hide: []
 !!! tip "擇優顯示原則"
     若同時設定金額與重量運費，系統會自動選擇對顧客 **最有利（收費較低）** 的方案。建議商家擇一設定以簡化管理。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定03.png){ .screenshot }
+![](../../assets/images/EC-後台-金物流-建立宅配貨到不付款自訂物流-物流運費設定01.png){ .screenshot }
 
 ## 步驟三：溫層配送配置 { #operate-custom-logistics-temp }
 
@@ -170,7 +170,7 @@ hide: []
     - 前往 **商品 > 所有商品 > [特定商品] > 設定**。
     - 在「溫層和物流配送設定」中勾選該商品適用的溫層。
 
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/物流運費設定08.png){ .screenshot }
+![](../../assets/images/EC-後台-商品-所有商品-勾選商品溫層01.png){ .screenshot }
 
 
 ## 多溫層購物的處理邏輯 { #specs-custom-logistics-temp }

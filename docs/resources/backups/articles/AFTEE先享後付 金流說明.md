@@ -48,8 +48,8 @@ icon: ""
 permalink: "https://help.cyberbiz.io/resources/backups/articles/AFTEE先享後付 金流說明/"
 ---
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](../../../assets/images/文件-適用站別01.png)
+[![](../../../assets/images/文件-適用台灣站01.png)](https://www.cyberbiz.io/support/?page_id=2490)
 **功能說明：**  
 
 * 透過新興金流支付方式「先享後付」，提升消費者付款便利性並提升營收。
@@ -67,28 +67,28 @@ permalink: "https://help.cyberbiz.io/resources/backups/articles/AFTEE先享後�
 申請AFTEE先享後付 1.至後台開啟 AFTEE  
 **後台路徑:** 「金流設定」→「CYBERBIZ PAYMENTS」→「AFTEE」  
 
-[![AFTEE1](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明01.png)](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明01.png) 2.填寫申請資料  
+[![AFTEE1](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE01.png)](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE01.png) 2.填寫申請資料  
 點擊「申請開通」，並會跳出『AFTEE 啟用申請』彈窗，彈窗中的資料是為了讓 AFTEE 端進行審核，請確實填寫。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明02.png)](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明02.png)  
+[![AFTEE](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE02.png)](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE02.png)  
 AFTEE 那邊有成功接受到 API 送的申請資料後，即會馬上開通  
 通過審核之信件示意圖。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明03.png) 3.啟用 後支付 (超商付款/ATM)。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明04.png) 4.前台結帳頁示意圖。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明05.png)
+[![AFTEE](../../../assets/images/Email信件-AFTEE審核通知.png)](../../../assets/images/Email信件-AFTEE審核通知.png) 3.啟用 後支付 (超商付款/ATM)。  
+[![AFTEE](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE03.png)](../../../assets/images/EC-後台-金物流-金流設定-啟用AFTEE03.png) 4.前台結帳頁示意圖。  
+[![AFTEE](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式01.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式01.png)
 
 * * *
 
 付款步驟說明 1.在結帳頁選擇後支付的付款方式，並前往結帳。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 2.點選“使用後支付付款”按鈕  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 3.填寫有註冊 AFTEE先享後付
+[![AFTEE](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式02.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式02.png) 2.點選“使用後支付付款”按鈕  
+[![AFTEE](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式02.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式02.png) 3.填寫有註冊 AFTEE先享後付
 的手機號碼，並收取驗證碼，完成後支付付款流程。  
-[](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明08.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明09.png) 4.訂單完成付款：  
+[](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式03.png)[![](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式03.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式03.png)
+[![](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式04.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式04.png)
+[![](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式05.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式05.png) 4.訂單完成付款：  
 顧客選擇Aftee 先享後付 支付審核通過的話，後台即會顯示“已收到款項”可進行後續出貨處理。  
 若顧客Aftee先享後付 支付審核未通過的話，可依指示重新操作，或是請顧客直接與 AFTEE先享後付
 聯繫，[詳情請洽AFTEE官方網站。](https://aftee.tw/)  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明10.png) 其他備註
+[![AFTEE](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式06.png)](../../../assets/images/EC-前台-結帳頁-AFTEE付款方式06.png) 其他備註
 
 1. 若訂單使用 Aftee 付款，則超過 90 天未出貨的話，系統會自動取消該筆訂單。  
 自動取消前 30, 15, 7, 3, 1 天前，系統會發信提醒您要進行出貨動作！  

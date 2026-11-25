@@ -106,11 +106,11 @@ hide: []
     !!! warning "重要注意事項"
         此階段請勿更改聯絡人資訊，否則可能導致移轉時間延長至 1 個月以上。
   
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/系統到期通知說明02.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-網域管理-系統到期通知說明02.png){ .screenshot }
 
 4. 通知 CYBERBIZ 已完成確認，待系統執行轉出後，至 Godaddy 帳戶確認接受轉移。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/系統到期通知說明03.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-網域管理-系統到期通知說明03.png){ .screenshot }
 
 
 ### 4. 處理網域或 SSL 到期緊急應變 { #operate-system-expiry-urgent }
@@ -121,6 +121,6 @@ hide: []
 2. 將 **cyberbiz.co** 網域設為主網域。
 3. 系統將暫時解除無法進入網站的問題，待續約完成後再恢復自有網域設定。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/系統到期通知說明01.png){ .screenshot }
+![](../../assets/images/EC-後台-管理中心-網域管理-系統到期通知說明01.png){ .screenshot }
 
 

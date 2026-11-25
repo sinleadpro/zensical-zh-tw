@@ -82,7 +82,7 @@ hide:
 | 電子支付帳戶 | 支援消費者綁定電子支付帳戶進行付款，例如 LINE Pay、街口電子帳戶。 |
 | 信用卡支付 | 支援主要信用卡品牌。 |
 
-!!! info "詳細街口回饋方式說明請參考 [街口回饋方式簡介 :lucide-external-link:](https://www.cyberbiz.io/helpcenter/wp-content/uploads/2021/03/%E3%80%90%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98%E3%80%91%E8%A1%97%E5%8F%A3%E5%9B%9E%E9%A5%8B%E6%96%B9%E5%BC%8F%E7%B0%A1%E4%BB%8B.pdf)。"
+!!! info "詳細街口回饋方式說明請參考 [街口回饋方式簡介 :lucide-external-link:](../../assets/docs/街口-後台-回饋方式-方式說明-回饋方式簡介01.pdf)。"
 
 ---
 
@@ -126,11 +126,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-badge-percent:{ .lg }   
-  [__街口回饋方式__](https://www.cyberbiz.io/helpcenter/wp-content/uploads/2021/03/%E3%80%90%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98%E3%80%91%E8%A1%97%E5%8F%A3%E5%9B%9E%E9%A5%8B%E6%96%B9%E5%BC%8F%E7%B0%A1%E4%BB%8B.pdf)     
+  [__街口回饋方式__](../../assets/docs/街口-後台-回饋方式-方式說明-回饋方式簡介01.pdf)     
   街口回饋方式介紹。
 
 - :lucide-book-text:{ .lg }     
-  [__街口支付操作手冊__](https://www.cyberbiz.io/support/wp-content/uploads/%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98%E5%BA%97%E5%AE%B6%E5%BE%8C%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A.pdf)  
+  [__街口支付操作手冊__](../../assets/docs/街口-後台-街口支付店家後台操作手冊01.pdf)  
   街口店家管理後台操作手冊。
 
 - :lucide-circle-question-mark:{ .lg }   

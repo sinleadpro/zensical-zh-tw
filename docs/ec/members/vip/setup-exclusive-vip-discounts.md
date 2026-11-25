@@ -113,7 +113,7 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
     - 商品多層級分類折扣（商品進階分類折扣）
     - 全館折扣
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png){ .screenshot }
+![](../../../assets/images/EC-後台-會員-VIP設定-VIP優惠01.png){ .screenshot }
 
 ## 2. 訂單免運費 { #operate-vip-discounts-shipping }
 
@@ -132,7 +132,7 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
     - 商品多層級分類折扣（商品進階分類折扣）
     - 全館折扣
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png){ .screenshot }
+![](../../../assets/images/EC-後台-會員-VIP設定-VIP優惠02.png){ .screenshot }
 
 ## 3. 紅利倍數設定 { #operate-vip-discounts-bonus }
 
@@ -145,7 +145,7 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
 
 輸入 **消費門檻、贈送紅利數量、有效期限**。該 VIP 層級會員下單後，可得額外紅利點數。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png){ .screenshot }
+![](../../../assets/images/EC-後台-會員-VIP設定-VIP優惠03.png){ .screenshot }
 
 
 ## 4. 生日禮設定 { #operate-vip-discounts-birthday }

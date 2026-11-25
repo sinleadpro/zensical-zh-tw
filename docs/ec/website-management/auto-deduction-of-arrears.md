@@ -81,7 +81,7 @@ hide: []
 3. 點擊 **新增信用卡**，填寫卡片資訊並完成綁定。
 4. 確認帳務郵件地址後勾選 **同意**。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-啟用欠款自動扣繳01.png){ .screenshot }
+![](../../assets/images/EC-後台-管理中心-對帳中心-啟用欠款自動扣繳01.png){ .screenshot }
 
 
 ## 扣款時機與通知 { #specs-arrears }

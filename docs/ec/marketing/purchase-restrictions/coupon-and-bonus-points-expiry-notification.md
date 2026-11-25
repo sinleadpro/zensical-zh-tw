@@ -74,7 +74,7 @@ hide: []
 
     > 若需調整設定，請於發送前一天的 23:59 前完成，以確保系統能正確排查名單。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動–紅利與優惠券-優惠券紅利點數到期通知01.png){ .screenshot }
 
 ## 系統發送邏輯 { #specs-coupon-expiry }
 
@@ -86,8 +86,8 @@ hide: []
 
     <div class="grid cards borderless two-columns" markdown>
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知07.png){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知08.png){ .screenshot }
+    - ![](../../../assets/images/EC-後台-行銷活動–紅利與優惠券-優惠券紅利點數到期通知02.png){ .screenshot }
+    - ![](../../../assets/images/EC-後台-行銷活動–紅利與優惠券-優惠券紅利點數到期通知03.png){ .screenshot }
 
     </div>
 
@@ -99,16 +99,16 @@ hide: []
 
     後台路徑：訊息推播 > Email 通知樣板 > 顧客相關
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知02.png){ .screenshot }   
+    ![](../../../assets/images/EC-後台-行銷活動-紅利與優惠券-優惠券紅利點數到期通知01.png){ .screenshot }   
 
 === "簡訊"
 
     後台路徑：訊息推播 > 簡訊通知樣板 > 顧客相關
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知03.png){ .screenshot }   
+    ![](../../../assets/images/EC-後台-行銷活動-紅利與優惠券-優惠券紅利點數到期通知02.png){ .screenshot }   
 
 === "LINE OA"
 
     後台路徑：訊息推播 > LINE OA 通知樣板 > 顧客相關
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知04.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-紅利與優惠券-優惠券紅利點數到期通知03.png){ .screenshot }

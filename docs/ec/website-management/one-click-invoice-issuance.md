@@ -102,11 +102,11 @@ hide: []
     1. 登入 CYBERBIZ 管理後台，前往 **管理中心 > 對帳中心 > 對帳發票設定**。
     2. 在 **統一編號** 欄位輸入統編。
         
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/電子發票-美麗科技13.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-對帳發票設定01.png){ .screenshot }
 
     3. 若尚未購買星益欣方案，請完成購買。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/電子發票-美麗科技14.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-對帳發票設定02.png){ .screenshot }
 
 
     !!! tip "舊方案商家想升級方案？"
@@ -118,11 +118,11 @@ hide: []
     
       - **對帳發票設定** 頁籤，會自動填入商家聯絡人資訊。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-商家資訊欄位01.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-商家資訊欄位01.png){ .screenshot }
 
     2. 待星益欣進入申請流程，**對帳單列表** 會顯示 **對帳發票設定提醒**。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
       
     3. 待電子郵件信箱收到星益欣通知信件。
 
@@ -135,7 +135,7 @@ hide: []
 
 1. 進入星益欣加值中心後台，前往 **營業人資訊**，點選欲設定發票功能的 **POS機編碼**，點選 **下載**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png){ .screenshot }
+    ![](../../assets/images/星益欣-後台-營業人資訊-POS機編碼-下載串接資訊01.png){ .screenshot }
 
 2. 複製以下欄位資訊：
 
@@ -146,11 +146,11 @@ hide: []
     - 產品名稱(PNAME)
     - AES KEY
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技08.png){ .screenshot }
+    ![](../../assets/images/星益欣-後台-營業人資訊-POS機編碼-下載串接資訊02.png){ .screenshot }
 
 3. 前往 **管理中心 > 對帳中心 > 對帳發票設定**，將金鑰資訊貼入對應欄位。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-請款發票串接欄位01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-請款發票串接欄位01.png){ .screenshot }
 
 
 
@@ -158,7 +158,7 @@ hide: []
 
 登入星益欣後台，前往 **基本設定 > 圖片設定**，設定公司發票章的圖片。開立的發票明細上就會自動帶入發票章，不用手動蓋章。
 
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技11.png){ .screenshot }
+![](../../assets/images/星益欣-後台-基本設定-圖片設定-設定發票章01.png){ .screenshot }
 
 
 ### 步驟四：開啟一鍵開立功能 { #operate-one-click-invoice-enable }
@@ -167,7 +167,7 @@ hide: []
 
     前往 **管理中心 > 對帳中心**，點擊 **請款發票設定**，啟用請款發票。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-自動開立請款發票01.png){ .screenshot }
 
 
 === "2026/05/01 後購買系統"
@@ -175,7 +175,7 @@ hide: []
     1. 前往 **管理中心 > 對帳中心**，點擊 **請款發票設定** 頁籤。
     2. 將 **啟用請款發票** 切換為 `開啟 (ON)`。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-開啟請款發票功能01.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-開啟請款發票功能01.png){ .screenshot }
 
     #### 檢測功能設置狀態 { #operate-one-click-invoice-check }
 
@@ -183,13 +183,13 @@ hide: []
 
         **請款發票設定** 自動移至左上角，點擊後功能為開啟狀態，且無法自行關閉，則串接成功。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-已啟用請款發票01.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-已啟用請款發票01.png){ .screenshot }
 
     - **尚未設置完成**
 
         當對帳單列表仍可看見 **對帳發票設定** 提醒，請檢查各項串接步驟，確保設定正確無誤。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
+        ![](../../assets/images/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
 
     !!! warning "重要提醒"
         請務必完成星益欣帳戶串接，否則將無法查看每期撥款金額或下載對帳單。
@@ -202,12 +202,12 @@ hide: []
 1. 每期帳款撥款前，前往 **管理中心 > 對帳中心**。
 2. 確認該期帳款金額無誤後，點擊 **確認帳款**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票02.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-自動開立請款發票02.png){ .screenshot }
 
 3. 系統將自動透過星益欣帳戶開立請款發票，並進入撥款週期。
 4. 您可點擊 **請款發票** 按鈕，查看已開立的發票明細。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票03.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-自動開立請款發票03.png){ .screenshot }
 
 
 
@@ -217,7 +217,7 @@ hide: []
 - **開立金額**：等同對帳單中不需折讓單之的 **應開立發票總額**。
 > 應開立發票總額 = 發票開立方為 CYBERBIZ 之非票券訂單交易金額總和 + 票券核銷總金額 + 票券任選折扣價差退還
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票04.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-自動開立請款發票04.png){ .screenshot }
 
 - **正值款項**：系統將開立 **請款發票**。
 - **負值款項**：系統將開立 **折讓單**。
@@ -233,7 +233,7 @@ hide: []
 ??? quote "如何查看折讓單明細？"
     前往 **對帳中心** 點擊 **折讓單** 按鈕，即可查看該期對應的折讓單詳細資訊。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票07.png){ .screenshot }
+    ![](../../assets/images/EC-後台-管理中心-對帳中心-自動開立請款發票05.png){ .screenshot }
 
 ??? quote "出現負值款項時如何處理？"
     若對帳金額為負值，請確保已開啟 [欠款自動扣繳](auto-deduction-of-arrears.md) 功能並綁定信用卡，系統方可自動扣繳欠款。

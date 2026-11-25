@@ -93,11 +93,11 @@ hide: []
 
 1. 登入門市助理管理後台，前往 **門市管理**，點擊頂端選單 **匯入 > 顧客門市推薦人**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人01.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-匯入-顧客門市推薦人-匯入顧客門市推薦人01.png){ .screenshot }
     
 2. 點擊 **下載範本**，根據範本格式填寫會員手機、指定門市 ID、店員 ID 等資訊。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人02.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-匯入-顧客門市推薦人-匯入顧客門市推薦人02.png){ .screenshot }
 
     !!! info "使用限制"
         - 檔案格式限 `.xlsx`。
@@ -107,7 +107,7 @@ hide: []
 3. 點擊 **上傳檔案**，選取填寫完成的 `.xlsx` 檔。
 4. 系統將開始執行匯入，您可以在下方的 **上傳作業進度** 區域即時查看狀態。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人03.png){ .screenshot }
+    ![](../../../assets/images/門市助理-後台-匯入-顧客門市推薦人-匯入顧客門市推薦人03.png){ .screenshot }
 
 ### 確認進度與錯誤排除 { #operate-referrer-import-errors }
 
@@ -117,7 +117,7 @@ hide: []
     - 根據提示（如：格式錯誤、查無此會員、門市 ID 不存在）修改原始檔案。
     - **修正後需整檔重新上傳**。在上傳成功完成前，資料不會有任何更新。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人04.png){ .small-image }
+    ![](../../../assets/images/門市助理-後台-APPMARKET-匯入顧客門市推薦人-匯入顧客門市推薦人01.png){ .small-image }
 
 
 ## 常見問題 { #faq-referrer-import }

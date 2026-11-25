@@ -84,7 +84,7 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .hero-page }
 
 !!! tip "應用情境"
     - **多平台訊息整合**：統一接收並回覆來自 Facebook、LINE 等管道的對話，無需頻繁切換視窗。
@@ -112,7 +112,7 @@ hide: []
 | 名稱 | **訊息分類選單** | **對話列表** | **訊息聊天室** | **會員資訊欄位** |
 | 說明 | 依據訊息的「讀取狀態」進行分類 | 顯示進線的對話卡片，包含來源平台 Icon、顧客名稱與最後訊息 | 顯示完整歷史對話，並提供文字輸入、圖片/影片上傳與貼圖功能 | 顯示該顧客的基本資料、近期 5 筆訂單及跨平台對話軌跡 |
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .screenshot }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .screenshot }
 
 
 
@@ -128,8 +128,8 @@ hide: []
 
 <div class="grid cards borderless two-columns" markdown>
 
-- ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽02.png){ .small-image }
-- ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽03.png){ .small-image }
+- ![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽02.png){ .small-image }
+- ![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽03.png){ .small-image }
 
 </div>
 
@@ -158,7 +158,7 @@ hide: []
     - [LINE 訊息格式規範](line-message-format-spec.md)
     - [Meta 訊息格式規範](meta-message-format-spec.md)
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽04.png){ .small-image }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽04.png){ .small-image }
 
 ### 3. 查閱會員與訂單資訊 { #operate-chatbox-3-member-order }
 
@@ -168,7 +168,7 @@ hide: []
 - **近期訂單**：顯示最近 5 筆訂單的編號、狀態、金額與時間。點擊訂單編號可開啟明細頁。
 - **更多訂單**：若需查看完整歷史，點擊右下角連結即可另開分頁查詢。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽05.png){ .small-image }
+![](../../../assets/images/EC-後台-APPMARKET-CHATBOX-介面導覽05.png){ .small-image }
 
 
 

@@ -110,12 +110,12 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 2. **選擇模式**：勾選 **取件預約** 或 **自行運送**。
     - **設定後無法修改**，請務必謹慎選擇。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-金物流-LINEX託運單-物流開通設定01.png){ .screenshot }
 
 3. **設定基本資料**：設定常用寄件人資訊。
     - 須為 **全英文**，建立託運單時將自動帶入。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png){ .screenshot }
+    ![](../../assets/images/EC-後台-金物流-LINEX託運單-物流開通設定02.png){ .screenshot }
 
 
 ### 步驟 3：設置物流與運費 { #operate-linex-fee }
@@ -138,7 +138,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
     - **選項顯示門檻**：訂單金額須達設定之起始門檻；若未達標，系統將自動於結帳頁面隱藏該物流選項。
     - **不限金額設定**：如需開放不限金額皆可使用，請將任一項條件區間之 **起始金額** 配置為 0 元。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png){ .screenshot }
+![](../../assets/images/EC-後台-金物流-LINEX託運單-物流開通設定03.png){ .screenshot }
 
 ## 送件模式詳細規範 { #specs-linex-modes }
 
@@ -173,11 +173,11 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 1. 前往 **訂單 > 所有訂單**，勾選欲出貨訂單。
 2. 點選 **選擇操作 > 建立 LINEX 託運單**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定04.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單01.png){ .screenshot }
 
 3. **核對基本資訊**：確認所有欄位均以 **英文** 填寫。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單02.png){ .screenshot }
 
 ### 步驟 2：填寫報關資訊與稅費 { #operate-linex-customs }
 
@@ -195,14 +195,14 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
     - **未完稅交貨（DDU Delivered Duty Unpaid）**：由消費者負擔清關的稅費與手續費。
     - **完稅後交貨（DDP Delivered Duty Paid ）**：由商家負擔清關的稅費與手續費。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單03.png){ .screenshot }
 
 3. **選擇報關方式**：
     - **簡易報關 (樣品)**：離岸價格 (FOB) ≤ NT$50,000。
     - **簡易報關 (銷售)**：離岸價格 (FOB) ≤ NT$50,000，且需申報外銷貨物零稅率。
     - **正式報關**：離岸價格 (FOB) > NT$50,000。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定08.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單04.png){ .screenshot }
 
     !!! info "取件預約模式限定欄位"
         若選擇取件模式選擇 **取件預約**，請務必完成以下欄位配置：
@@ -210,7 +210,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
         - **取件時間**：請參閱 LINEX 取件政策，並於派送服務時段內選取時間。
         - **取件備註**：此欄位為 **必填**，請勿留空。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png){ .small-image }
+        ![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單05.png){ .small-image }
 
 
 ### 步驟 3：列印託運文件與 POA { #operate-linex-print }
@@ -222,7 +222,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 4. 若商家未與 LINEX 簽署 **長期委任關係**，每筆出貨皆需隨貨附上填妥的 [POA 範本](https://drive.google.com/file/d/1MwQ04jG3eDJUY33zORsszPYRXPvRTt6J/view)。
     - 最新範本請以 LINEX 為主，如需空白檔可向 LINEX 客服索取。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png){ .screenshot }
+![](../../assets/images/EC-後台-訂單-所有訂單-建立LINEX託運單06.png){ .screenshot }
 
 ## 常見問題 { #faq-linex }
 

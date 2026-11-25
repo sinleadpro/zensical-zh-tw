@@ -145,8 +145,8 @@ hide: []
 
     <div class="grid cards borderless two-columns" markdown>
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊07.png){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊08.png){ .screenshot }
+    - ![](../../assets/images/EC-前台-首頁-訂單查詢01.png){ .screenshot }
+    - ![](../../assets/images/EC-前台-訂單查詢頁-訂單查詢01.png){ .screenshot }
 
     </div>
 
@@ -157,8 +157,8 @@ hide: []
 
     <div class="grid cards borderless two-columns" markdown>
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊12.png){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊13.png){ .screenshot }
+    - ![](../../assets/images/Email信件-發票開立成功通知信01.png){ .screenshot }
+    - ![](../../assets/images/EC-後台-訂單-所有訂單-發票相關資訊01.png){ .screenshot }
 
     </div>
 
@@ -168,7 +168,7 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 2. 在訂單清單中點擊 **發票號碼** 連結，即可查看發票詳情。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊16.png){ .screenshot }
+![](../../assets/images/EC-後台-訂單-所有訂單-發票相關資訊02.png){ .screenshot }
 
 
 ## 修改發票資訊 { #operate-consumer-invoice-edit }

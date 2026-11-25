@@ -162,7 +162,7 @@ hide: []
 
 優惠券與優惠碼的折抵順序相同，在計算「折扣活動」、「加價購」及「滿額贈」之後。若優惠券（碼）設有金額門檻，須在上述折扣計算後仍符合門檻才可套用。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/2020/03/結帳順序-優惠券.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-overview-結帳順序01.png){ .screenshot }
 
 ## 啟用結帳頁優惠券（碼）折抵功能 { #operate-coupon }
 
@@ -171,7 +171,7 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **金物流 > 結帳頁 & 物流設定**。
 2. 找到 **結帳頁優惠券設定** 區塊，將功能切換為 `開啟`。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼13.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-金物流-結帳頁與物流設定-啟用結帳頁優惠券碼折抵功能01.png){ .screenshot }
     
 
 ## 優惠券（碼）共同設定 { #operate-coupon-coupon-settings }

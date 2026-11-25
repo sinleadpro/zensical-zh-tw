@@ -74,7 +74,7 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表01.png){ .hero-page }
+![](../../../assets/images/示意圖-門市助理業績報表01.png){ .hero-page }
 
 
 ## 功能說明 { #overview-performance }
@@ -92,7 +92,7 @@ hide: []
 - **推薦人綁定總覽**：依門市顯示所有門市人員的總綁定會員數。
 - **綁定會員的詳細資料**：依門市人員顯示所有與其有綁定關係的會員。
     - 綁定店員、姓名、手機號碼、email、綁定時間以及綁定類型。
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表02.png)
+![](../../../assets/images/EXCEL-門市助理業績報表01.png)
 
 > 報表內容將視綁定歸因層級，呈現方式略有不同。
 
@@ -111,7 +111,7 @@ hide: []
         -  **官網消費歸因**：綁定有效期間內，會員自主於官方網站上的消費金額歸因。
         -  **推薦商品歸因**：指定期間內，透過推薦商品連結產生的消費金額歸因。
   
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表03.png)
+    ![](../../../assets/images/EXCEL-門市助理業績報表02.png)
 
 
 
@@ -123,7 +123,7 @@ hide: []
         本報表僅在「業績歸因層級」設定為 **店員** 時才會顯示數據。若歸因層級設定為門市，則將無資料。
 
  
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表04.png)
+    ![](../../../assets/images/EXCEL-門市助理業績報表03.png)
 
 
 
@@ -132,7 +132,7 @@ hide: []
     綁定會員於可以有效歸因的線上消費之紀錄，將列出業績歸因層級、歸因類型、歸因對象、消費會員、訂單總額、訂單編號、訂單日期。  
 
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表05.png)
+    ![](../../../assets/images/EXCEL-門市助理業績報表04.png)
 
 
 
@@ -143,7 +143,7 @@ hide: []
     !!! warning "資料顯示限制"
         本報表僅在「業績歸因層級」設定為 **店員** 時才會顯示數據。若歸因層級設定為門市，則將無資料。
   
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表06.png)
+    ![](../../../assets/images/EXCEL-門市助理業績報表05.png)
 
 
 ## 門市報表 { #reference-store-report }
@@ -162,10 +162,10 @@ hide: []
 1. 登入門市助理後台，前往 **績效報表 > 推薦人報表/業績報表**。
 2. 選擇要匯出的報表，點擊 **匯出**。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表07.png)
+    ![](../../../assets/images/門市助理-後台-績效報表-推薦人報表-匯出推薦人報表01.png)
 
 3. 選擇時間區間。若選擇 **指定門市群組**，需繼續選擇特定群組或門市。  
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表08.png)
+    ![](../../../assets/images/門市助理-後台-績效報表-推薦人報表-匯出推薦人報表02.png)
 
 
 
@@ -174,7 +174,7 @@ hide: []
 1. 登入門市助理後台，前往 **門市管理 > 匯出報表**。
 2. 選擇要匯出的報表，點擊 **匯出**。  
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表09.png)
+    ![](../../../assets/images/門市助理-後台-門市管理-匯出業績報表01.png)
 
 3. 選擇時間區間。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表10.png)
+    ![](../../../assets/images/門市助理-後台-門市管理-匯出業績報表02.png)

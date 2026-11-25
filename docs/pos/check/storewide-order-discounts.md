@@ -99,7 +99,7 @@ hide: []
     - **整筆訂單改價**：選擇商品，開啟下拉選單，點擊 **店長改價** 欄位。
     - **指定商品改價**：點選列表右方 **新增整筆訂單折扣**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-整筆訂單折扣01.png){ .screenshot }
+    ![](../../assets/images/POS-前台-結帳-整筆訂單折扣01.png){ .screenshot }
 
 2. 選擇折扣形式並輸入數值：
 
@@ -109,13 +109,13 @@ hide: []
 
         輸入欲折抵的固定金額。
         
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-整筆訂單折扣01.png){ .screenshot }
+        ![](../../assets/images/POS-前台-結帳-整筆訂單折扣02.png){ .screenshot }
 
     === "百分比"
         
         輸入折扣比例（如：輸入 10 代表 9 折）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-整筆訂單折扣01.png){ .screenshot }
+        ![](../../assets/images/POS-前台-結帳-整筆訂單折扣02.png){ .screenshot }
 
 3. 在 **改價備註** 欄位輸入改價原因（如：去零頭、店長特惠）。
 4. 點擊 **確認** 套用折扣。
@@ -133,12 +133,12 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **POS 功能 > 權限管理**。
 2. 點選 **設定身分權限**。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價06.png){ .screenshot }
+    ![](../../assets/images/POS-後台-POS功能-POS權限管理-店長改價01.png){ .screenshot }
 
 3. 選擇目標員工的職位或身分。
 4. 找到 **整筆訂單折扣** 選項，將開關切換為 `開啟`。
 
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-整筆訂單折扣06.png){ .screenshot }
+    ![](../../assets/images/POS-後台-POS功能-權限管理-整筆訂單折扣01.png){ .screenshot }
 
 5. 點擊 **更新身分** 完成授權。
 

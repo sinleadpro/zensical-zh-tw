@@ -90,7 +90,7 @@ hide: []
 3. 點擊 **Select** 下拉選單，選擇 **匯出商品**。
 4. 系統將自動產生商品清單 Excel 檔，並發送至您的管理員登入信箱。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png){ .screenshot }
+![](../../assets/images/POS-後台-商品-所有商品-商品大量補填SKU教學01.png){ .screenshot }
 
 ### 步驟二：在 Excel 中填補 SKU { #operate-sku-bulk-step-b-excel }
 
@@ -101,7 +101,7 @@ hide: []
 3. 使用 Excel 的 **篩選** 功能，僅勾選 **(空格)** 項目，即可列出所有未填寫 SKU 的商品。
 4. 填入正確的 SKU 碼後，取消篩選並儲存檔案。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png){ .screenshot }
+![](../../assets/images/EXCEL-商品大量補填SKU教學02.png){ .screenshot }
 
 ### 步驟三：匯入更新檔案 { #operate-sku-bulk-step-c-import }
 
@@ -111,7 +111,7 @@ hide: []
 2. 點擊 **上傳檔案**，選擇剛才儲存的 Excel 檔案。
 3. 點擊 **確定上傳**。系統將開始排程處理更新。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png){ .screenshot }
+![](../../assets/images/POS-後台-商品-Excel大量匯入商品-商品大量補填SKU教學01.png){ .screenshot }
 
 ### 步驟四：確認更新結果 { #operate-sku-bulk-step-d-confirm }
 
@@ -123,7 +123,7 @@ hide: []
 
 確認 SKU 補齊後，**即可聯繫線上客服或 LINE@ 專員** 協助申請開通 POS 功能。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png){ .screenshot }
+![](../../assets/images/POS-後台-商品-Excel大量匯入商品-商品大量補填SKU教學02.png){ .screenshot }
 
 ## 更多操作 { #next-steps-sku-bulk }
 

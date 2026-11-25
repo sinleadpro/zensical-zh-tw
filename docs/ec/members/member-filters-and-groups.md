@@ -96,7 +96,7 @@ hide: []
 
 前往 **會員 > 所有會員**，點擊頁面右上方的 **新增篩選條件** 按鈕。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png){ .screenshot }
+![](../../assets/images/EC-後台-會員-所有會員-會員篩選器01.png){ .screenshot }
 
 ### 2. 設定條件並套用 { #operate-member-filters-apply }
 
@@ -108,7 +108,7 @@ hide: []
 
 勾選會員後批次 **發送優惠券**、**匯出報表** 或 **修改標籤** 等操作。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png){ .screenshot }
+![](../../assets/images/EC-後台-會員-所有會員-會員篩選器02.png){ .screenshot }
 
 
 ## 使用會員分群 { #operate-member-filters-groups }

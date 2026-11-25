@@ -97,7 +97,7 @@ hide: []
     - **填寫帳務信箱**：設定接收自動確認紀錄與提醒的電子郵件。
 3. 閱讀並勾選責任條款後，點擊 **確認** 即可啟用。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/自動確認帳款02.png){ .screenshot }
+![](../../assets/images/EC-後台-管理中心-對帳中心-自動確認帳款01.png){ .screenshot }
 
 
 

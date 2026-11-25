@@ -76,7 +76,7 @@ hide: []
 !!! info "版本差異說明"
     「生日禮」在 PLUS 方案中屬於「行銷 B」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-生日禮01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-生日禮-畫面說明01.png){ .hero-page }
 
 !!! tip "應用情境"
 	- **會員維繫**：生日當月自動送禮，增加品牌好感度並吸引回購。

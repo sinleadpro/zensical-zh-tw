@@ -206,7 +206,7 @@ hide: []
   LINEPAY後台退款操作。
 
 - :lucide-book-text:{ .lg }     
-  [__LINE Pay 操作手冊__](https://www.cyberbiz.io/support/wp-content/uploads/LINE_Pay_%E5%95%86%E5%BA%97%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A_v5.pdf)  
+  [__LINE Pay 操作手冊__](../../assets/docs/LINE-後台-LINEPay商店操作手冊v01.pdf)  
   商店後台操作手冊（網頁版）。
 
 - :lucide-circle-question-mark:{ .lg }   

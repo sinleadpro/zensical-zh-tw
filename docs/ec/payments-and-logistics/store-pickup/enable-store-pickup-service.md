@@ -162,7 +162,7 @@ hide: []
 3. 點選 **設定** 頁籤，找到 **溫層和物流配送設定** 區塊。
 4. 將 **門市取貨** 開關切換為 `關閉 (OFF)`。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨設定15.png){ .screenshot }
+![](../../../assets/images/EC-後台-商品-所有商品-門市取貨設定01.png){ .screenshot }
 
 ## 常見問題 { #faq-store-pickup }
 

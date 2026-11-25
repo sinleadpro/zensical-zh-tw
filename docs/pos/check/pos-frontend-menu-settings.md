@@ -97,12 +97,12 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品多層級分類**。
 2. 點選 **POS 設定** 頁籤。
 3. 點擊 **新增類別/分類**：此為選單的第一層（大類別，如：蛋糕、飲品）。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單2.png){ .screenshot }
+    ![](../../assets/images/POS-後台-商品-商品多層級分類-商品選單01.png){ .screenshot }
 4. **新增第二層分類**：
     - 點擊第一層分類旁的 **+** 號。
     - 選擇連結方式：可連結至已建立的 **自訂群組** 或 **商品類型**。
     - 編輯分類名稱並上傳代表圖片。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單3.png){ .screenshot }
+    ![](../../assets/images/POS-後台-商品-商品多層級分類-商品選單02.png){ .screenshot }
 
 
 
@@ -115,12 +115,12 @@ hide: []
 1. 前往指定門市，點選 **商品選單設定** 頁籤。
 2. 開啟 **啟用功能** 開關。
 3. 點擊 **新增分類**，勾選您在步驟一建立好的多層級分類。
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單4.png){ .screenshot }
+    ![](../../assets/images/POS-後台-POS功能-所有POS商店-商品選單01.png){ .screenshot }
 4. **調整排序與移除**：
     - 拖過拖曳圖示可調整選單在前台顯示的先後順序。
     - 若不再需要顯示，可點擊垃圾桶圖示移除。
     
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單5.png){ .screenshot }
+    ![](../../assets/images/POS-後台-POS功能-所有POS商店-商品選單02.png){ .screenshot }
 
 
 ## 前台成果展示 { #overview-menu-settings }
@@ -131,5 +131,5 @@ hide: []
 2. **第二層**：中分類（如：長條蛋糕）。
 3. **第三層**：具體商品項目（點擊即可加入購物車）。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單1.png){ .screenshot }
+![](../../assets/images/POS-前台-商品選單01.png){ .screenshot }
 

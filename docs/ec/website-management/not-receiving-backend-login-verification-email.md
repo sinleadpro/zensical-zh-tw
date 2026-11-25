@@ -91,7 +91,7 @@ hide: []
 3. **重新發送**：點擊登入頁面的 **重新發送驗證碼**。
 4. **關鍵字搜尋**：在信箱中搜尋關鍵字 **後台登入驗證碼** 或 **驗證碼** 快速過濾信件。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/Email信件-後台MFA驗證信.png){ .screenshot }
+![](../../assets/images/Email信件-後台MFA驗證信.png){ .screenshot }
 
 
 
